@@ -1,0 +1,1477 @@
+Date;Time;Routine;Exercise;Set;Weight;Reps;Duration;Distance;Para6;Para7;Para8;Para9;Para10;Note;Type;Book;Version1
+23.04.2025;09:15:18;C;Extensão de Pernas na Máquina (sentado);1;23;10;;;;;;;;;1;1;1
+23.04.2025;09:17:32;C;Extensão de Pernas na Máquina (sentado);2;23;10;;;84;84;;;;;1;1;1
+23.04.2025;09:20:00;C;Extensão de Pernas na Máquina (sentado);3;23;10;;;102;104;;;;;1;1;1
+23.04.2025;09:23:22;C;Panturrilhas em Pé Unilateral Livre;1;15;12;;;100;100;;;;;1;1;1
+23.04.2025;09:26:45;C;Panturrilhas em Pé Unilateral Livre;2;15;12;;;98;98;;;;;1;1;1
+23.04.2025;09:28:47;C;Panturrilhas em Pé Unilateral Livre;3;15;12;;;93;98;;;;;1;1;1
+23.04.2025;09:32:14;C;Panturrilhas em Pé Unilateral Livre;4;15;12;;;;;;;;;1;1;1
+23.04.2025;09:39:26;C;Agachamento Sumô;1;14;15;;;85;85;;;;;1;1;1
+23.04.2025;09:40:14;C;Agachamento Sumô;2;14;15;;;;;;;;;1;1;1
+23.04.2025;09:42:46;C;Agachamento Sumô;3;14;15;;;107;107;;;;;1;1;1
+23.04.2025;09:44:29;C;Agachamento Sumô;4;14;15;;;77;77;;;;;1;1;1
+23.04.2025;09:46:01;C;Elevação de Panturrilha na Máquina (sentado);1;20;15;;;;;;;;;1;1;1
+23.04.2025;09:49:31;C;Elevação de Panturrilha na Máquina (sentado);2;20;15;;;127;128;;;;;1;1;1
+23.04.2025;09:51:15;C;Elevação de Panturrilha na Máquina (sentado);3;20;15;;;117;130;;;;;1;1;1
+23.04.2025;10:01:22;C;Máquina de Leg Press, Pés Abertos (inclinado);1;20;12;;;97;110;;;;;1;1;1
+23.04.2025;10:03:02;C;Máquina de Leg Press, Pés Abertos (inclinado);2;20;10;;;101;119;;;;;1;1;1
+23.04.2025;10:05:17;C;Máquina de Leg Press, Pés Abertos (inclinado);3;20;10;;;121;124;;;;;1;1;1
+23.04.2025;10:07:53;C;Prancha Isométrica (ou Abdominal Máquina) ;1;0.05;8;;;122;122;;;;;1;1;1
+23.04.2025;10:14:52;C;Prancha Isométrica (ou Abdominal Máquina) ;2;0.05;8;;;;;;;;;1;1;1
+23.04.2025;10:18:32;C;Prancha Isométrica (ou Abdominal Máquina) ;3;0.05;8;;;;;;;;;1;1;1
+23.04.2025;10:22:42;C;Afundo 3x8 (cada lado);1;0;8;;;;;;;;;1;1;1
+24.04.2025;10:01:31;D;Supino Articulado Máquina (Pré-ativação);1;10;10;;;57;57;;;;;1;1;1
+24.04.2025;10:02:55;D;Supino Articulado Máquina (Pré-ativação);2;15;10;;;;;;;;;1;1;1
+24.04.2025;10:03:16;D;Supino na Máquina (inclinado);1;10;10;;;75;92;;;;;1;1;1
+24.04.2025;10:04:00;D;Supino na Máquina (inclinado);2;10;10;;;57;57;;;;;1;1;1
+24.04.2025;10:05:26;D;Supino na Máquina (inclinado);3;15;10;;;;;;;;;1;1;1
+24.04.2025;10:13:41;D;Supino Articulado Máquina (Pré-ativação);3;40;12;;;107;107;;;;;1;1;1
+24.04.2025;10:15:29;D;Supino Articulado Máquina (Pré-ativação);4;40;12;;;53;53;;;;;1;1;1
+24.04.2025;10:17:20;D;Supino Articulado Máquina (Pré-ativação);5;40;8;;;;;;;;;1;1;1
+24.04.2025;10:30:50;D;Crossover Polia Alta;1;10;15;;;;;;;;;1;1;1
+24.04.2025;10:31:03;D;Crossover Polia Alta;2;10;15;;;118;118;;;;;1;1;1
+24.04.2025;10:32:55;D;Crossover Polia Alta;3;10;15;;;;;;;;;1;1;1
+24.04.2025;10:34:48;D;Crossover Polia Alta;4;10;15;;;;;;;;;1;1;1
+24.04.2025;10:37:15;D;Crossover Polia Baixa;1;10;15;;;;;;;;;1;1;1
+24.04.2025;10:39:14;D;Crossover Polia Baixa;2;10;12;;;;;;;;;1;1;1
+24.04.2025;10:41:14;D;Crossover Polia Baixa;3;10;10;;;60;60;;;;;1;1;1
+24.04.2025;10:43:06;D;Crossover Polia Baixa;4;10;8;;;70;70;;;;;1;1;1
+24.04.2025;10:45:40;D;Tríceps Polia Barra Reta;1;25;15;;;67;72;;;;;1;1;1
+24.04.2025;10:47:37;D;Tríceps Polia Barra Reta;2;25;15;;;;;;;;;1;1;1
+24.04.2025;10:49:30;D;Tríceps Polia Barra Reta;3;25;14;;;60;60;;;;;1;1;1
+24.04.2025;10:51:24;D;Tríceps Polia Barra Reta;4;25;15;;;;;;;;;1;1;1
+24.04.2025;10:54:43;D;Tríceps Máquina Paralelas;1;32;12;;;;;;;;;1;1;1
+24.04.2025;10:56:14;D;Tríceps Máquina Paralelas;2;32;12;;;113;113;;;;;1;1;1
+24.04.2025;10:58:11;D;Tríceps Máquina Paralelas;3;32;12;;;;;;;;;1;1;1
+25.04.2025;19:34:19;E;Graviton Aberto;1;60;10;;;87;87;;;;;1;1;1
+25.04.2025;19:36:34;E;Graviton Aberto;2;60;10;;;102;102;;;;;1;1;1
+25.04.2025;19:38:33;E;Graviton Aberto;3;60;10;;;76;103;;;;;1;1;1
+25.04.2025;19:43:00;E;Elevação Lateral com Halteres (em pé);1;8;10;;;;;;;;;1;1;1
+25.04.2025;19:45:13;E;Elevação Lateral com Halteres (em pé);2;8;10;;;80;80;;;;;1;1;1
+25.04.2025;19:47:37;E;Elevação Lateral com Halteres (em pé);3;8;10;;;;;;;;;1;1;1
+25.04.2025;19:55:08;E;Voador Invertido na Máquina (sentado);1;12.5;10;;;55;55;;;;;1;1;1
+25.04.2025;19:56:48;E;Voador Invertido na Máquina (sentado);2;25;10;;;111;111;;;;;1;1;1
+25.04.2025;19:58:31;E;Voador Invertido na Máquina (sentado);3;25;10;;;114;114;;;;;1;1;1
+25.04.2025;20:02:45;E;Desenvolvimento de Ombros na Máquina (sentado);1;25;12;;;;;;;;;1;1;1
+25.04.2025;20:03:01;E;Desenvolvimento de Ombros na Máquina (sentado);2;25;12;;;68;73;;;;;1;1;1
+25.04.2025;20:03:14;E;Desenvolvimento de Ombros na Máquina (sentado);3;25;12;;;68;73;;;;;1;1;1
+25.04.2025;20:03:40;E;Elevação Frontal Cross;1;7.5;10;;;79;83;;;;;1;1;1
+25.04.2025;20:04:55;E;Elevação Frontal Cross;2;7.5;10;;;67;67;;;;;1;1;1
+25.04.2025;20:06:49;E;Elevação Frontal Cross;3;7.5;10;;;67;67;;;;;1;1;1
+25.04.2025;20:16:58;E;Elevação de Panturrilha na Máquina (sentado);1;20;15;;;77;87;;;;;1;1;1
+25.04.2025;20:20:36;E;Abdominal Máquina Reto e Oblíquos 3x15 + 10 (cada lado);1;5;8;;;85;85;;;;;1;1;1
+25.04.2025;20:23:50;E;Abdominal Máquina Reto e Oblíquos 3x15 + 10 (cada lado);2;10;18;;;84;84;;;;;1;1;1
+25.04.2025;20:25:31;E;Abdominal Máquina Reto e Oblíquos 3x15 + 10 (cada lado);3;10;18;;;;;;;;;1;1;1
+28.04.2025;10:12:16;A;Leg Press na Máquina (inclinado);1;10;15;;;93;99;;;;;1;1;1
+28.04.2025;10:14:02;A;Leg Press na Máquina (inclinado);2;10;15;;;101;114;;;;;1;1;1
+28.04.2025;10:15:48;A;Leg Press na Máquina (inclinado);3;10;15;;;96;104;;;;;1;1;1
+28.04.2025;10:18:05;A;Leg Press na Máquina (inclinado);4;10;15;;;105;122;;;;;1;1;1
+28.04.2025;10:25:31;A;Agachamento Sumo;1;14;12;;;92;104;;;;;1;1;1
+28.04.2025;10:27:13;A;Agachamento Sumo;2;14;10;;;104;104;;;;;1;1;1
+28.04.2025;10:28:53;A;Agachamento Sumo;3;14;8;;;121;123;;;;;1;1;1
+28.04.2025;10:34:02;A;Agachamento Sumo;4;14;6;;;104;104;;;;;1;1;1
+28.04.2025;10:35:17;A;Abdução na Máquina (sentado);1;32;15;;;96;104;;;;;1;1;1
+28.04.2025;10:36:57;A;Abdução na Máquina (sentado);2;32;15;;;102;113;;;;;1;1;1
+28.04.2025;10:38:34;A;Abdução na Máquina (sentado);3;32;15;;;123;142;;;;;1;1;1
+28.04.2025;10:45:28;A;Abdução na Máquina (sentado);4;32;15;;;110;116;;;;;1;1;1
+28.04.2025;10:49:09;A;Elevação Pélvica;1;10;10;;;114;123;;;;;1;1;1
+28.04.2025;10:52:56;A;Elevação Pélvica;2;10;10;;;;;;;;;1;1;1
+28.04.2025;10:54:36;A;Elevação Pélvica;3;10;10;;;75;75;;;;;1;1;1
+28.04.2025;10:56:24;A;Elevação Pélvica;4;10;10;;;75;88;;;;;1;1;1
+28.04.2025;10:59:18;A;Elevação Pélvica;5;10;10;;;84;95;;;;;1;1;1
+28.04.2025;11:01:48;A;Mesa Flexora Unilateral;1;14;8;;;74;90;;;;;1;1;1
+28.04.2025;11:03:45;A;Mesa Flexora Unilateral;2;18;8;;;99;105;;;;;1;1;1
+28.04.2025;11:06:58;A;Mesa Flexora Unilateral;3;18;8;;;85;104;;;;;1;1;1
+28.04.2025;11:14:29;A;Agachamento Búlgaro;1;8;9;;;;;;;;;1;1;1
+28.04.2025;11:14:46;A;Agachamento Búlgaro;2;8;8;;;81;81;;;;;1;1;1
+28.04.2025;11:21:10;A;Agachamento Búlgaro;3;8;16;;;;;;;;;1;1;1
+28.04.2025;11:21:43;A;Lombar Banco Dorsal;1;0;15;;;117;117;;;;;1;1;1
+28.04.2025;11:23:48;A;Lombar Banco Dorsal;2;0;12;;;126;126;;;;;1;1;1
+28.04.2025;11:25:25;A;Lombar Banco Dorsal;3;0;15;;;123;123;;;;;1;1;1
+28.04.2025;11:26:03;A;Mobilidade de Inferiores;1;0;15;;;90;99;;;;;1;1;1
+28.04.2025;11:26:16;A;Mobilidade de Inferiores;2;0;15;;;94;99;;;;;1;1;1
+28.04.2025;11:27:15;A;Mobilidade de Inferiores;3;0;15;;;;;;;;;1;1;1
+05.05.2025;09:48:28;A;Leg Press na Máquina (inclinado);1;15;15;;;113;113;;;;;1;1;1
+05.05.2025;09:50:31;A;Leg Press na Máquina (inclinado);2;15;15;;;124;133;;;;;1;1;1
+05.05.2025;09:52:35;A;Leg Press na Máquina (inclinado);3;15;15;;;135;135;;;;;1;1;1
+05.05.2025;09:54:58;A;Leg Press na Máquina (inclinado);4;15;15;;;136;136;;;;;1;1;1
+05.05.2025;10:00:06;A;Agachamento Sumo;1;16;12;;;;;;;;;1;1;1
+05.05.2025;10:02:07;A;Agachamento Sumo;2;16;10;;;130;135;;;;;1;1;1
+05.05.2025;10:04:05;A;Agachamento Sumo;3;16;8;;;141;141;;;;;1;1;1
+05.05.2025;10:05:38;A;Agachamento Sumo;4;16;6;;;;;;;;;1;1;1
+05.05.2025;10:07:53;A;Abdução na Máquina (sentado);1;32;15;;;124;139;;;;;1;1;1
+05.05.2025;10:09:44;A;Abdução na Máquina (sentado);2;32;15;;;118;124;;;;;1;1;1
+05.05.2025;10:12:11;A;Abdução na Máquina (sentado);3;32;15;;;123;123;;;;;1;1;1
+05.05.2025;10:13:45;A;Abdução na Máquina (sentado);4;32;15;;;123;123;;;;;1;1;1
+05.05.2025;10:15:26;A;Mobilidade de Inferiores;1;0;15;;;123;123;;;;;1;1;1
+05.05.2025;10:16:00;A;Mobilidade de Inferiores;2;0;15;;;123;123;;;;;1;1;1
+05.05.2025;10:19:03;A;Agachamento Búlgaro;1;0;9;;;123;123;;;;;1;1;1
+05.05.2025;10:21:49;A;Agachamento Búlgaro;2;0;8;;;67;67;;;;;1;1;1
+05.05.2025;10:24:18;A;Agachamento Búlgaro;3;8;16;;;99;131;;;;;1;1;1
+05.05.2025;10:26:32;A;Mobilidade de Inferiores;3;0;15;;;128;128;;;;;1;1;1
+05.05.2025;10:29:48;A;Elevação Pélvica;1;10;10;;;119;124;;;;;1;1;1
+05.05.2025;10:31:33;A;Elevação Pélvica;2;10;10;;;134;143;;;;;1;1;1
+05.05.2025;10:36:02;A;Elevação Pélvica;3;10;10;;;126;143;;;;;1;1;1
+05.05.2025;10:37:54;A;Elevação Pélvica;4;10;10;;;133;136;;;;;1;1;1
+05.05.2025;10:40:37;A;Elevação Pélvica;5;10;10;;;117;139;;;;;1;1;1
+05.05.2025;10:43:21;A;Mesa Flexora Unilateral;1;18;8;;;113;119;;;;;1;1;1
+05.05.2025;10:45:02;A;Mesa Flexora Unilateral;2;18;8;;;103;109;;;;;1;1;1
+05.05.2025;10:47:02;A;Mesa Flexora Unilateral;3;18;8;;;113;117;;;;;1;1;1
+05.05.2025;10:51:49;A;Lombar Banco Dorsal;1;0;15;;;120;122;;;;;1;1;1
+05.05.2025;10:54:18;A;Lombar Banco Dorsal;2;0;12;;;128;130;;;;;1;1;1
+05.05.2025;10:57:03;A;Lombar Banco Dorsal;3;0;15;;;;;;;;;1;1;1
+07.05.2025;09:58:28;B;Puxada Vertical na Máquina (sentado);1;40;15;;;134;159;;;;;1;1;1
+07.05.2025;10:00:25;B;Puxada Vertical na Máquina (sentado);2;40;15;;;97;97;;;;;1;1;1
+07.05.2025;10:02:29;B;Puxada Vertical na Máquina (sentado);3;40;15;;;122;132;;;;;1;1;1
+07.05.2025;10:04:24;B;Puxada Vertical na Máquina (sentado);4;40;15;;;121;129;;;;;1;1;1
+07.05.2025;10:07:06;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);1;40;10;;;122;132;;;;;1;1;1
+07.05.2025;10:08:53;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);2;40;10;;;124;135;;;;;1;1;1
+07.05.2025;10:11:38;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);3;40;10;;;122;135;;;;;1;1;1
+07.05.2025;10:13:17;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);4;40;10;;;134;134;;;;;1;1;1
+07.05.2025;10:18:54;B;Remada Cavalo Fechada;1;20;15;;;;;;;;;1;1;1
+07.05.2025;10:20:44;B;Remada Cavalo Fechada;2;20;12;;;109;109;;;;;1;1;1
+07.05.2025;10:23:08;B;Remada Cavalo Fechada;3;20;12;;;109;109;;;;;1;1;1
+07.05.2025;10:27:55;B;Remada Cavalo Fechada;4;20;10;;;117;122;;;;;1;1;1
+07.05.2025;10:33:09;B;Remada Serrote Unilateral (Máquina);1;9;10;;;109;109;;;;;1;1;1
+07.05.2025;10:36:00;B;Remada Serrote Unilateral (Máquina);2;9;10;;;109;109;;;;;1;1;1
+07.05.2025;10:38:32;B;Remada Serrote Unilateral (Máquina);3;9;10;;;109;109;;;;;1;1;1
+07.05.2025;10:41:36;B;Rosca Direta com Barra (em pé);1;15;10;;;;;;;;;1;1;1
+07.05.2025;10:43:47;B;Rosca Direta com Barra (em pé);2;15;12;;;;;;;;;1;1;1
+07.05.2025;10:46:57;B;Rosca Direta com Barra (em pé);3;15;12;;;;;;;;;1;1;1
+07.05.2025;10:49:14;B;Rosca na Máquina (sentado);1;18;10;;;123;123;;;;;1;1;1
+07.05.2025;10:51:32;B;Rosca na Máquina (sentado);2;18;8;;;57;57;;;;;1;1;1
+07.05.2025;10:54:30;B;Rosca na Máquina (sentado);3;18;8;;;;;;;;;1;1;1
+07.05.2025;10:56:34;B;Voador Invertido na Máquina (sentado);1;32;12;;;57;57;;;;;1;1;1
+07.05.2025;10:58:13;B;Voador Invertido na Máquina (sentado);2;32;12;;;57;57;;;;;1;1;1
+07.05.2025;11:00:43;B;Voador Invertido na Máquina (sentado);3;32;10;;;;;;;;;1;1;1
+08.05.2025;10:20:53;C;Máquina de Leg Press, Pés Abertos (inclinado);1;20;12;;;103;103;;;;;1;1;1
+08.05.2025;10:22:32;C;Máquina de Leg Press, Pés Abertos (inclinado);2;20;10;;;122;122;;;;;1;1;1
+08.05.2025;10:24:55;C;Máquina de Leg Press, Pés Abertos (inclinado);3;20;8;;;53;53;;;;;1;1;1
+08.05.2025;10:26:51;C;Extensão de Pernas na Máquina (sentado);1;27;10;;;117;117;;;;;1;1;1
+08.05.2025;10:28:26;C;Extensão de Pernas na Máquina (sentado);2;27;10;;;130;130;;;;;1;1;1
+08.05.2025;10:29:54;C;Extensão de Pernas na Máquina (sentado);3;27;10;;;54;54;;;;;1;1;1
+08.05.2025;10:33:13;C;Agachamento Sumô;1;14;15;;;131;141;;;;;1;1;1
+08.05.2025;10:35:38;C;Agachamento Sumô;2;14;15;;;120;120;;;;;1;1;1
+08.05.2025;10:37:42;C;Agachamento Sumô;3;14;15;;;120;120;;;;;1;1;1
+08.05.2025;10:40:16;C;Agachamento Sumô;4;14;15;;;120;120;;;;;1;1;1
+08.05.2025;10:46:22;C;Afundo 3x8 (cada lado);1;0;8;;;;;;;;;1;1;1
+08.05.2025;10:48:25;C;Afundo 3x8 (cada lado);2;0;8;;;142;142;;;;;1;1;1
+08.05.2025;10:51:48;C;Afundo 3x8 (cada lado);3;0;8;;;50;50;;;;;1;1;1
+08.05.2025;10:54:00;C;Panturrilhas em Pé Unilateral Livre;1;15;12;;;;;;;;;1;1;1
+08.05.2025;10:54:14;C;Elevação de Panturrilha na Máquina (sentado);1;20;15;;;114;114;;;;;1;1;1
+08.05.2025;10:56:02;C;Elevação de Panturrilha na Máquina (sentado);2;20;15;;;125;141;;;;;1;1;1
+08.05.2025;10:57:54;C;Elevação de Panturrilha na Máquina (sentado);3;20;15;;;120;135;;;;;1;1;1
+08.05.2025;11:04:06;C;Panturrilhas em Pé Unilateral Livre;2;15;12;;;111;125;;;;;1;1;1
+08.05.2025;11:05:50;C;Panturrilhas em Pé Unilateral Livre;3;15;12;;;117;130;;;;;1;1;1
+08.05.2025;11:08:41;C;Prancha Isométrica (ou Abdominal Máquina) ;1;0;8;;;108;116;;;;;1;1;1
+08.05.2025;11:11:02;C;Prancha Isométrica (ou Abdominal Máquina) ;2;0;10;;;;;;;;;1;1;1
+09.05.2025;10:36:43;D;Supino Articulado Máquina (Pré-ativação);1;40;12;;;71;71;;;;;1;1;1
+09.05.2025;10:38:37;D;Supino Articulado Máquina (Pré-ativação);2;70;12;;;88;97;;;;;1;1;1
+09.05.2025;10:41:40;D;Supino Articulado Máquina (Pré-ativação);3;50;12;;;97;97;;;;;1;1;1
+09.05.2025;10:43:45;D;Supino Articulado Máquina (Pré-ativação);4;70;8;;;89;97;;;;;1;1;1
+09.05.2025;10:46:01;D;Supino Articulado Máquina (Pré-ativação);5;50;10;;;97;97;;;;;1;1;1
+09.05.2025;10:52:08;D;Crossover Polia Alta;1;10;15;;;;;;;;;1;1;1
+09.05.2025;10:54:15;D;Crossover Polia Alta;2;15;15;;;97;97;;;;;1;1;1
+09.05.2025;10:56:20;D;Crossover Polia Alta;3;10;15;;;97;97;;;;;1;1;1
+09.05.2025;10:58:14;D;Crossover Polia Alta;4;10;15;;;;;;;;;1;1;1
+09.05.2025;11:02:54;D;Crossover Polia Baixa;1;10;15;;;97;97;;;;;1;1;1
+09.05.2025;11:04:58;D;Crossover Polia Baixa;2;10;12;;;97;97;;;;;1;1;1
+09.05.2025;11:06:55;D;Crossover Polia Baixa;3;10;10;;;92;97;;;;;1;1;1
+09.05.2025;11:08:36;D;Crossover Polia Baixa;4;10;8;;;91;97;;;;;1;1;1
+09.05.2025;11:11:33;D;Supino na Máquina (inclinado);1;20;10;;;56;56;;;;;1;1;1
+09.05.2025;11:13:29;D;Supino na Máquina (inclinado);2;20;10;;;75;87;;;;;1;1;1
+09.05.2025;11:15:28;D;Supino na Máquina (inclinado);3;20;10;;;98;139;;;;;1;1;1
+09.05.2025;11:22:43;D;Tríceps Polia Barra Reta;1;15;15;;;;;;;;;1;1;1
+09.05.2025;11:25:21;D;Tríceps Polia Barra Reta;2;15;15;;;;;;;;;1;1;1
+09.05.2025;11:27:41;D;Tríceps Polia Barra Reta;3;15;15;;;;;;;;;1;1;1
+09.05.2025;11:30:02;D;Tríceps Polia Barra Reta;4;15;15;;;55;55;;;;;1;1;1
+09.05.2025;11:35:28;D;Tríceps Francês Crossover;1;10;10;;;;;;;;;1;1;1
+09.05.2025;11:37:10;D;Tríceps Francês Crossover;2;10;10;;;52;52;;;;;1;1;1
+09.05.2025;11:41:14;D;Tríceps Francês Crossover;3;15;10;;;112;112;;;;;1;1;1
+09.05.2025;11:42:24;D;Tríceps Máquina Paralelas;1;32;12;;;78;78;;;;;1;1;1
+09.05.2025;11:43:56;D;Tríceps Máquina Paralelas;2;32;12;;;79;80;;;;;1;1;1
+09.05.2025;11:46:36;D;Tríceps Máquina Paralelas;3;32;12;;;;;;;;;1;1;1
+12.05.2025;07:47:43;A;Mobilidade de Inferiores;1;0;15;;;105;105;;;;;1;1;1
+12.05.2025;07:48:45;A;Mobilidade de Inferiores;2;0;15;;;;;;;;;1;1;1
+12.05.2025;07:48:58;A;Mobilidade de Inferiores;3;0;15;;;95;97;;;;;1;1;1
+12.05.2025;07:50:15;A;Leg Press na Máquina (inclinado);1;15;15;;;141;183;;;;;1;1;1
+12.05.2025;07:52:04;A;Leg Press na Máquina (inclinado);2;15;15;;;111;117;;;;;1;1;1
+12.05.2025;07:53:57;A;Leg Press na Máquina (inclinado);3;15;15;;;118;118;;;;;1;1;1
+12.05.2025;07:55:47;A;Leg Press na Máquina (inclinado);4;15;15;;;105;105;;;;;1;1;1
+12.05.2025;08:00:32;A;Agachamento Sumo;1;16;12;;;105;105;;;;;1;1;1
+12.05.2025;08:02:08;A;Abdução na Máquina (sentado);1;16;10;;;;;;;;;1;1;1
+12.05.2025;08:02:28;A;Agachamento Sumo;2;16;10;;;139;139;;;;;1;1;1
+12.05.2025;08:04:02;A;Agachamento Sumo;3;16;8;;;125;131;;;;;1;1;1
+12.05.2025;08:05:35;A;Agachamento Sumo;4;32;15;;;124;128;;;;;1;1;1
+12.05.2025;08:08:16;A;Abdução na Máquina (sentado);2;32;15;;;107;126;;;;;1;1;1
+12.05.2025;08:11:30;A;Abdução na Máquina (sentado);3;32;15;;;108;114;;;;;1;1;1
+12.05.2025;08:13:10;A;Abdução na Máquina (sentado);4;32;15;;;110;110;;;;;1;1;1
+12.05.2025;08:19:02;A;Agachamento Búlgaro;1;0;16;;;111;114;;;;;1;1;1
+12.05.2025;08:21:15;A;Agachamento Búlgaro;2;0;16;;;124;131;;;;;1;1;1
+12.05.2025;08:23:53;A;Agachamento Búlgaro;3;0;16;;;132;135;;;;;1;1;1
+12.05.2025;08:28:12;A;Elevação Pélvica;1;10;10;;;127;127;;;;;1;1;1
+12.05.2025;08:29:51;A;Elevação Pélvica;2;10;10;;;;;;;;;1;1;1
+13.05.2025;20:34:54;B;Puxada Vertical na Máquina (sentado);1;35;15;;;135;183;;;;;1;1;1
+13.05.2025;20:36:54;B;Puxada Vertical na Máquina (sentado);2;35;15;;;72;88;;;;;1;1;1
+13.05.2025;20:38:45;B;Puxada Vertical na Máquina (sentado);3;30;15;;;88;88;;;;;1;1;1
+13.05.2025;20:40:54;B;Puxada Vertical na Máquina (sentado);4;30;15;;;72;88;;;;;1;1;1
+13.05.2025;20:43:15;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);1;30;10;;;102;115;;;;;1;1;1
+13.05.2025;20:44:51;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);2;30;10;;;102;115;;;;;1;1;1
+13.05.2025;20:46:28;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);3;30;10;;;71;88;;;;;1;1;1
+13.05.2025;20:48:06;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);4;30;10;;;73;90;;;;;1;1;1
+13.05.2025;20:52:11;B;Rosca na Máquina (sentado);1;15;10;;;54;54;;;;;1;1;1
+13.05.2025;20:54:16;B;Rosca na Máquina (sentado);2;15;10;;;117;117;;;;;1;1;1
+13.05.2025;21:00:27;B;Remada Cavalo Fechada;1;20;15;;;115;115;;;;;1;1;1
+13.05.2025;21:02:22;B;Remada Cavalo Fechada;2;20;12;;;136;136;;;;;1;1;1
+13.05.2025;21:05:53;B;Remada Cavalo Fechada;3;20;12;;;;;;;;;1;1;1
+13.05.2025;21:10:25;B;Remada Cavalo Fechada;4;18;10;;;;;;;;;1;1;1
+13.05.2025;21:11:43;B;Rosca na Máquina (sentado);3;18;10;;;50;55;;;;;1;1;1
+13.05.2025;21:15:41;B;Remada Serrote Unilateral (Máquina);1;18;10;;;55;55;;;;;1;1;1
+13.05.2025;21:17:53;B;Remada Serrote Unilateral (Máquina);2;23;10;;;55;55;;;;;1;1;1
+13.05.2025;21:22:44;B;Rosca Direta com Barra (em pé);1;15;12;;;;;;;;;1;1;1
+13.05.2025;21:23:00;B;Rosca Direta com Barra (em pé);2;15;12;;;98;105;;;;;1;1;1
+13.05.2025;21:23:13;B;Rosca Direta com Barra (em pé);3;15;12;;;86;86;;;;;1;1;1
+13.05.2025;21:24:48;B;Voador Invertido na Máquina (sentado);1;32;10;;;89;112;;;;;1;1;1
+13.05.2025;21:26:27;B;Voador Invertido na Máquina (sentado);2;32;12;;;86;86;;;;;1;1;1
+13.05.2025;21:28:11;B;Voador Invertido na Máquina (sentado);3;32;12;;;;;;;;;1;1;1
+14.05.2025;09:58:20;C;Agachamento Sumô;1;16;15;;;81;81;;;;;1;1;1
+14.05.2025;10:00:25;C;Agachamento Sumô;2;16;15;;;108;135;;;;;1;1;1
+14.05.2025;10:02:46;C;Agachamento Sumô;3;16;15;;;114;147;;;;;1;1;1
+14.05.2025;10:06:30;C;Agachamento Sumô;4;16;15;;;119;142;;;;;1;1;1
+14.05.2025;10:08:26;C;Máquina de Leg Press, Pés Abertos (inclinado);1;15;12;;;105;129;;;;;1;1;1
+14.05.2025;10:10:13;C;Máquina de Leg Press, Pés Abertos (inclinado);2;15;10;;;81;81;;;;;1;1;1
+14.05.2025;10:11:44;C;Máquina de Leg Press, Pés Abertos (inclinado);3;15;8;;;126;126;;;;;1;1;1
+14.05.2025;10:14:29;C;Extensão de Pernas na Máquina (sentado);1;27;10;;;127;129;;;;;1;1;1
+14.05.2025;10:16:12;C;Extensão de Pernas na Máquina (sentado);2;27;10;;;131;131;;;;;1;1;1
+14.05.2025;10:18:17;C;Extensão de Pernas na Máquina (sentado);3;27;10;;;;;;;;;1;1;1
+14.05.2025;10:22:53;C;Afundo 3x8 (cada lado);1;0;8;;;;;;;;;1;1;1
+14.05.2025;10:25:06;C;Afundo 3x8 (cada lado);2;0;8;;;135;135;;;;;1;1;1
+14.05.2025;10:27:24;C;Afundo 3x8 (cada lado);3;0;8;;;;;;;;;1;1;1
+14.05.2025;10:29:48;C;Prancha Isométrica (ou Abdominal Máquina) ;1;0;8;;;;;;;;;1;1;1
+14.05.2025;10:31:45;C;Prancha Isométrica (ou Abdominal Máquina) ;2;0;8;60;;120;121;;;;;1;1;1
+14.05.2025;10:33:41;C;Prancha Isométrica (ou Abdominal Máquina) ;3;0.25;8;60;;113;113;;;;;1;1;1
+14.05.2025;10:38:13;C;Elevação de Panturrilha na Máquina (sentado);1;20;15;;;112;112;;;;;1;1;1
+14.05.2025;10:40:21;C;Elevação de Panturrilha na Máquina (sentado);2;20;15;60;;65;65;;;;;1;1;1
+14.05.2025;10:43:56;C;Elevação de Panturrilha na Máquina (sentado);3;20;15;15;;97;130;;;;;1;1;1
+14.05.2025;10:47:14;C;Panturrilhas em Pé Unilateral Livre;1;15;12;;;93;123;;;;;1;1;1
+14.05.2025;10:49:30;C;Panturrilhas em Pé Unilateral Livre;2;15;12;;;131;131;;;;;1;1;1
+14.05.2025;10:50:59;C;Panturrilhas em Pé Unilateral Livre;3;15;12;;;;;;;;;1;1;1
+15.05.2025;09:10:58;D;Supino Articulado Máquina (Pré-ativação);1;60;12;;;;;;;;;1;1;1
+15.05.2025;09:13:25;D;Supino Articulado Máquina (Pré-ativação);2;40;12;;;54;54;;;;;1;1;1
+15.05.2025;09:14:49;D;Supino Articulado Máquina (Pré-ativação);3;70;10;;;54;54;;;;;1;1;1
+15.05.2025;09:18:11;D;Supino Articulado Máquina (Pré-ativação);4;50;12;;;54;54;;;;;1;1;1
+15.05.2025;09:20:23;D;Supino Articulado Máquina (Pré-ativação);5;50;12;;;;;;;;;1;1;1
+15.05.2025;09:24:05;D;Crossover Polia Alta;1;10;15;;;;;;;;;1;1;1
+15.05.2025;09:26:35;D;Crossover Polia Alta;2;10;15;;;;;;;;;1;1;1
+15.05.2025;09:29:15;D;Crossover Polia Alta;3;10;15;;;97;100;;;;;1;1;1
+15.05.2025;09:31:19;D;Crossover Polia Alta;4;10;15;;;;;;;;;1;1;1
+15.05.2025;09:44:35;D;Tríceps Polia Barra Reta;1;25;15;;;93;98;;;;;1;1;1
+15.05.2025;09:46:01;D;Tríceps Polia Barra Reta;2;25;15;;;88;88;;;;;1;1;1
+15.05.2025;09:47:49;D;Tríceps Polia Barra Reta;3;30;15;;;88;88;;;;;1;1;1
+15.05.2025;09:50:33;D;Tríceps Polia Barra Reta;4;25;15;;;88;88;;;;;1;1;1
+15.05.2025;09:53:30;D;Supino na Máquina (inclinado);1;40;10;;;72;89;;;;;1;1;1
+15.05.2025;09:56:55;D;Supino na Máquina (inclinado);2;30;10;;;89;89;;;;;1;1;1
+15.05.2025;09:58:40;D;Supino na Máquina (inclinado);3;30;8;;;89;89;;;;;1;1;1
+15.05.2025;10:04:39;D;Crossover Polia Baixa;1;10;15;;;;;;;;;1;1;1
+15.05.2025;10:06:32;D;Crossover Polia Baixa;2;10;12;;;119;119;;;;;1;1;1
+15.05.2025;10:09:09;D;Crossover Polia Baixa;3;10;10;;;88;121;;;;;1;1;1
+15.05.2025;10:10:45;D;Crossover Polia Baixa;4;10;8;;;58;58;;;;;1;1;1
+15.05.2025;10:13:14;D;Tríceps Francês Crossover;1;10;10;;;55;55;;;;;1;1;1
+15.05.2025;10:15:11;D;Tríceps Francês Crossover;2;15;10;;;76;97;;;;;1;1;1
+15.05.2025;10:17:04;D;Tríceps Francês Crossover;3;10;10;;;82;105;;;;;1;1;1
+15.05.2025;10:19:34;D;Tríceps Máquina Paralelas;1;36;12;;;76;92;;;;;1;1;1
+15.05.2025;10:21:12;D;Tríceps Máquina Paralelas;2;36;12;;;;;;;;;1;1;1
+15.05.2025;10:22:54;D;Tríceps Máquina Paralelas;3;36;8;;;;;;;;;1;1;1
+16.05.2025;09:38:06;E;Graviton Aberto;1;70;10;;;;;;;;;1;1;1
+16.05.2025;09:40:06;E;Graviton Aberto;2;70;10;;;107;107;;;;;1;1;1
+16.05.2025;09:42:12;E;Graviton Aberto;3;70;10;;;110;110;;;;;1;1;1
+16.05.2025;09:47:50;E;Desenvolvimento de Ombros na Máquina (sentado);1;20;12;;;104;110;;;;;1;1;1
+16.05.2025;09:49:42;E;Desenvolvimento de Ombros na Máquina (sentado);2;20;12;;;117;123;;;;;1;1;1
+16.05.2025;09:53:31;E;Desenvolvimento de Ombros na Máquina (sentado);3;20;12;;;;;;;;;1;1;1
+16.05.2025;09:58:48;E;Elevação Lateral com Halteres (em pé);1;9;10;;;113;113;;;;;1;1;1
+16.05.2025;10:00:37;E;Elevação Lateral com Halteres (em pé);2;9;10;;;99;99;;;;;1;1;1
+16.05.2025;10:02:22;E;Elevação Lateral com Halteres (em pé);3;9;10;;;90;90;;;;;1;1;1
+16.05.2025;10:08:12;E;Elevação Frontal Cross;1;15;7;;;114;114;;;;;1;1;1
+16.05.2025;10:10:20;E;Elevação Frontal Cross;2;10;10;;;123;126;;;;;1;1;1
+16.05.2025;10:12:09;E;Elevação Frontal Cross;3;10;10;;;124;124;;;;;1;1;1
+16.05.2025;10:15:35;E;Elevação de Panturrilha na Máquina (sentado);1;20;15;;;77;77;;;;;1;1;1
+16.05.2025;10:17:32;E;Elevação de Panturrilha na Máquina (sentado);2;20;15;;;101;101;;;;;1;1;1
+16.05.2025;10:21:55;E;Elevação de Panturrilha na Máquina (sentado);3;20;15;;;88;126;;;;;1;1;1
+16.05.2025;10:27:48;E;Abdominal Máquina Reto e Oblíquos 3x15 + 10 (cada lado);1;10;12;;;112;126;;;;;1;1;1
+16.05.2025;10:30:14;E;Voador Invertido na Máquina (sentado);1;15;10;;;107;126;;;;;1;1;1
+16.05.2025;10:38:10;E;Voador Invertido na Máquina (sentado);2;27;10;;;106;109;;;;;1;1;1
+16.05.2025;10:39:52;E;Voador Invertido na Máquina (sentado);3;15;10;;;;;;;;;1;1;1
+22.05.2025;22:58:52;A;Mobilidade de Inferiores;1;0;15;;;;;;;;;1;1;1
+22.05.2025;22:59:55;A;Mobilidade de Inferiores;2;0;15;;;;;;;;;1;1;1
+22.05.2025;23:00:09;A;Mobilidade de Inferiores;3;0;15;;;69;69;;;;;1;1;1
+22.05.2025;23:01:18;A;Leg Press na Máquina (inclinado);1;15;15;;;84;94;;;;;1;1;1
+22.05.2025;23:03:18;A;Leg Press na Máquina (inclinado);2;15;15;;;119;119;;;;;1;1;1
+22.05.2025;23:05:12;A;Leg Press na Máquina (inclinado);3;15;15;;;75;105;;;;;1;1;1
+22.05.2025;23:07:20;A;Leg Press na Máquina (inclinado);4;15;15;;;76;106;;;;;1;1;1
+22.05.2025;23:11:15;A;Agachamento Sumo;1;16;12;;;123;131;;;;;1;1;1
+22.05.2025;23:12:57;A;Agachamento Sumo;2;16;10;;;;;;;;;1;1;1
+22.05.2025;23:14:37;A;Agachamento Sumo;3;16;8;;;130;130;;;;;1;1;1
+22.05.2025;23:16:41;A;Agachamento Sumo;4;16;6;;;;;;;;;1;1;1
+22.05.2025;23:18:47;A;Abdução na Máquina (sentado);1;41;15;;;;;;;;;1;1;1
+22.05.2025;23:21:27;A;Abdução na Máquina (sentado);2;41;15;;;97;97;;;;;1;1;1
+22.05.2025;23:25:12;A;Abdução na Máquina (sentado);3;36;15;;;106;111;;;;;1;1;1
+22.05.2025;23:29:13;A;Abdução na Máquina (sentado);4;32;13;;;110;110;;;;;1;1;1
+22.05.2025;23:35:11;A;Agachamento Búlgaro;1;0;16;;;90;90;;;;;1;1;1
+22.05.2025;23:39:31;A;Agachamento Búlgaro;2;0;16;;;107;122;;;;;1;1;1
+22.05.2025;23:44:09;A;Agachamento Búlgaro;3;0;16;;;98;98;;;;;1;1;1
+22.05.2025;23:47:00;A;Mesa Flexora Unilateral;1;18;8;;;106;113;;;;;1;1;1
+22.05.2025;23:49:20;A;Mesa Flexora Unilateral;2;18;8;;;98;98;;;;;1;1;1
+22.05.2025;23:52:31;A;Mesa Flexora Unilateral;3;18;8;;;56;94;;;;;1;1;1
+22.05.2025;23:55:52;A;Elevação Pélvica;1;10;10;;;107;119;;;;;1;1;1
+22.05.2025;23:58:24;A;Elevação Pélvica;2;10;10;;;131;139;;;;;1;1;1
+23.05.2025;00:01:18;A;Elevação Pélvica;3;10;10;;;;;;;;;1;1;1
+23.05.2025;00:05:47;A;Lombar Banco Dorsal;1;0;10;;;110;111;;;;;1;1;1
+23.05.2025;00:08:04;A;Lombar Banco Dorsal;2;0;15;;;115;118;;;;;1;1;1
+23.05.2025;00:09:46;A;Lombar Banco Dorsal;3;0;15;;;;;;;;;1;1;1
+23.05.2025;23:57:30;B;Puxada Vertical na Máquina (sentado);1;40;15;;;96;98;;;;;1;1;1
+23.05.2025;23:59:23;B;Puxada Vertical na Máquina (sentado);2;40;15;;;93;93;;;;;1;1;1
+24.05.2025;00:01:30;B;Puxada Vertical na Máquina (sentado);3;40;15;;;99;115;;;;;1;1;1
+24.05.2025;00:03:49;B;Puxada Vertical na Máquina (sentado);4;40;15;;;81;84;;;;;1;1;1
+24.05.2025;00:06:11;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);1;30;10;;;90;102;;;;;1;1;1
+24.05.2025;00:08:12;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);2;30;10;;;91;103;;;;;1;1;1
+24.05.2025;00:09:58;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);3;30;10;;;84;84;;;;;1;1;1
+24.05.2025;00:11:38;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);4;40;10;;;76;76;;;;;1;1;1
+24.05.2025;00:14:33;B;Remada Cavalo Fechada;1;20;15;;;55;55;;;;;1;1;1
+24.05.2025;00:18:01;B;Remada Cavalo Fechada;2;20;12;;;93;129;;;;;1;1;1
+24.05.2025;00:21:12;B;Remada Cavalo Fechada;3;20;12;;;130;130;;;;;1;1;1
+24.05.2025;00:23:23;B;Remada Cavalo Fechada;4;20;10;;;;;;;;;1;1;1
+24.05.2025;00:28:47;B;Rosca Direta com Barra (em pé);1;15;12;;;134;134;;;;;1;1;1
+24.05.2025;00:31:29;B;Rosca Direta com Barra (em pé);2;15;12;;;107;107;;;;;1;1;1
+24.05.2025;00:33:34;B;Rosca Direta com Barra (em pé);3;15;12;;;107;107;;;;;1;1;1
+24.05.2025;00:36:31;B;Remada Serrote Unilateral (Máquina);1;23;10;;;104;107;;;;;1;1;1
+24.05.2025;00:38:37;B;Remada Serrote Unilateral (Máquina);2;23;10;;;92;107;;;;;1;1;1
+24.05.2025;00:40:40;B;Remada Serrote Unilateral (Máquina);3;18;10;;;81;107;;;;;1;1;1
+24.05.2025;00:43:10;B;Rosca na Máquina (sentado);1;14;10;;;107;107;;;;;1;1;1
+24.05.2025;00:45:07;B;Rosca na Máquina (sentado);2;14;10;;;107;107;;;;;1;1;1
+24.05.2025;00:47:02;B;Rosca na Máquina (sentado);3;14;10;;;;;;;;;1;1;1
+24.05.2025;20:46:36;D;Supino Articulado Máquina (Pré-ativação);1;80;12;;;94;94;;;;;1;1;1
+24.05.2025;20:49:08;D;Supino Articulado Máquina (Pré-ativação);2;40;12;;;73;84;;;;;1;1;1
+24.05.2025;20:51:47;D;Supino Articulado Máquina (Pré-ativação);3;80;8;;;92;92;;;;;1;1;1
+24.05.2025;20:53:58;D;Supino Articulado Máquina (Pré-ativação);4;40;12;;;79;92;;;;;1;1;1
+24.05.2025;20:56:15;D;Supino Articulado Máquina (Pré-ativação);5;40;12;;;92;92;;;;;1;1;1
+24.05.2025;21:06:35;D;Crossover Polia Alta;1;15;8;;;;;;;;;1;1;1
+24.05.2025;21:08:20;D;Crossover Polia Alta;2;10;15;;;59;63;;;;;1;1;1
+24.05.2025;21:10:24;D;Crossover Polia Alta;3;15;10;;;;;;;;;1;1;1
+24.05.2025;21:12:24;D;Crossover Polia Alta;4;15;8;;;63;63;;;;;1;1;1
+24.05.2025;21:14:51;D;Crossover Polia Baixa;1;10;15;;;;;;;;;1;1;1
+24.05.2025;21:17:13;D;Crossover Polia Baixa;2;10;15;;;64;64;;;;;1;1;1
+24.05.2025;21:19:03;D;Crossover Polia Baixa;3;10;11;;;64;64;;;;;1;1;1
+24.05.2025;21:21:10;D;Crossover Polia Baixa;4;10;8;;;;;;;;;1;1;1
+24.05.2025;21:25:16;D;Supino na Máquina (inclinado);1;20;10;;;118;118;;;;;1;1;1
+24.05.2025;21:27:45;D;Supino na Máquina (inclinado);2;20;10;;;;;;;;;1;1;1
+24.05.2025;21:29:30;D;Supino na Máquina (inclinado);3;20;10;;;;;;;;;1;1;1
+24.05.2025;21:35:55;D;Tríceps Polia Barra Reta;1;25;15;;;77;77;;;;;1;1;1
+24.05.2025;21:37:59;D;Tríceps Polia Barra Reta;2;30;15;;;;;;;;;1;1;1
+24.05.2025;21:39:48;D;Tríceps Polia Barra Reta;3;30;10;;;;;;;;;1;1;1
+24.05.2025;21:41:31;D;Tríceps Polia Barra Reta;4;30;10;;;86;88;;;;;1;1;1
+24.05.2025;21:45:31;D;Tríceps Francês Crossover;1;15;10;;;88;88;;;;;1;1;1
+24.05.2025;21:47:11;D;Tríceps Francês Crossover;2;15;10;;;80;88;;;;;1;1;1
+24.05.2025;21:48:49;D;Tríceps Francês Crossover;3;15;10;;;88;88;;;;;1;1;1
+24.05.2025;21:50:45;D;Tríceps Máquina Paralelas;1;36;12;;;88;88;;;;;1;1;1
+24.05.2025;21:53:25;D;Tríceps Máquina Paralelas;2;36;12;;;88;88;;;;;1;1;1
+24.05.2025;21:55:05;D;Tríceps Máquina Paralelas;3;36;12;;;;;;;;;1;1;1
+26.05.2025;08:38:54;A;Mobilidade de Inferiores;1;0;15;;;125;125;;;;;1;1;1
+26.05.2025;08:44:44;A;Mobilidade de Inferiores;2;0;15;;;;;;;;;1;1;1
+26.05.2025;08:45:01;A;Mobilidade de Inferiores;3;0;15;;;131;133;;;;;1;1;1
+26.05.2025;08:46:06;A;Leg Press na Máquina (inclinado);1;20;15;;;;;;;;;1;1;1
+26.05.2025;08:47:56;A;Leg Press na Máquina (inclinado);2;20;15;;;129;129;;;;;1;1;1
+26.05.2025;08:50:26;A;Leg Press na Máquina (inclinado);3;20;15;;;55;55;;;;;1;1;1
+26.05.2025;08:55:45;A;Leg Press na Máquina (inclinado);4;20;15;;;89;122;;;;;1;1;1
+26.05.2025;08:59:44;A;Agachamento Sumo;1;16;12;;;85;98;;;;;1;1;1
+26.05.2025;09:01:38;A;Agachamento Sumo;2;16;10;;;141;141;;;;;1;1;1
+26.05.2025;09:03:40;A;Agachamento Sumo;3;16;8;;;127;133;;;;;1;1;1
+26.05.2025;09:05:41;A;Agachamento Sumo;4;16;6;;;;;;;;;1;1;1
+26.05.2025;09:13:28;A;Agachamento Búlgaro;1;0;16;;;120;145;;;;;1;1;1
+26.05.2025;09:17:51;A;Agachamento Búlgaro;2;0;16;;;101;101;;;;;1;1;1
+26.05.2025;09:24:45;A;Agachamento Búlgaro;3;0;16;;;97;97;;;;;1;1;1
+26.05.2025;09:28:29;A;Elevação Pélvica;1;10;10;;;111;121;;;;;1;1;1
+26.05.2025;09:31:06;A;Elevação Pélvica;2;10;10;;;123;134;;;;;1;1;1
+26.05.2025;09:33:43;A;Elevação Pélvica;3;10;10;;;125;136;;;;;1;1;1
+26.05.2025;09:36:20;A;Elevação Pélvica;4;10;10;;;138;141;;;;;1;1;1
+26.05.2025;09:38:11;A;Elevação Pélvica;5;10;10;;;136;143;;;;;1;1;1
+26.05.2025;09:42:45;A;Abdução na Máquina (sentado);1;36;15;;;116;128;;;;;1;1;1
+26.05.2025;09:44:18;A;Abdução na Máquina (sentado);2;36;14;;;105;114;;;;;1;1;1
+26.05.2025;09:46:33;A;Abdução na Máquina (sentado);3;36;15;;;96;100;;;;;1;1;1
+26.05.2025;09:48:10;A;Abdução na Máquina (sentado);4;36;8;;;89;92;;;;;1;1;1
+26.05.2025;09:50:20;A;Mesa Flexora Unilateral;1;18;8;;;104;111;;;;;1;1;1
+26.05.2025;09:52:31;A;Mesa Flexora Unilateral;2;18;8;;;105;112;;;;;1;1;1
+26.05.2025;09:54:43;A;Mesa Flexora Unilateral;3;18;8;;;103;107;;;;;1;1;1
+26.05.2025;09:57:00;A;Lombar Banco Dorsal;1;0;10;;;119;134;;;;;1;1;1
+26.05.2025;09:58:33;A;Lombar Banco Dorsal;2;0;15;;;137;143;;;;;1;1;1
+26.05.2025;09:59:59;A;Lombar Banco Dorsal;3;0;15;;;;;;;;;1;1;1
+27.05.2025;06:48:49;B;Puxada Vertical na Máquina (sentado);1;40;15;;;66;77;;;;;1;1;1
+27.05.2025;06:50:51;B;Puxada Vertical na Máquina (sentado);2;50;15;;;92;129;;;;;1;1;1
+27.05.2025;06:53:02;B;Puxada Vertical na Máquina (sentado);3;50;15;;;130;130;;;;;1;1;1
+27.05.2025;06:55:26;B;Puxada Vertical na Máquina (sentado);4;40;15;;;;;;;;;1;1;1
+27.05.2025;06:57:45;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);1;30;10;;;118;118;;;;;1;1;1
+27.05.2025;06:59:45;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);2;30;10;;;;;;;;;1;1;1
+27.05.2025;07:02:52;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);3;30;10;;;114;114;;;;;1;1;1
+27.05.2025;07:04:39;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);4;40;10;;;98;113;;;;;1;1;1
+27.05.2025;07:09:06;B;Remada Cavalo Fechada;1;20;15;;;120;139;;;;;1;1;1
+27.05.2025;07:11:19;B;Remada Cavalo Fechada;2;20;12;;;126;130;;;;;1;1;1
+27.05.2025;07:13:46;B;Remada Cavalo Fechada;3;20;12;;;134;134;;;;;1;1;1
+27.05.2025;07:16:08;B;Remada Cavalo Fechada;4;20;10;;;80;80;;;;;1;1;1
+27.05.2025;07:22:33;B;Remada Serrote Unilateral (Máquina);1;27;10;;;122;122;;;;;1;1;1
+27.05.2025;07:24:42;B;Remada Serrote Unilateral (Máquina);2;27;10;;;122;122;;;;;1;1;1
+27.05.2025;07:26:58;B;Remada Serrote Unilateral (Máquina);3;27;10;;;122;122;;;;;1;1;1
+27.05.2025;07:29:32;B;Rosca Direta com Barra (em pé);1;15;12;;;101;122;;;;;1;1;1
+27.05.2025;07:31:52;B;Rosca Direta com Barra (em pé);2;17.5;12;;;94;94;;;;;1;1;1
+27.05.2025;07:35:00;B;Rosca Direta com Barra (em pé);3;17.5;12;;;105;122;;;;;1;1;1
+27.05.2025;07:37:42;B;Rosca na Máquina (sentado);1;18;10;;;122;122;;;;;1;1;1
+27.05.2025;07:39:52;B;Rosca na Máquina (sentado);2;18;10;;;122;122;;;;;1;1;1
+27.05.2025;07:41:54;B;Rosca na Máquina (sentado);3;18;10;;;116;116;;;;;1;1;1
+27.05.2025;07:43:54;B;Voador Invertido na Máquina (sentado);1;32;12;;;116;116;;;;;1;1;1
+27.05.2025;07:45:38;B;Voador Invertido na Máquina (sentado);2;32;12;;;116;116;;;;;1;1;1
+27.05.2025;07:47:29;B;Voador Invertido na Máquina (sentado);3;32;8;;;;;;;;;1;1;1
+28.05.2025;10:55:18;C;Máquina de Leg Press, Pés Abertos (inclinado);1;20;12;;;113;113;;;;;1;1;1
+28.05.2025;10:57:07;C;Máquina de Leg Press, Pés Abertos (inclinado);2;20;10;;;126;126;;;;;1;1;1
+28.05.2025;10:58:38;C;Máquina de Leg Press, Pés Abertos (inclinado);3;20;8;;;;;;;;;1;1;1
+28.05.2025;11:02:01;C;Extensão de Pernas na Máquina (sentado);1;27;10;;;129;129;;;;;1;1;1
+28.05.2025;11:03:32;C;Extensão de Pernas na Máquina (sentado);2;27;10;;;;;;;;;1;1;1
+28.05.2025;11:05:00;C;Extensão de Pernas na Máquina (sentado);3;32;10;;;;;;;;;1;1;1
+28.05.2025;11:07:34;C;Agachamento Sumô;1;16;15;;;;;;;;;1;1;1
+28.05.2025;11:09:47;C;Agachamento Sumô;2;16;12;;;;;;;;;1;1;1
+28.05.2025;11:11:39;C;Agachamento Sumô;3;16;12;;;;;;;;;1;1;1
+28.05.2025;11:13:23;C;Agachamento Sumô;4;16;10;;;;;;;;;1;1;1
+28.05.2025;11:23:15;C;Afundo 3x8 (cada lado);1;0;8;;;123;130;;;;;1;1;1
+28.05.2025;11:25:19;C;Afundo 3x8 (cada lado);2;0;8;;;116;116;;;;;1;1;1
+28.05.2025;11:27:18;C;Afundo 3x8 (cada lado);3;0;8;;;116;116;;;;;1;1;1
+28.05.2025;11:29:54;C;Panturrilhas em Pé Unilateral Livre;1;15;12;;;100;116;;;;;1;1;1
+28.05.2025;11:31:35;C;Panturrilhas em Pé Unilateral Livre;2;15;12;;;90;124;;;;;1;1;1
+28.05.2025;11:33:06;C;Panturrilhas em Pé Unilateral Livre;3;15;12;;;;;;;;;1;1;1
+30.05.2025;08:24:18;D;Supino Articulado Máquina (Pré-ativação);1;70;12;;;72;73;;;;;1;1;1
+30.05.2025;08:27:26;D;Supino Articulado Máquina (Pré-ativação);2;50;12;;;104;104;;;;;1;1;1
+30.05.2025;08:29:52;D;Supino Articulado Máquina (Pré-ativação);3;80;10;;;104;104;;;;;1;1;1
+30.05.2025;08:32:55;D;Supino Articulado Máquina (Pré-ativação);4;50;12;;;105;105;;;;;1;1;1
+30.05.2025;08:35:53;D;Supino Articulado Máquina (Pré-ativação);5;50;14;;;106;106;;;;;1;1;1
+30.05.2025;08:40:21;D;Tríceps Polia Barra Reta;1;30;15;;;95;124;;;;;1;1;1
+30.05.2025;08:42:30;D;Tríceps Polia Barra Reta;2;30;15;;;54;54;;;;;1;1;1
+30.05.2025;08:45:46;D;Tríceps Polia Barra Reta;3;30;15;;;55;55;;;;;1;1;1
+30.05.2025;08:47:58;D;Tríceps Polia Barra Reta;4;30;15;;;55;55;;;;;1;1;1
+30.05.2025;08:52:06;D;Supino na Máquina (inclinado);1;20;10;;;53;53;;;;;1;1;1
+30.05.2025;08:54:27;D;Supino na Máquina (inclinado);2;20;10;;;;;;;;;1;1;1
+30.05.2025;08:56:15;D;Supino na Máquina (inclinado);3;20;10;;;71;71;;;;;1;1;1
+30.05.2025;09:00:25;D;Crossover Polia Alta;1;30;8;;;71;71;;;;;1;1;1
+30.05.2025;09:02:21;D;Crossover Polia Alta;2;30;10;;;;;;;;;1;1;1
+30.05.2025;09:04:19;D;Crossover Polia Alta;3;30;8;;;50;50;;;;;1;1;1
+30.05.2025;09:05:56;D;Crossover Polia Alta;4;30;7;;;;;;;;;1;1;1
+30.05.2025;09:09:08;D;Crossover Polia Baixa;1;10;8;;;;;;;;;1;1;1
+30.05.2025;09:11:23;D;Crossover Polia Baixa;2;10;10;;;54;54;;;;;1;1;1
+30.05.2025;09:13:34;D;Crossover Polia Baixa;3;10;10;;;51;51;;;;;1;1;1
+30.05.2025;09:16:09;D;Crossover Polia Baixa;4;10;8;;;;;;;;;1;1;1
+30.05.2025;09:19:37;D;Tríceps Francês Crossover;1;15;10;;;;;;;;;1;1;1
+30.05.2025;09:21:31;D;Tríceps Francês Crossover;2;15;10;;;;;;;;;1;1;1
+30.05.2025;09:23:25;D;Tríceps Francês Crossover;3;15;10;;;83;83;;;;;1;1;1
+30.05.2025;09:28:19;D;Tríceps Máquina Paralelas;1;36;12;;;;;;;;;1;1;1
+30.05.2025;09:29:47;D;Tríceps Máquina Paralelas;2;36;12;;;;;;;;;1;1;1
+30.05.2025;09:31:23;D;Tríceps Máquina Paralelas;3;36;12;;;;;;;;;1;1;1
+31.05.2025;07:26:30;E;Graviton Aberto;1;70;10;;;51;51;;;;;1;1;1
+31.05.2025;07:28:47;E;Graviton Aberto;2;70;10;;;;;;;;;1;1;1
+31.05.2025;07:30:51;E;Graviton Aberto;3;70;10;;;53;53;;;;;1;1;1
+31.05.2025;07:33:00;E;Desenvolvimento de Ombros na Máquina (sentado);1;20;12;;;117;118;;;;;1;1;1
+31.05.2025;07:35:32;E;Desenvolvimento de Ombros na Máquina (sentado);2;20;12;;;126;126;;;;;1;1;1
+31.05.2025;07:39:42;E;Desenvolvimento de Ombros na Máquina (sentado);3;20;12;;;104;104;;;;;1;1;1
+31.05.2025;07:41:37;E;Elevação Lateral com Halteres (em pé);1;9;10;;;97;104;;;;;1;1;1
+31.05.2025;07:43:14;E;Elevação Lateral com Halteres (em pé);2;9;10;;;80;82;;;;;1;1;1
+31.05.2025;07:44:50;E;Elevação Lateral com Halteres (em pé);3;9;10;;;76;76;;;;;1;1;1
+31.05.2025;07:47:44;E;Elevação Frontal Cross;1;15;10;;;126;126;;;;;1;1;1
+31.05.2025;07:49:46;E;Elevação Frontal Cross;2;15;10;;;114;124;;;;;1;1;1
+31.05.2025;07:52:23;E;Elevação Frontal Cross;3;15;10;;;87;87;;;;;1;1;1
+31.05.2025;07:55:01;E;Abdominal Máquina Reto e Oblíquos 3x15 + 10 (cada lado);1;10;10;;;88;88;;;;;1;1;1
+31.05.2025;07:56:31;E;Voador Invertido na Máquina (sentado);1;15;10;;;;;;;;;1;1;1
+31.05.2025;07:57:43;E;Voador Invertido na Máquina (sentado);2;27;10;;;;;;;;;1;1;1
+31.05.2025;07:59:28;E;Voador Invertido na Máquina (sentado);3;27;10;;;86;86;;;;;1;1;1
+31.05.2025;08:06:22;E;Abdominal Máquina Reto e Oblíquos 3x15 + 10 (cada lado);2;0;18;;;100;118;;;;;1;1;1
+31.05.2025;08:09:43;E;Abdominal Máquina Reto e Oblíquos 3x15 + 10 (cada lado);3;0;18;;;81;81;;;;;1;1;1
+31.05.2025;08:16:35;E;Elevação de Panturrilha na Máquina (sentado);1;15;15;;;67;81;;;;;1;1;1
+31.05.2025;08:18:49;E;Elevação de Panturrilha na Máquina (sentado);2;20;15;;;81;81;;;;;1;1;1
+31.05.2025;08:20:29;E;Elevação de Panturrilha na Máquina (sentado);3;20;15;;;;;;;;;1;1;1
+02.06.2025;06:30:19;A;Mobilidade de Inferiores;1;0;15;;;74;74;;;;;1;1;1
+02.06.2025;06:31:37;A;Leg Press na Máquina (inclinado);1;20;15;;;73;73;;;;;1;1;1
+02.06.2025;06:33:49;A;Leg Press na Máquina (inclinado);2;20;15;;;125;125;;;;;1;1;1
+02.06.2025;06:36:31;A;Leg Press na Máquina (inclinado);3;20;15;;;118;118;;;;;1;1;1
+02.06.2025;06:38:45;A;Leg Press na Máquina (inclinado);4;20;15;;;135;135;;;;;1;1;1
+02.06.2025;06:43:16;A;Agachamento Sumo;1;16;12;;;109;109;;;;;1;1;1
+02.06.2025;06:45:11;A;Agachamento Sumo;2;16;10;;;109;109;;;;;1;1;1
+02.06.2025;06:46:52;A;Agachamento Sumo;3;16;8;;;109;109;;;;;1;1;1
+02.06.2025;06:49:19;A;Agachamento Sumo;4;16;6;;;;;;;;;1;1;1
+02.06.2025;06:51:24;A;Abdução na Máquina (sentado);1;36;15;;;118;118;;;;;1;1;1
+02.06.2025;06:53:06;A;Abdução na Máquina (sentado);2;36;15;;;118;118;;;;;1;1;1
+02.06.2025;06:54:51;A;Abdução na Máquina (sentado);3;36;15;;;127;135;;;;;1;1;1
+02.06.2025;06:57:38;A;Abdução na Máquina (sentado);4;36;15;;;118;118;;;;;1;1;1
+02.06.2025;07:03:37;A;Agachamento Búlgaro;1;0;16;;;87;87;;;;;1;1;1
+02.06.2025;07:07:08;A;Agachamento Búlgaro;2;0;16;;;;;;;;;1;1;1
+02.06.2025;07:10:27;A;Agachamento Búlgaro;3;0;16;;;124;124;;;;;1;1;1
+02.06.2025;07:13:54;A;Lombar Banco Dorsal;1;0;10;;;130;130;;;;;1;1;1
+02.06.2025;07:15:29;A;Lombar Banco Dorsal;2;0;15;;;133;136;;;;;1;1;1
+02.06.2025;07:17:01;A;Lombar Banco Dorsal;3;0;15;;;;;;;;;1;1;1
+04.06.2025;06:57:12;B;Puxada Vertical na Máquina (sentado);1;40;15;;;130;130;;;;;1;1;1
+04.06.2025;06:59:09;B;Puxada Vertical na Máquina (sentado);2;40;15;;;134;134;;;;;1;1;1
+04.06.2025;07:01:27;B;Puxada Vertical na Máquina (sentado);3;40;15;;;125;139;;;;;1;1;1
+04.06.2025;07:03:46;B;Puxada Vertical na Máquina (sentado);4;40;15;;;109;110;;;;;1;1;1
+04.06.2025;07:05:45;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);1;30;10;;;125;139;;;;;1;1;1
+04.06.2025;07:08:56;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);2;30;10;;;120;129;;;;;1;1;1
+04.06.2025;07:10:42;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);3;30;10;;;120;129;;;;;1;1;1
+04.06.2025;07:12:58;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);4;40;10;;;95;135;;;;;1;1;1
+04.06.2025;07:17:42;B;Remada Cavalo Fechada;1;20;10;;;57;57;;;;;1;1;1
+04.06.2025;07:20:20;B;Remada Cavalo Fechada;2;20;12;;;78;110;;;;;1;1;1
+04.06.2025;07:24:22;B;Remada Cavalo Fechada;3;20;12;;;54;54;;;;;1;1;1
+04.06.2025;07:29:23;B;Remada Cavalo Fechada;4;20;10;;;;;;;;;1;1;1
+06.06.2025;06:54:13;C;Extensão de Pernas na Máquina (sentado);1;32;10;;;104;104;;;;;1;1;1
+06.06.2025;06:55:42;C;Extensão de Pernas na Máquina (sentado);2;32;10;;;130;130;;;;;1;1;1
+06.06.2025;06:57:27;C;Extensão de Pernas na Máquina (sentado);3;32;10;;;;;;;;;1;1;1
+06.06.2025;06:59:30;C;Agachamento Sumô;1;18;15;;;140;140;;;;;1;1;1
+06.06.2025;07:01:26;C;Agachamento Sumô;2;18;15;;;;;;;;;1;1;1
+06.06.2025;07:03:04;C;Agachamento Sumô;3;18;12;;;;;;;;;1;1;1
+06.06.2025;07:04:34;C;Agachamento Sumô;4;18;15;;;100;102;;;;;1;1;1
+06.06.2025;07:08:49;C;Afundo 3x8 (cada lado);1;0;8;;;100;100;;;;;1;1;1
+06.06.2025;07:11:16;C;Afundo 3x8 (cada lado);2;0;8;;;55;55;;;;;1;1;1
+06.06.2025;07:13:08;C;Afundo 3x8 (cada lado);3;0;8;;;;;;;;;1;1;1
+06.06.2025;07:15:54;C;Máquina de Leg Press, Pés Abertos (inclinado);1;20;12;;;;;;;;;1;1;1
+06.06.2025;07:17:48;C;Máquina de Leg Press, Pés Abertos (inclinado);2;20;10;;;58;58;;;;;1;1;1
+06.06.2025;07:19:54;C;Máquina de Leg Press, Pés Abertos (inclinado);3;20;8;;;;;;;;;1;1;1
+06.06.2025;07:22:24;C;Elevação de Panturrilha na Máquina (sentado);1;20;15;;;123;123;;;;;1;1;1
+06.06.2025;07:24:10;C;Elevação de Panturrilha na Máquina (sentado);2;20;15;;;;;;;;;1;1;1
+06.06.2025;07:25:50;C;Elevação de Panturrilha na Máquina (sentado);3;20;15;;;;;;;;;1;1;1
+06.06.2025;07:28:17;C;Prancha Isométrica (ou Abdominal Máquina) ;1;0;8;;;73;73;;;;;1;1;1
+06.06.2025;07:30:14;C;Prancha Isométrica (ou Abdominal Máquina) ;2;0;8;60;;;;;;;;1;1;1
+06.06.2025;07:32:11;C;Prancha Isométrica (ou Abdominal Máquina) ;3;0;8;60;;;;;;;;1;1;1
+09.06.2025;06:53:33;A;Mobilidade de Inferiores;1;0;15;;;;;;;;;1;1;1
+09.06.2025;06:55:50;A;Leg Press na Máquina (inclinado);1;20;15;;;112;112;;;;;1;1;1
+09.06.2025;06:57:40;A;Leg Press na Máquina (inclinado);2;20;15;;;;;;;;;1;1;1
+09.06.2025;06:59:40;A;Leg Press na Máquina (inclinado);3;20;15;;;86;86;;;;;1;1;1
+09.06.2025;07:01:50;A;Leg Press na Máquina (inclinado);4;20;15;;;122;132;;;;;1;1;1
+09.06.2025;07:05:15;A;Agachamento Sumo;1;18;12;;;111;111;;;;;1;1;1
+09.06.2025;07:07:05;A;Agachamento Sumo;2;18;10;;;111;111;;;;;1;1;1
+09.06.2025;07:08:58;A;Agachamento Sumo;3;18;8;;;;;;;;;1;1;1
+09.06.2025;07:10:36;A;Agachamento Sumo;4;18;6;;;99;111;;;;;1;1;1
+09.06.2025;07:12:42;A;Abdução na Máquina (sentado);1;36;15;;;111;111;;;;;1;1;1
+09.06.2025;07:15:13;A;Abdução na Máquina (sentado);2;36;15;;;120;129;;;;;1;1;1
+09.06.2025;07:16:57;A;Abdução na Máquina (sentado);3;36;15;;;111;111;;;;;1;1;1
+09.06.2025;07:18:43;A;Abdução na Máquina (sentado);4;36;15;;;111;111;;;;;1;1;1
+09.06.2025;07:22:27;A;Agachamento Búlgaro;1;0;16;;;111;111;;;;;1;1;1
+09.06.2025;07:24:29;A;Agachamento Búlgaro;2;0;16;;;128;138;;;;;1;1;1
+09.06.2025;07:26:43;A;Agachamento Búlgaro;3;0;16;;;82;111;;;;;1;1;1
+09.06.2025;07:29:45;A;Mesa Flexora Unilateral;1;18;8;;;92;112;;;;;1;1;1
+09.06.2025;07:31:39;A;Mesa Flexora Unilateral;2;18;8;;;109;109;;;;;1;1;1
+09.06.2025;07:33:53;A;Mesa Flexora Unilateral;3;18;8;;;108;108;;;;;1;1;1
+09.06.2025;07:35:45;A;Lombar Banco Dorsal;1;0;10;;;114;119;;;;;1;1;1
+09.06.2025;07:37:49;A;Lombar Banco Dorsal;2;0;15;;;122;129;;;;;1;1;1
+09.06.2025;07:39:32;A;Lombar Banco Dorsal;3;0;15;;;;;;;;;1;1;1
+10.06.2025;09:58:17;B;Puxada Vertical na Máquina (sentado);1;50;15;;;;;;;;;1;1;1
+10.06.2025;10:00:22;B;Puxada Vertical na Máquina (sentado);2;40;15;;;;;;;;;1;1;1
+10.06.2025;10:02:22;B;Puxada Vertical na Máquina (sentado);3;40;15;;;50;50;;;;;1;1;1
+10.06.2025;10:04:41;B;Puxada Vertical na Máquina (sentado);4;40;15;;;85;120;;;;;1;1;1
+10.06.2025;10:06:26;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);1;40;10;;;124;124;;;;;1;1;1
+10.06.2025;10:08:07;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);2;40;10;;;89;127;;;;;1;1;1
+10.06.2025;10:10:01;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);3;40;10;;;88;125;;;;;1;1;1
+10.06.2025;10:11:51;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);4;40;10;;;122;122;;;;;1;1;1
+10.06.2025;10:17:19;B;Remada Cavalo Fechada;1;20;13;;;122;122;;;;;1;1;1
+10.06.2025;10:21:06;B;Remada Cavalo Fechada;2;20;12;;;135;135;;;;;1;1;1
+10.06.2025;10:23:54;B;Remada Cavalo Fechada;3;20;12;;;122;122;;;;;1;1;1
+10.06.2025;10:27:33;B;Remada Cavalo Fechada;4;20;10;;;79;122;;;;;1;1;1
+10.06.2025;10:33:45;B;Remada Serrote Unilateral (Máquina);1;27;10;;;69;83;;;;;1;1;1
+10.06.2025;10:35:55;B;Remada Serrote Unilateral (Máquina);2;32;10;;;68;81;;;;;1;1;1
+10.06.2025;10:38:11;B;Remada Serrote Unilateral (Máquina);3;32;10;;;96;109;;;;;1;1;1
+10.06.2025;10:40:16;B;Rosca Direta com Barra (em pé);1;17.5;12;;;55;55;;;;;1;1;1
+10.06.2025;10:42:46;B;Rosca Direta com Barra (em pé);2;17.5;12;;;55;55;;;;;1;1;1
+10.06.2025;10:44:50;B;Rosca Direta com Barra (em pé);3;17.5;6;;;55;55;;;;;1;1;1
+10.06.2025;10:47:48;B;Rosca na Máquina (sentado);1;18;10;;;53;55;;;;;1;1;1
+10.06.2025;10:49:42;B;Rosca na Máquina (sentado);2;18;10;;;54;54;;;;;1;1;1
+10.06.2025;10:51:30;B;Rosca na Máquina (sentado);3;18;10;;;81;83;;;;;1;1;1
+10.06.2025;10:53:18;B;Voador Invertido na Máquina (sentado);1;32;12;;;102;123;;;;;1;1;1
+10.06.2025;10:56:03;B;Voador Invertido na Máquina (sentado);2;32;12;;;100;119;;;;;1;1;1
+10.06.2025;10:57:41;B;Voador Invertido na Máquina (sentado);3;32;7;;;;;;;;;1;1;1
+11.06.2025;08:46:45;C;Máquina de Leg Press, Pés Abertos (inclinado);1;20;12;;;;;;;;;1;1;1
+11.06.2025;08:48:50;C;Máquina de Leg Press, Pés Abertos (inclinado);2;20;10;;;113;113;;;;;1;1;1
+11.06.2025;08:50:47;C;Máquina de Leg Press, Pés Abertos (inclinado);3;20;8;;;109;109;;;;;1;1;1
+11.06.2025;08:55:23;C;Extensão de Pernas na Máquina (sentado);1;32;10;;;;;;;;;1;1;1
+11.06.2025;08:57:05;C;Extensão de Pernas na Máquina (sentado);2;32;10;;;;;;;;;1;1;1
+11.06.2025;08:58:38;C;Extensão de Pernas na Máquina (sentado);3;32;10;;;107;109;;;;;1;1;1
+11.06.2025;09:02:48;C;Agachamento Sumô;1;18;12;;;109;109;;;;;1;1;1
+11.06.2025;09:04:25;C;Agachamento Sumô;2;18;12;;;119;129;;;;;1;1;1
+11.06.2025;09:06:10;C;Agachamento Sumô;3;18;12;;;122;135;;;;;1;1;1
+11.06.2025;09:08:13;C;Agachamento Sumô;4;18;8;;;109;109;;;;;1;1;1
+11.06.2025;09:13:34;C;Afundo 3x8 (cada lado);1;0;8;;;111;113;;;;;1;1;1
+11.06.2025;09:15:47;C;Afundo 3x8 (cada lado);2;0;8;;;119;129;;;;;1;1;1
+11.06.2025;09:18:54;C;Afundo 3x8 (cada lado);3;0;8;;;109;109;;;;;1;1;1
+11.06.2025;09:20:46;C;Panturrilhas em Pé Unilateral Livre;1;15;12;;;124;124;;;;;1;1;1
+11.06.2025;09:22:53;C;Panturrilhas em Pé Unilateral Livre;2;15;12;;;;;;;;;1;1;1
+11.06.2025;09:24:11;C;Panturrilhas em Pé Unilateral Livre;3;15;12;;;;;;;;;1;1;1
+11.06.2025;09:26:10;C;Elevação de Panturrilha na Máquina (sentado);1;20;15;;;111;111;;;;;1;1;1
+11.06.2025;09:28:48;C;Elevação de Panturrilha na Máquina (sentado);2;20;15;;;102;102;;;;;1;1;1
+11.06.2025;09:30:35;C;Elevação de Panturrilha na Máquina (sentado);3;20;15;;;127;127;;;;;1;1;1
+11.06.2025;09:32:56;C;Prancha Isométrica (ou Abdominal Máquina) ;1;25;8;;;139;139;;;;;1;1;1
+11.06.2025;09:35:04;C;Prancha Isométrica (ou Abdominal Máquina) ;2;25;8;;;92;128;;;;;1;1;1
+11.06.2025;10:50:32;C;Prancha Isométrica (ou Abdominal Máquina) ;3;25;8;;;;;;;;;1;1;1
+12.06.2025;08:46:04;D;Supino Articulado Máquina (Pré-ativação);1;50;12;;;50;50;;;;;1;1;1
+12.06.2025;08:47:49;D;Supino Articulado Máquina (Pré-ativação);2;70;12;;;;;;;;;1;1;1
+12.06.2025;08:50:35;D;Supino Articulado Máquina (Pré-ativação);3;50;12;;;86;86;;;;;1;1;1
+12.06.2025;08:53:28;D;Supino Articulado Máquina (Pré-ativação);4;70;12;;;;;;;;;1;1;1
+12.06.2025;08:55:38;D;Supino Articulado Máquina (Pré-ativação);5;50;12;;;72;88;;;;;1;1;1
+12.06.2025;09:02:04;D;Crossover Polia Alta;1;10;15;;;;;;;;;1;1;1
+12.06.2025;09:03:28;D;Crossover Polia Alta;2;10;15;;;;;;;;;1;1;1
+12.06.2025;09:05:18;D;Crossover Polia Alta;3;10;15;;;121;122;;;;;1;1;1
+12.06.2025;09:07:16;D;Crossover Polia Alta;4;10;15;;;;;;;;;1;1;1
+12.06.2025;09:10:03;D;Crossover Polia Baixa;1;10;15;;;132;136;;;;;1;1;1
+12.06.2025;09:11:53;D;Crossover Polia Baixa;2;10;8;;;106;109;;;;;1;1;1
+12.06.2025;09:13:58;D;Crossover Polia Baixa;3;10;8;;;90;103;;;;;1;1;1
+12.06.2025;09:16:04;D;Crossover Polia Baixa;4;10;8;;;77;103;;;;;1;1;1
+12.06.2025;09:18:06;D;Supino na Máquina (inclinado);1;20;10;;;;;;;;;1;1;1
+12.06.2025;09:24:30;D;Supino na Máquina (inclinado);2;40;10;;;76;101;;;;;1;1;1
+12.06.2025;09:26:28;D;Supino na Máquina (inclinado);3;40;7;;;101;101;;;;;1;1;1
+12.06.2025;09:30:21;D;Tríceps Polia Barra Reta;1;30;15;;;112;122;;;;;1;1;1
+12.06.2025;09:32:17;D;Tríceps Polia Barra Reta;2;30;12;;;88;89;;;;;1;1;1
+12.06.2025;09:34:41;D;Tríceps Polia Barra Reta;3;30;10;;;82;90;;;;;1;1;1
+12.06.2025;09:36:43;D;Tríceps Polia Barra Reta;4;30;8;;;;;;;;;1;1;1
+12.06.2025;09:42:03;D;Tríceps Francês Crossover;1;15;10;;;104;104;;;;;1;1;1
+12.06.2025;09:44:05;D;Tríceps Francês Crossover;2;15;10;;;106;109;;;;;1;1;1
+12.06.2025;09:46:59;D;Tríceps Francês Crossover;3;15;10;;;;;;;;;1;1;1
+13.06.2025;07:16:38;E;Graviton Aberto;1;70;10;;;;;;;;;1;1;1
+13.06.2025;07:18:32;E;Graviton Aberto;2;70;10;;;;;;;;;1;1;1
+13.06.2025;07:20:25;E;Graviton Aberto;3;70;10;;;;;;;;;1;1;1
+13.06.2025;07:22:50;E;Desenvolvimento de Ombros na Máquina (sentado);1;20;12;;;118;118;;;;;1;1;1
+13.06.2025;07:25:09;E;Desenvolvimento de Ombros na Máquina (sentado);2;20;12;;;46;46;;;;;1;1;1
+13.06.2025;07:27:29;E;Desenvolvimento de Ombros na Máquina (sentado);3;20;10;;;104;104;;;;;1;1;1
+13.06.2025;07:29:46;E;Elevação Lateral com Halteres (em pé);1;18;10;;;;;;;;;1;1;1
+13.06.2025;07:31:22;E;Elevação Lateral com Halteres (em pé);2;18;10;;;98;98;;;;;1;1;1
+13.06.2025;07:32:53;E;Elevação Lateral com Halteres (em pé);3;18;10;;;;;;;;;1;1;1
+13.06.2025;07:34:40;E;Elevação Frontal Cross;1;15;7;;;47;47;;;;;1;1;1
+13.06.2025;07:36:27;E;Elevação Frontal Cross;2;10;10;;;;;;;;;1;1;1
+13.06.2025;07:38:08;E;Elevação Frontal Cross;3;10;10;;;;;;;;;1;1;1
+13.06.2025;07:40:54;E;Voador Invertido na Máquina (sentado);1;27;10;;;120;120;;;;;1;1;1
+13.06.2025;07:42:30;E;Voador Invertido na Máquina (sentado);2;27;10;;;89;89;;;;;1;1;1
+13.06.2025;07:44:07;E;Voador Invertido na Máquina (sentado);3;27;10;;;;;;;;;1;1;1
+13.06.2025;07:49:02;E;Abdominal Máquina Reto e Oblíquos 3x15 + 10 (cada lado);1;10;10;;;;;;;;;1;1;1
+16.06.2025;08:54:48;A;Mobilidade de Inferiores;1;0;15;;;;;;;;;1;1;1
+16.06.2025;08:58:11;A;Mobilidade de Inferiores;2;0;15;;;;;;;;;1;1;1
+16.06.2025;08:58:28;A;Mobilidade de Inferiores;3;0;15;;;129;129;;;;;1;1;1
+16.06.2025;09:01:20;A;Agachamento Sumo;1;18;12;;;105;105;;;;;1;1;1
+16.06.2025;09:03:24;A;Agachamento Sumo;2;18;10;;;;;;;;;1;1;1
+16.06.2025;09:05:13;A;Agachamento Sumo;3;18;8;;;105;105;;;;;1;1;1
+16.06.2025;09:06:55;A;Agachamento Sumo;4;18;6;;;105;105;;;;;1;1;1
+16.06.2025;09:09:38;A;Leg Press na Máquina (inclinado);1;20;12;;;122;131;;;;;1;1;1
+16.06.2025;09:12:56;A;Leg Press na Máquina (inclinado);2;20;12;;;127;133;;;;;1;1;1
+16.06.2025;09:14:46;A;Leg Press na Máquina (inclinado);3;20;10;;;118;118;;;;;1;1;1
+16.06.2025;09:16:58;A;Leg Press na Máquina (inclinado);4;20;8;;;118;118;;;;;1;1;1
+16.06.2025;09:19:35;A;Abdução na Máquina (sentado);1;36;15;;;84;118;;;;;1;1;1
+16.06.2025;09:21:01;A;Abdução na Máquina (sentado);2;36;12;;;126;128;;;;;1;1;1
+16.06.2025;09:23:07;A;Abdução na Máquina (sentado);3;36;12;;;;;;;;;1;1;1
+16.06.2025;09:24:37;A;Abdução na Máquina (sentado);4;36;10;;;;;;;;;1;1;1
+16.06.2025;09:28:09;A;Agachamento Búlgaro;1;0;12;;;;;;;;;1;1;1
+16.06.2025;09:31:49;A;Agachamento Búlgaro;2;0;16;;;77;104;;;;;1;1;1
+16.06.2025;09:35:38;A;Agachamento Búlgaro;3;0;16;;;104;104;;;;;1;1;1
+16.06.2025;09:41:13;A;Elevação Pélvica;1;10;10;;;89;89;;;;;1;1;1
+16.06.2025;09:43:18;A;Elevação Pélvica;2;10;10;;;78;78;;;;;1;1;1
+16.06.2025;09:45:16;A;Elevação Pélvica;3;10;10;;;101;101;;;;;1;1;1
+16.06.2025;09:47:31;A;Elevação Pélvica;4;10;10;;;104;104;;;;;1;1;1
+16.06.2025;09:49:51;A;Mesa Flexora Unilateral;1;18;8;;;81;106;;;;;1;1;1
+16.06.2025;09:51:06;A;Mesa Flexora Unilateral;2;18;8;;;;;;;;;1;1;1
+16.06.2025;09:54:48;A;Mesa Flexora Unilateral;3;18;8;;;;;;;;;1;1;1
+16.06.2025;09:56:27;A;Lombar Banco Dorsal;1;0;10;;;133;136;;;;;1;1;1
+16.06.2025;09:58:14;A;Lombar Banco Dorsal;2;0;13;;;139;139;;;;;1;1;1
+16.06.2025;10:00:21;A;Lombar Banco Dorsal;3;0;12;;;;;;;;;1;1;1
+17.06.2025;08:36:10;B;Puxada Vertical na Máquina (sentado);1;50;15;;;;;;;;;1;1;1
+17.06.2025;08:39:01;B;Puxada Vertical na Máquina (sentado);2;40;15;;;127;129;;;;;1;1;1
+17.06.2025;08:41:44;B;Puxada Vertical na Máquina (sentado);3;40;15;;;;;;;;;1;1;1
+17.06.2025;08:44:20;B;Puxada Vertical na Máquina (sentado);4;40;15;;;145;145;;;;;1;1;1
+17.06.2025;08:46:51;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);1;40;10;;;126;126;;;;;1;1;1
+17.06.2025;08:49:23;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);2;40;10;;;94;133;;;;;1;1;1
+17.06.2025;08:51:00;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);3;40;10;;;;;;;;;1;1;1
+17.06.2025;08:54:05;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);4;40;10;;;;;;;;;1;1;1
+17.06.2025;09:00:04;B;Remada Cavalo Fechada;1;20;12;;;107;108;;;;;1;1;1
+17.06.2025;09:02:32;B;Remada Cavalo Fechada;2;20;12;;;115;122;;;;;1;1;1
+17.06.2025;09:07:03;B;Remada Cavalo Fechada;3;20;10;;;120;124;;;;;1;1;1
+17.06.2025;09:09:23;B;Remada Cavalo Fechada;4;20;10;;;114;122;;;;;1;1;1
+17.06.2025;09:14:00;B;Remada Serrote Unilateral (Máquina);1;27;10;;;124;136;;;;;1;1;1
+17.06.2025;09:16:17;B;Remada Serrote Unilateral (Máquina);2;32;10;;;106;106;;;;;1;1;1
+17.06.2025;09:18:29;B;Remada Serrote Unilateral (Máquina);3;32;10;;;101;101;;;;;1;1;1
+17.06.2025;09:22:24;B;Rosca Direta com Barra (em pé);1;17.5;12;;;100;102;;;;;1;1;1
+17.06.2025;09:25:24;B;Rosca Direta com Barra (em pé);2;17.5;12;;;121;134;;;;;1;1;1
+17.06.2025;09:29:01;B;Rosca Direta com Barra (em pé);3;17.5;11;;;128;134;;;;;1;1;1
+17.06.2025;09:31:33;B;Rosca na Máquina (sentado);1;18;10;;;115;135;;;;;1;1;1
+17.06.2025;09:33:49;B;Rosca na Máquina (sentado);2;18;10;;;113;120;;;;;1;1;1
+17.06.2025;09:35:33;B;Rosca na Máquina (sentado);3;18;10;;;;;;;;;1;1;1
+18.06.2025;09:36:16;C;Máquina de Leg Press, Pés Abertos (inclinado);1;20;12;;;85;112;;;;;1;1;1
+18.06.2025;09:37:59;C;Máquina de Leg Press, Pés Abertos (inclinado);2;20;10;;;104;119;;;;;1;1;1
+18.06.2025;09:39:31;C;Máquina de Leg Press, Pés Abertos (inclinado);3;20;8;;;99;122;;;;;1;1;1
+18.06.2025;09:42:07;C;Extensão de Pernas na Máquina (sentado);1;32;10;;;106;123;;;;;1;1;1
+18.06.2025;09:43:33;C;Extensão de Pernas na Máquina (sentado);2;32;10;;;96;113;;;;;1;1;1
+18.06.2025;09:44:55;C;Extensão de Pernas na Máquina (sentado);3;32;10;;;88;88;;;;;1;1;1
+18.06.2025;09:47:52;C;Agachamento Sumô;1;18;12;;;103;118;;;;;1;1;1
+18.06.2025;09:49:36;C;Agachamento Sumô;2;18;10;;;88;88;;;;;1;1;1
+18.06.2025;09:51:10;C;Agachamento Sumô;3;18;8;;;;;;;;;1;1;1
+18.06.2025;09:54:20;C;Afundo 3x8 (cada lado);1;5;8;;;;;;;;;1;1;1
+18.06.2025;09:57:20;C;Afundo 3x8 (cada lado);2;5;8;;;118;118;;;;;1;1;1
+18.06.2025;09:59:57;C;Afundo 3x8 (cada lado);3;5;8;;;75;75;;;;;1;1;1
+18.06.2025;10:01:56;C;Panturrilhas em Pé Unilateral Livre;1;20;12;;;87;92;;;;;1;1;1
+18.06.2025;10:03:29;C;Panturrilhas em Pé Unilateral Livre;2;20;12;;;134;134;;;;;1;1;1
+18.06.2025;10:05:03;C;Panturrilhas em Pé Unilateral Livre;3;20;12;;;112;126;;;;;1;1;1
+18.06.2025;10:09:53;C;Elevação de Panturrilha na Máquina (sentado);1;20;15;;;121;129;;;;;1;1;1
+18.06.2025;10:11:48;C;Elevação de Panturrilha na Máquina (sentado);2;30;15;;;122;135;;;;;1;1;1
+18.06.2025;10:14:33;C;Elevação de Panturrilha na Máquina (sentado);3;30;15;;;133;135;;;;;1;1;1
+18.06.2025;10:16:25;C;Prancha Isométrica (ou Abdominal Máquina) ;1;25;12;;;122;136;;;;;1;1;1
+18.06.2025;10:19:32;C;Prancha Isométrica (ou Abdominal Máquina) ;2;30;12;;;;;;;;;1;1;1
+19.06.2025;20:17:47;D;Supino Articulado Máquina (Pré-ativação);1;60;12;;;44;44;;;;;1;1;1
+19.06.2025;20:20:41;D;Supino Articulado Máquina (Pré-ativação);2;80;10;;;45;47;;;;;1;1;1
+19.06.2025;20:23:03;D;Supino Articulado Máquina (Pré-ativação);3;60;12;;;94;94;;;;;1;1;1
+19.06.2025;20:24:54;D;Supino Articulado Máquina (Pré-ativação);4;80;12;;;74;74;;;;;1;1;1
+19.06.2025;20:26:36;D;Supino Articulado Máquina (Pré-ativação);5;60;12;;;64;72;;;;;1;1;1
+19.06.2025;20:30:24;D;Tríceps Polia Barra Reta;1;30;12;;;104;104;;;;;1;1;1
+19.06.2025;20:32:07;D;Tríceps Polia Barra Reta;2;30;12;;;101;101;;;;;1;1;1
+19.06.2025;20:34:03;D;Tríceps Polia Barra Reta;3;30;12;;;101;101;;;;;1;1;1
+19.06.2025;20:35:51;D;Tríceps Polia Barra Reta;4;25;15;;;101;101;;;;;1;1;1
+19.06.2025;20:38:13;D;Supino na Máquina (inclinado);1;20;10;;;101;101;;;;;1;1;1
+19.06.2025;20:40:03;D;Supino na Máquina (inclinado);2;30;10;;;101;101;;;;;1;1;1
+19.06.2025;20:41:46;D;Supino na Máquina (inclinado);3;30;7;;;;;;;;;1;1;1
+19.06.2025;20:45:27;D;Crossover Polia Alta;1;10;10;;;;;;;;;1;1;1
+19.06.2025;20:47:24;D;Crossover Polia Alta;2;10;15;;;89;89;;;;;1;1;1
+19.06.2025;20:49:21;D;Crossover Polia Alta;3;10;15;;;;;;;;;1;1;1
+19.06.2025;20:51:04;D;Crossover Polia Alta;4;10;15;;;82;82;;;;;1;1;1
+19.06.2025;20:53:11;D;Crossover Polia Baixa;1;10;10;;;;;;;;;1;1;1
+19.06.2025;20:55:04;D;Crossover Polia Baixa;2;10;8;;;;;;;;;1;1;1
+19.06.2025;20:56:51;D;Crossover Polia Baixa;3;10;8;;;;;;;;;1;1;1
+19.06.2025;20:59:14;D;Crossover Polia Baixa;4;10;8;;;;;;;;;1;1;1
+19.06.2025;21:01:42;D;Tríceps Francês Crossover;1;20;10;;;118;118;;;;;1;1;1
+19.06.2025;21:03:13;D;Tríceps Francês Crossover;2;20;10;;;115;115;;;;;1;1;1
+19.06.2025;21:04:50;D;Tríceps Francês Crossover;3;20;10;;;;;;;;;1;1;1
+19.06.2025;21:11:23;D;Tríceps Máquina Paralelas;1;36;12;;;96;96;;;;;1;1;1
+19.06.2025;21:12:55;D;Tríceps Máquina Paralelas;2;40;12;;;86;86;;;;;1;1;1
+19.06.2025;21:14:25;D;Tríceps Máquina Paralelas;3;40;12;;;;;;;;;1;1;1
+20.06.2025;20:45:42;E;Graviton Aberto;1;70;10;;;57;57;;;;;1;1;1
+20.06.2025;20:47:42;E;Graviton Aberto;2;80;10;;;100;100;;;;;1;1;1
+20.06.2025;20:50:13;E;Graviton Aberto;3;70;10;;;;;;;;;1;1;1
+20.06.2025;20:52:34;E;Desenvolvimento de Ombros na Máquina (sentado);1;20;12;;;;;;;;;1;1;1
+20.06.2025;20:55:02;E;Desenvolvimento de Ombros na Máquina (sentado);2;20;12;;;53;53;;;;;1;1;1
+20.06.2025;20:56:57;E;Desenvolvimento de Ombros na Máquina (sentado);3;20;7;;;;;;;;;1;1;1
+20.06.2025;20:59:30;E;Elevação Lateral com Halteres (em pé);1;18;10;;;;;;;;;1;1;1
+20.06.2025;21:01:03;E;Elevação Lateral com Halteres (em pé);2;18;10;;;92;95;;;;;1;1;1
+20.06.2025;21:02:34;E;Elevação Lateral com Halteres (em pé);3;18;10;;;118;118;;;;;1;1;1
+20.06.2025;21:05:04;E;Voador Invertido na Máquina (sentado);1;27;10;;;102;122;;;;;1;1;1
+20.06.2025;21:07:11;E;Voador Invertido na Máquina (sentado);2;27;10;;;85;85;;;;;1;1;1
+20.06.2025;21:08:51;E;Voador Invertido na Máquina (sentado);3;27;10;;;;;;;;;1;1;1
+20.06.2025;21:16:26;E;Meio-Abdominal na Máquina (sentado);1;25;10;;;54;54;;;;;1;1;1
+20.06.2025;21:18:48;E;Meio-Abdominal na Máquina (sentado);2;30;10;;;91;91;;;;;1;1;1
+20.06.2025;21:20:30;E;Meio-Abdominal na Máquina (sentado);3;30;10;;;92;92;;;;;1;1;1
+20.06.2025;21:25:19;E;Elevação Frontal Cross;1;15;10;;;101;106;;;;;1;1;1
+20.06.2025;21:26:52;E;Elevação Frontal Cross;2;15;10;;;121;121;;;;;1;1;1
+20.06.2025;21:29:01;E;Elevação Frontal Cross;3;15;10;;;117;117;;;;;1;1;1
+20.06.2025;21:30:47;E;Elevação de Panturrilha na Máquina (sentado);1;20;15;;;92;92;;;;;1;1;1
+20.06.2025;21:32:46;E;Elevação de Panturrilha na Máquina (sentado);2;20;15;;;;;;;;;1;1;1
+21.06.2025;19:47:28;B;Puxada Vertical na Máquina (sentado);1;40;15;;;86;86;;;;;1;1;1
+21.06.2025;19:49:31;B;Puxada Vertical na Máquina (sentado);2;40;15;;;84;84;;;;;1;1;1
+21.06.2025;19:51:38;B;Puxada Vertical na Máquina (sentado);3;40;15;;;87;87;;;;;1;1;1
+21.06.2025;19:53:35;B;Puxada Vertical na Máquina (sentado);4;40;15;;;101;101;;;;;1;1;1
+21.06.2025;19:55:24;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);1;40;10;;;97;101;;;;;1;1;1
+21.06.2025;19:57:34;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);2;40;10;;;97;97;;;;;1;1;1
+21.06.2025;20:00:07;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);3;40;10;;;97;97;;;;;1;1;1
+21.06.2025;20:01:40;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);4;40;10;;;54;54;;;;;1;1;1
+21.06.2025;20:08:51;B;Remada Cavalo Fechada;1;20;15;;;;;;;;;1;1;1
+21.06.2025;20:09:13;B;Remada Cavalo Fechada;2;20;7;;;;;;;;;1;1;1
+21.06.2025;20:12:23;B;Remada Cavalo Fechada;3;20;12;;;;;;;;;1;1;1
+21.06.2025;20:16:45;B;Remada Cavalo Fechada;4;20;10;;;;;;;;;1;1;1
+21.06.2025;20:21:21;B;Rosca Direta com Barra (em pé);1;17.5;12;;;;;;;;;1;1;1
+21.06.2025;20:25:10;B;Rosca Direta com Barra (em pé);2;20;12;;;110;110;;;;;1;1;1
+21.06.2025;20:27:35;B;Rosca Direta com Barra (em pé);3;20;12;;;51;51;;;;;1;1;1
+21.06.2025;20:30:12;B;Remada Serrote Unilateral (Máquina);1;32;10;;;90;90;;;;;1;1;1
+21.06.2025;20:32:31;B;Remada Serrote Unilateral (Máquina);2;32;10;;;67;89;;;;;1;1;1
+21.06.2025;20:34:37;B;Remada Serrote Unilateral (Máquina);3;32;10;;;77;90;;;;;1;1;1
+21.06.2025;20:36:33;B;Rosca na Máquina (sentado);1;18;10;;;89;89;;;;;1;1;1
+21.06.2025;20:38:31;B;Rosca na Máquina (sentado);2;23;10;;;89;89;;;;;1;1;1
+21.06.2025;20:40:23;B;Rosca na Máquina (sentado);3;23;10;;;;;;;;;1;1;1
+23.06.2025;22:53:19;A;Mobilidade de Inferiores;1;0;15;;;;;;;;;1;1;1
+23.06.2025;22:53:43;A;Mobilidade de Inferiores;2;0;15;;;49;49;;;;;1;1;1
+23.06.2025;22:55:34;A;Agachamento Sumo;1;18;12;;;79;106;;;;;1;1;1
+23.06.2025;22:58:08;A;Agachamento Sumo;2;18;10;;;70;70;;;;;1;1;1
+23.06.2025;22:59:29;A;Agachamento Sumo;3;18;8;;;113;113;;;;;1;1;1
+23.06.2025;23:01:15;A;Agachamento Sumo;4;18;6;;;58;60;;;;;1;1;1
+23.06.2025;23:02:51;A;Mobilidade de Inferiores;3;0;15;;;;;;;;;1;1;1
+23.06.2025;23:05:22;A;Leg Press na Máquina (inclinado);1;20;15;;;121;123;;;;;1;1;1
+23.06.2025;23:07:20;A;Leg Press na Máquina (inclinado);2;20;15;;;115;123;;;;;1;1;1
+23.06.2025;23:09:41;A;Leg Press na Máquina (inclinado);3;20;15;;;122;128;;;;;1;1;1
+23.06.2025;23:11:37;A;Leg Press na Máquina (inclinado);4;20;15;;;111;118;;;;;1;1;1
+23.06.2025;23:16:48;A;Mesa Flexora Unilateral;1;18;8;;;93;104;;;;;1;1;1
+23.06.2025;23:17:51;A;Mesa Flexora Unilateral;2;18;8;;;104;104;;;;;1;1;1
+23.06.2025;23:19:51;A;Mesa Flexora Unilateral;3;18;8;;;80;104;;;;;1;1;1
+23.06.2025;23:21:39;A;Lombar Banco Dorsal;1;0;10;;;97;97;;;;;1;1;1
+23.06.2025;23:23:32;A;Lombar Banco Dorsal;2;0;15;;;106;113;;;;;1;1;1
+23.06.2025;23:26:40;A;Abdução na Máquina (sentado);1;36;15;;;106;114;;;;;1;1;1
+23.06.2025;23:28:13;A;Abdução na Máquina (sentado);2;36;15;;;92;101;;;;;1;1;1
+23.06.2025;23:29:59;A;Abdução na Máquina (sentado);3;36;15;;;88;92;;;;;1;1;1
+23.06.2025;23:31:27;A;Abdução na Máquina (sentado);4;36;15;;;97;105;;;;;1;1;1
+23.06.2025;23:32:32;A;Lombar Banco Dorsal;3;0;15;;;102;104;;;;;1;1;1
+23.06.2025;23:34:18;A;Agachamento Búlgaro;1;0;12;;;107;113;;;;;1;1;1
+23.06.2025;23:36:12;A;Agachamento Búlgaro;2;0;14;;;101;117;;;;;1;1;1
+23.06.2025;23:39:11;A;Elevação Pélvica;1;10;10;;;103;113;;;;;1;1;1
+23.06.2025;23:40:53;A;Elevação Pélvica;2;10;10;;;126;134;;;;;1;1;1
+23.06.2025;23:42:41;A;Elevação Pélvica;3;10;10;;;;;;;;;1;1;1
+24.06.2025;23:27:46;B;Puxada Vertical na Máquina (sentado);1;50;13;;;;;;;;;1;1;1
+24.06.2025;23:29:49;B;Puxada Vertical na Máquina (sentado);2;50;15;;;;;;;;;1;1;1
+24.06.2025;23:31:47;B;Puxada Vertical na Máquina (sentado);3;50;13;;;99;99;;;;;1;1;1
+24.06.2025;23:33:53;B;Puxada Vertical na Máquina (sentado);4;40;15;;;101;101;;;;;1;1;1
+24.06.2025;23:35:47;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);1;40;10;;;;;;;;;1;1;1
+24.06.2025;23:37:45;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);2;40;10;;;113;123;;;;;1;1;1
+24.06.2025;23:39:39;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);3;40;10;;;124;125;;;;;1;1;1
+24.06.2025;23:41:24;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);4;50;10;;;;;;;;;1;1;1
+24.06.2025;23:45:40;B;Remada Cavalo Fechada;1;20;10;;;;;;;;;1;1;1
+24.06.2025;23:47:46;B;Remada Cavalo Fechada;2;20;12;;;;;;;;;1;1;1
+24.06.2025;23:50:28;B;Remada Cavalo Fechada;3;20;12;;;;;;;;;1;1;1
+24.06.2025;23:53:28;B;Remada Cavalo Fechada;4;20;10;;;81;81;;;;;1;1;1
+24.06.2025;23:56:36;B;Remada Serrote Unilateral (Máquina);1;32;10;;;87;89;;;;;1;1;1
+24.06.2025;23:58:47;B;Remada Serrote Unilateral (Máquina);2;36;10;;;92;94;;;;;1;1;1
+25.06.2025;00:00:49;B;Remada Serrote Unilateral (Máquina);3;36;10;;;90;92;;;;;1;1;1
+25.06.2025;00:02:51;B;Rosca Direta com Barra (em pé);1;20;12;;;89;90;;;;;1;1;1
+25.06.2025;00:05:09;B;Rosca Direta com Barra (em pé);2;20;9;;;99;104;;;;;1;1;1
+25.06.2025;00:06:58;B;Rosca Direta com Barra (em pé);3;20;12;;;94;96;;;;;1;1;1
+25.06.2025;00:08:57;B;Voador Invertido na Máquina (sentado);1;32;12;;;90;94;;;;;1;1;1
+25.06.2025;00:10:38;B;Voador Invertido na Máquina (sentado);2;32;12;;;90;93;;;;;1;1;1
+25.06.2025;00:13:19;B;Rosca na Máquina (sentado);1;18;10;;;102;107;;;;;1;1;1
+25.06.2025;00:15:10;B;Rosca na Máquina (sentado);2;23;10;;;95;99;;;;;1;1;1
+25.06.2025;00:16:55;B;Rosca na Máquina (sentado);3;23;10;;;;;;;;;1;1;1
+25.06.2025;23:31:07;C;Máquina de Leg Press, Pés Abertos (inclinado);1;15;12;;;;;;;;;1;1;1
+25.06.2025;23:32:57;C;Máquina de Leg Press, Pés Abertos (inclinado);2;15;10;;;94;94;;;;;1;1;1
+25.06.2025;23:34:58;C;Máquina de Leg Press, Pés Abertos (inclinado);3;15;10;;;97;97;;;;;1;1;1
+25.06.2025;23:36:33;C;Extensão de Pernas na Máquina (sentado);1;32;10;;;60;60;;;;;1;1;1
+25.06.2025;23:38:00;C;Extensão de Pernas na Máquina (sentado);2;32;10;;;60;60;;;;;1;1;1
+25.06.2025;23:39:27;C;Extensão de Pernas na Máquina (sentado);3;32;10;;;60;60;;;;;1;1;1
+25.06.2025;23:41:27;C;Agachamento Sumô;1;18;12;;;;;;;;;1;1;1
+25.06.2025;23:43:13;C;Agachamento Sumô;2;18;10;;;123;123;;;;;1;1;1
+25.06.2025;23:44:42;C;Agachamento Sumô;3;18;10;;;40;40;;;;;1;1;1
+25.06.2025;23:46:48;C;Agachamento Sumô;4;18;8;;;49;49;;;;;1;1;1
+25.06.2025;23:48:53;C;Afundo 3x8 (cada lado);1;10;8;;;;;;;;;1;1;1
+25.06.2025;23:51:33;C;Afundo 3x8 (cada lado);2;10;7;;;;;;;;;1;1;1
+25.06.2025;23:54:55;C;Afundo 3x8 (cada lado);3;10;7;;;53;53;;;;;1;1;1
+25.06.2025;23:56:47;C;Panturrilhas em Pé Unilateral Livre;1;20;12;;;;;;;;;1;1;1
+25.06.2025;23:58:28;C;Panturrilhas em Pé Unilateral Livre;2;20;12;;;;;;;;;1;1;1
+26.06.2025;00:00:34;C;Panturrilhas em Pé Unilateral Livre;3;20;12;;;84;89;;;;;1;1;1
+26.06.2025;00:02:08;C;Elevação de Panturrilha na Máquina (sentado);1;30;15;;;79;79;;;;;1;1;1
+26.06.2025;00:03:54;C;Elevação de Panturrilha na Máquina (sentado);2;30;15;;;99;118;;;;;1;1;1
+26.06.2025;00:05:50;C;Elevação de Panturrilha na Máquina (sentado);3;20;15;;;113;113;;;;;1;1;1
+26.06.2025;00:07:42;C;Prancha Isométrica (ou Abdominal Máquina) ;1;25;12;;;;;;;;;1;1;1
+26.06.2025;00:09:16;C;Prancha Isométrica (ou Abdominal Máquina) ;2;25;12;;;87;94;;;;;1;1;1
+26.06.2025;00:10:52;C;Prancha Isométrica (ou Abdominal Máquina) ;3;25;12;;;;;;;;;1;1;1
+01.07.2025;21:30:37;D;Supino Articulado Máquina (Pré-ativação);1;40;12;;;;;;;;;1;1;1
+01.07.2025;21:33:59;D;Supino Articulado Máquina (Pré-ativação);2;60;12;;;;;;;;;1;1;1
+01.07.2025;21:35:57;D;Supino Articulado Máquina (Pré-ativação);3;40;12;;;74;74;;;;;1;1;1
+01.07.2025;21:38:32;D;Supino Articulado Máquina (Pré-ativação);4;60;12;;;74;74;;;;;1;1;1
+01.07.2025;21:41:06;D;Supino Articulado Máquina (Pré-ativação);5;40;12;;;71;71;;;;;1;1;1
+01.07.2025;21:44:28;D;Crossover Polia Alta;1;10;10;;;83;83;;;;;1;1;1
+01.07.2025;21:46:21;D;Crossover Polia Alta;2;15;10;;;63;71;;;;;1;1;1
+01.07.2025;21:48:41;D;Crossover Polia Alta;3;10;10;;;82;93;;;;;1;1;1
+01.07.2025;21:50:23;D;Crossover Polia Alta;4;10;10;;;71;71;;;;;1;1;1
+01.07.2025;21:52:24;D;Crossover Polia Baixa;1;10;9;;;111;111;;;;;1;1;1
+01.07.2025;21:54:27;D;Crossover Polia Baixa;2;10;8;;;103;134;;;;;1;1;1
+01.07.2025;21:56:30;D;Crossover Polia Baixa;3;10;10;;;;;;;;;1;1;1
+01.07.2025;21:58:54;D;Crossover Polia Baixa;4;10;8;;;;;;;;;1;1;1
+01.07.2025;22:03:05;D;Tríceps Polia Barra Reta;1;30;15;;;;;;;;;1;1;1
+01.07.2025;22:04:56;D;Tríceps Polia Barra Reta;2;30;15;;;101;101;;;;;1;1;1
+01.07.2025;22:07:12;D;Tríceps Polia Barra Reta;3;30;12;;;;;;;;;1;1;1
+01.07.2025;22:09:27;D;Tríceps Polia Barra Reta;4;30;10;;;;;;;;;1;1;1
+01.07.2025;22:12:15;D;Tríceps Francês Crossover;1;10;10;;;98;98;;;;;1;1;1
+01.07.2025;22:13:55;D;Tríceps Francês Crossover;2;15;10;;;104;109;;;;;1;1;1
+01.07.2025;22:16:06;D;Tríceps Francês Crossover;3;10;10;;;98;98;;;;;1;1;1
+01.07.2025;22:19:03;D;Supino na Máquina (inclinado);1;30;10;;;98;98;;;;;1;1;1
+01.07.2025;22:20:38;D;Supino na Máquina (inclinado);2;30;10;;;98;98;;;;;1;1;1
+01.07.2025;22:22:08;D;Supino na Máquina (inclinado);3;30;8;;;59;59;;;;;1;1;1
+01.07.2025;22:24:34;D;Tríceps Máquina Paralelas;1;41;12;;;69;77;;;;;1;1;1
+01.07.2025;22:27:36;D;Tríceps Máquina Paralelas;2;41;12;;;88;100;;;;;1;1;1
+01.07.2025;22:29:13;D;Tríceps Máquina Paralelas;3;41;9;;;;;;;;;1;1;1
+08.07.2025;21:39:25;E;Graviton Aberto;1;60;10;;;96;96;;;;;1;1;1
+08.07.2025;21:41:19;E;Graviton Aberto;2;60;10;;;88;88;;;;;1;1;1
+08.07.2025;21:43:41;E;Graviton Aberto;3;60;10;;;51;51;;;;;1;1;1
+08.07.2025;21:47:03;E;Desenvolvimento de Ombros na Máquina (sentado);1;30;12;;;83;88;;;;;1;1;1
+08.07.2025;21:53:55;E;Desenvolvimento de Ombros na Máquina (sentado);2;20;12;;;106;109;;;;;1;1;1
+08.07.2025;21:54:52;E;Desenvolvimento de Ombros na Máquina (sentado);3;20;12;;;;;;;;;1;1;1
+08.07.2025;21:56:50;E;Elevação Lateral com Halteres (em pé);1;23;10;;;86;87;;;;;1;1;1
+08.07.2025;21:58:21;E;Elevação Lateral com Halteres (em pé);2;23;10;;;72;75;;;;;1;1;1
+08.07.2025;22:00:05;E;Elevação Lateral com Halteres (em pé);3;23;10;;;133;133;;;;;1;1;1
+08.07.2025;22:01:52;E;Elevação Frontal Cross;1;15;10;;;128;128;;;;;1;1;1
+08.07.2025;22:04:58;E;Elevação Frontal Cross;2;15;10;;;;;;;;;1;1;1
+08.07.2025;22:07:54;E;Elevação Frontal Cross;3;15;10;;;;;;;;;1;1;1
+08.07.2025;22:10:55;E;Voador Invertido na Máquina (sentado);1;32;10;;;115;115;;;;;1;1;1
+08.07.2025;22:12:18;E;Voador Invertido na Máquina (sentado);2;32;10;;;;;;;;;1;1;1
+08.07.2025;22:14:00;E;Voador Invertido na Máquina (sentado);3;32;10;;;;;;;;;1;1;1
+08.07.2025;22:16:27;E;Elevação de Panturrilha na Máquina (sentado);1;40;15;;;112;112;;;;;1;1;1
+08.07.2025;22:19:19;E;Elevação de Panturrilha na Máquina (sentado);2;40;15;;;119;119;;;;;1;1;1
+08.07.2025;22:22:13;E;Elevação de Panturrilha na Máquina (sentado);3;40;15;;;105;105;;;;;1;1;1
+08.07.2025;22:24:08;E;Meio-Abdominal na Máquina (sentado);1;30;10;;;113;122;;;;;1;1;1
+08.07.2025;22:25:47;E;Meio-Abdominal na Máquina (sentado);2;35;10;;;112;118;;;;;1;1;1
+08.07.2025;22:28:24;E;Meio-Abdominal na Máquina (sentado);3;35;10;;;;;;;;;1;1;1
+10.07.2025;09:48:56;A;Mobilidade de Inferiores;1;0;15;;;;;;;;;1;1;1
+10.07.2025;09:49:13;A;Mobilidade de Inferiores;2;0;15;;;73;94;;;;;1;1;1
+10.07.2025;09:53:16;A;Leg Press na Máquina (inclinado);1;20;15;;;78;94;;;;;1;1;1
+10.07.2025;09:54:45;A;Leg Press na Máquina (inclinado);2;20;12;;;77;117;;;;;1;1;1
+10.07.2025;09:56:28;A;Leg Press na Máquina (inclinado);3;20;10;;;100;135;;;;;1;1;1
+10.07.2025;09:58:47;A;Leg Press na Máquina (inclinado);4;20;8;;;61;61;;;;;1;1;1
+10.07.2025;10:02:05;A;Agachamento Sumo;1;18;12;;;104;104;;;;;1;1;1
+10.07.2025;10:03:51;A;Agachamento Sumo;2;18;10;;;44;44;;;;;1;1;1
+10.07.2025;10:05:40;A;Agachamento Sumo;3;18;8;;;66;66;;;;;1;1;1
+10.07.2025;10:07:44;A;Mobilidade de Inferiores;3;0;15;;;54;54;;;;;1;1;1
+10.07.2025;10:09:01;A;Agachamento Sumo;4;18;6;;;;;;;;;1;1;1
+10.07.2025;10:11:17;A;Abdução na Máquina (sentado);1;36;15;;;121;136;;;;;1;1;1
+10.07.2025;10:13:30;A;Abdução na Máquina (sentado);2;36;15;;;106;106;;;;;1;1;1
+10.07.2025;10:17:05;A;Abdução na Máquina (sentado);3;36;15;;;97;106;;;;;1;1;1
+10.07.2025;10:19:01;A;Abdução na Máquina (sentado);4;36;15;;;106;106;;;;;1;1;1
+10.07.2025;10:26:15;A;Agachamento Búlgaro;1;0;12;;;129;129;;;;;1;1;1
+10.07.2025;10:29:33;A;Agachamento Búlgaro;2;0;12;;;122;136;;;;;1;1;1
+10.07.2025;10:34:49;A;Agachamento Búlgaro;3;0;12;;;129;129;;;;;1;1;1
+10.07.2025;10:38:39;A;Mesa Flexora Unilateral;1;23;8;;;121;121;;;;;1;1;1
+10.07.2025;10:41:18;A;Mesa Flexora Unilateral;2;23;8;;;102;121;;;;;1;1;1
+10.07.2025;10:43:38;A;Mesa Flexora Unilateral;3;23;8;;;121;121;;;;;1;1;1
+10.07.2025;10:45:42;A;Lombar Banco Dorsal;1;0;10;;;126;130;;;;;1;1;1
+10.07.2025;10:47:41;A;Lombar Banco Dorsal;2;0;12;;;129;130;;;;;1;1;1
+10.07.2025;10:49:21;A;Lombar Banco Dorsal;3;0;12;;;;;;;;;1;1;1
+11.07.2025;09:38:12;B;Puxada Vertical na Máquina (sentado);1;50;15;;;49;49;;;;;1;1;1
+11.07.2025;09:41:33;B;Puxada Vertical na Máquina (sentado);2;50;15;;;126;136;;;;;1;1;1
+11.07.2025;09:44:50;B;Puxada Vertical na Máquina (sentado);3;50;15;;;146;146;;;;;1;1;1
+11.07.2025;09:48:24;B;Puxada Vertical na Máquina (sentado);4;50;12;;;;;;;;;1;1;1
+11.07.2025;09:53:26;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);1;50;10;;;;;;;;;1;1;1
+11.07.2025;09:55:41;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);2;50;10;;;121;121;;;;;1;1;1
+11.07.2025;09:58:00;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);3;50;10;;;124;125;;;;;1;1;1
+11.07.2025;10:00:20;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);4;50;10;;;127;131;;;;;1;1;1
+11.07.2025;10:03:34;B;Remada Cavalo Fechada;1;30;9;;;124;128;;;;;1;1;1
+11.07.2025;10:10:07;B;Remada Cavalo Fechada;2;20;12;;;112;122;;;;;1;1;1
+11.07.2025;10:15:17;B;Remada Cavalo Fechada;3;20;12;;;103;107;;;;;1;1;1
+11.07.2025;10:22:16;B;Remada Cavalo Fechada;4;20;10;;;125;125;;;;;1;1;1
+11.07.2025;10:25:38;B;Remada Serrote Unilateral (Máquina);1;36;10;;;116;125;;;;;1;1;1
+11.07.2025;10:28:08;B;Remada Serrote Unilateral (Máquina);2;36;10;;;110;117;;;;;1;1;1
+11.07.2025;10:30:25;B;Remada Serrote Unilateral (Máquina);3;36;10;;;120;120;;;;;1;1;1
+11.07.2025;10:33:16;B;Rosca Direta com Barra (em pé);1;20;12;;;117;118;;;;;1;1;1
+11.07.2025;10:37:54;B;Rosca Direta com Barra (em pé);2;20;10;;;106;116;;;;;1;1;1
+11.07.2025;10:40:23;B;Rosca Direta com Barra (em pé);3;20;5;;;100;103;;;;;1;1;1
+11.07.2025;10:42:52;B;Rosca na Máquina (sentado);1;23;9;;;94;97;;;;;1;1;1
+11.07.2025;10:45:35;B;Rosca na Máquina (sentado);2;23;9;;;114;125;;;;;1;1;1
+11.07.2025;10:48:05;B;Rosca na Máquina (sentado);3;18;9;;;116;127;;;;;1;1;1
+11.07.2025;10:50:20;B;Voador Invertido na Máquina (sentado);1;36;12;;;108;109;;;;;1;1;1
+11.07.2025;10:52:02;B;Voador Invertido na Máquina (sentado);2;36;12;;;124;125;;;;;1;1;1
+11.07.2025;10:53:51;B;Voador Invertido na Máquina (sentado);3;36;8;;;;;;;;;1;1;1
+12.07.2025;09:45:21;C;Agachamento Sumô;1;18;12;;;52;52;;;;;1;1;1
+12.07.2025;09:47:02;C;Agachamento Sumô;2;18;12;;;94;135;;;;;1;1;1
+12.07.2025;09:48:39;C;Agachamento Sumô;3;18;10;;;52;52;;;;;1;1;1
+12.07.2025;09:50:30;C;Agachamento Sumô;4;18;8;;;52;52;;;;;1;1;1
+12.07.2025;09:53:59;C;Extensão de Pernas na Máquina (sentado);1;23;10;;;52;52;;;;;1;1;1
+12.07.2025;09:55:22;C;Extensão de Pernas na Máquina (sentado);2;23;10;;;96;139;;;;;1;1;1
+12.07.2025;09:56:57;C;Extensão de Pernas na Máquina (sentado);3;23;10;;;75;98;;;;;1;1;1
+12.07.2025;10:00:12;C;Máquina de Leg Press, Pés Abertos (inclinado);1;10;12;;;91;129;;;;;1;1;1
+12.07.2025;10:03:46;C;Máquina de Leg Press, Pés Abertos (inclinado);2;10;12;;;129;129;;;;;1;1;1
+12.07.2025;10:05:32;C;Máquina de Leg Press, Pés Abertos (inclinado);3;10;12;;;132;132;;;;;1;1;1
+12.07.2025;10:07:32;C;Afundo 3x8 (cada lado);1;10;8;;;;;;;;;1;1;1
+12.07.2025;10:09:40;C;Afundo 3x8 (cada lado);2;10;7;;;52;52;;;;;1;1;1
+12.07.2025;10:11:40;C;Afundo 3x8 (cada lado);3;10;7;;;52;52;;;;;1;1;1
+12.07.2025;10:13:34;C;Panturrilhas em Pé Unilateral Livre;1;20;12;;;71;90;;;;;1;1;1
+12.07.2025;10:15:30;C;Panturrilhas em Pé Unilateral Livre;2;20;12;;;96;139;;;;;1;1;1
+12.07.2025;10:17:14;C;Panturrilhas em Pé Unilateral Livre;3;20;12;;;77;102;;;;;1;1;1
+12.07.2025;10:18:40;C;Elevação de Panturrilha na Máquina (sentado);1;30;12;;;52;52;;;;;1;1;1
+12.07.2025;10:20:19;C;Elevação de Panturrilha na Máquina (sentado);2;30;15;;;138;143;;;;;1;1;1
+12.07.2025;10:21:59;C;Elevação de Panturrilha na Máquina (sentado);3;30;12;;;123;128;;;;;1;1;1
+12.07.2025;10:24:04;C;Prancha Isométrica (ou Abdominal Máquina) ;1;25;12;;;85;119;;;;;1;1;1
+12.07.2025;10:26:59;C;Prancha Isométrica (ou Abdominal Máquina) ;2;25;12;;;119;119;;;;;1;1;1
+12.07.2025;10:28:34;C;Prancha Isométrica (ou Abdominal Máquina) ;3;25;12;;;;;;;;;1;1;1
+14.07.2025;09:55:34;D;Supino Articulado Máquina (Pré-ativação);1;40;12;;;87;87;;;;;1;1;1
+14.07.2025;09:58:00;D;Supino Articulado Máquina (Pré-ativação);2;60;12;;;;;;;;;1;1;1
+14.07.2025;10:01:04;D;Supino Articulado Máquina (Pré-ativação);3;40;12;;;98;98;;;;;1;1;1
+14.07.2025;10:03:10;D;Supino Articulado Máquina (Pré-ativação);4;60;12;;;;;;;;;1;1;1
+14.07.2025;10:05:34;D;Supino Articulado Máquina (Pré-ativação);5;40;15;;;123;123;;;;;1;1;1
+14.07.2025;10:09:07;D;Crossover Polia Alta;1;10;15;;;125;125;;;;;1;1;1
+14.07.2025;10:10:48;D;Crossover Polia Alta;2;15;14;;;66;77;;;;;1;1;1
+14.07.2025;10:12:38;D;Crossover Polia Alta;3;10;15;;;135;135;;;;;1;1;1
+14.07.2025;10:14:28;D;Crossover Polia Alta;4;10;15;;;;;;;;;1;1;1
+14.07.2025;10:16:29;D;Crossover Polia Baixa;1;10;10;;;;;;;;;1;1;1
+14.07.2025;10:18:15;D;Crossover Polia Baixa;2;10;10;;;;;;;;;1;1;1
+14.07.2025;10:20:07;D;Crossover Polia Baixa;3;10;10;;;75;77;;;;;1;1;1
+14.07.2025;10:21:57;D;Crossover Polia Baixa;4;10;8;;;78;101;;;;;1;1;1
+14.07.2025;10:25:44;D;Supino na Máquina (inclinado);1;18;10;;;62;62;;;;;1;1;1
+14.07.2025;10:27:34;D;Supino na Máquina (inclinado);2;28;10;;;114;141;;;;;1;1;1
+14.07.2025;10:29:20;D;Supino na Máquina (inclinado);3;28;9;;;62;62;;;;;1;1;1
+14.07.2025;10:32:12;D;Tríceps Polia Barra Reta;1;30;15;;;;;;;;;1;1;1
+14.07.2025;10:34:22;D;Tríceps Polia Barra Reta;2;30;15;;;87;87;;;;;1;1;1
+14.07.2025;10:36:10;D;Tríceps Polia Barra Reta;3;30;12;;;73;73;;;;;1;1;1
+14.07.2025;10:38:22;D;Tríceps Polia Barra Reta;4;30;10;;;;;;;;;1;1;1
+14.07.2025;10:40:47;D;Tríceps Máquina Paralelas;1;20;9;;;;;;;;;1;1;1
+14.07.2025;10:42:52;D;Tríceps Máquina Paralelas;2;20;9;;;120;120;;;;;1;1;1
+14.07.2025;10:46:24;D;Tríceps Máquina Paralelas;3;20;10;;;54;54;;;;;1;1;1
+14.07.2025;10:49:17;D;Tríceps Francês Crossover;1;10;10;;;;;;;;;1;1;1
+14.07.2025;10:51:10;D;Tríceps Francês Crossover;2;20;10;;;;;;;;;1;1;1
+14.07.2025;10:53:09;D;Tríceps Francês Crossover;3;20;10;;;;;;;;;1;1;1
+15.07.2025;09:36:08;E;Graviton Aberto;1;60;10;;;73;73;;;;;1;1;1
+15.07.2025;09:38:43;E;Graviton Aberto;2;60;10;;;77;77;;;;;1;1;1
+15.07.2025;09:41:08;E;Graviton Aberto;3;60;10;;;;;;;;;1;1;1
+15.07.2025;09:45:00;E;Desenvolvimento de Ombros na Máquina (sentado);1;35;10;;;;;;;;;1;1;1
+15.07.2025;09:47:08;E;Desenvolvimento de Ombros na Máquina (sentado);2;35;10;;;;;;;;;1;1;1
+15.07.2025;09:48:44;E;Desenvolvimento de Ombros na Máquina (sentado);3;35;7;;;80;80;;;;;1;1;1
+15.07.2025;09:52:37;E;Elevação Frontal Cross;1;15;10;;;129;129;;;;;1;1;1
+15.07.2025;09:54:14;E;Elevação Frontal Cross;2;15;10;;;;;;;;;1;1;1
+15.07.2025;09:56:14;E;Elevação Frontal Cross;3;15;10;;;;;;;;;1;1;1
+15.07.2025;10:00:21;E;Meio-Abdominal na Máquina (sentado);1;30;10;;;123;123;;;;;1;1;1
+15.07.2025;10:02:28;E;Meio-Abdominal na Máquina (sentado);2;30;10;;;122;124;;;;;1;1;1
+15.07.2025;10:04:11;E;Meio-Abdominal na Máquina (sentado);3;30;10;;;133;133;;;;;1;1;1
+15.07.2025;10:06:32;E;Voador Invertido na Máquina (sentado);1;32;10;;;;;;;;;1;1;1
+15.07.2025;10:08:01;E;Voador Invertido na Máquina (sentado);2;32;10;;;140;140;;;;;1;1;1
+15.07.2025;10:10:11;E;Voador Invertido na Máquina (sentado);3;32;10;;;;;;;;;1;1;1
+15.07.2025;10:12:48;E;Elevação Lateral com Halteres (em pé);1;23;10;;;;;;;;;1;1;1
+15.07.2025;10:14:40;E;Elevação Lateral com Halteres (em pé);2;23;10;;;128;128;;;;;1;1;1
+15.07.2025;10:16:22;E;Elevação Lateral com Halteres (em pé);3;23;10;;;;;;;;;1;1;1
+16.07.2025;07:11:33;A;Mobilidade de Inferiores;1;0;15;;;88;88;;;;;1;1;1
+16.07.2025;07:12:40;A;Leg Press na Máquina (inclinado);1;25;12;;;104;104;;;;;1;1;1
+16.07.2025;07:14:54;A;Leg Press na Máquina (inclinado);2;25;12;;;;;;;;;1;1;1
+16.07.2025;07:17:03;A;Leg Press na Máquina (inclinado);3;25;10;;;;;;;;;1;1;1
+16.07.2025;07:19:28;A;Leg Press na Máquina (inclinado);4;25;8;;;;;;;;;1;1;1
+16.07.2025;07:25:58;A;Agachamento Sumo;1;20;12;;;;;;;;;1;1;1
+16.07.2025;07:28:09;A;Agachamento Sumo;2;20;10;;;132;135;;;;;1;1;1
+16.07.2025;07:30:26;A;Agachamento Sumo;3;20;8;;;51;51;;;;;1;1;1
+16.07.2025;07:31:55;A;Agachamento Sumo;4;20;6;;;51;51;;;;;1;1;1
+16.07.2025;07:35:49;A;Abdução na Máquina (sentado);1;36;15;;;122;129;;;;;1;1;1
+16.07.2025;07:37:55;A;Abdução na Máquina (sentado);2;36;15;;;134;138;;;;;1;1;1
+16.07.2025;07:40:10;A;Abdução na Máquina (sentado);3;36;15;;;114;138;;;;;1;1;1
+16.07.2025;07:42:46;A;Abdução na Máquina (sentado);4;36;15;;;132;132;;;;;1;1;1
+16.07.2025;07:46:36;A;Mesa Flexora Unilateral;1;23;8;;;124;132;;;;;1;1;1
+16.07.2025;07:50:09;A;Mesa Flexora Unilateral;2;23;8;;;115;117;;;;;1;1;1
+16.07.2025;07:54:25;A;Mesa Flexora Unilateral;3;23;8;;;82;115;;;;;1;1;1
+16.07.2025;07:59:29;A;Agachamento Búlgaro;1;0;16;;;;;;;;;1;1;1
+17.07.2025;07:03:03;B;Puxada Vertical na Máquina (sentado);1;50;15;;;117;117;;;;;1;1;1
+17.07.2025;07:06:46;B;Puxada Vertical na Máquina (sentado);2;50;15;;;;;;;;;1;1;1
+17.07.2025;07:10:15;B;Puxada Vertical na Máquina (sentado);3;50;15;;;;;;;;;1;1;1
+17.07.2025;07:14:44;B;Puxada Vertical na Máquina (sentado);4;50;15;;;;;;;;;1;1;1
+17.07.2025;07:20:32;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);1;50;10;;;129;129;;;;;1;1;1
+17.07.2025;07:23:19;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);2;50;10;;;135;135;;;;;1;1;1
+17.07.2025;07:26:11;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);3;50;10;;;112;115;;;;;1;1;1
+17.07.2025;07:28:14;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);4;50;10;;;117;119;;;;;1;1;1
+17.07.2025;07:33:31;B;Remada Cavalo Fechada;1;30;12;;;108;116;;;;;1;1;1
+17.07.2025;07:38:09;B;Remada Cavalo Fechada;2;30;12;;;96;99;;;;;1;1;1
+17.07.2025;07:42:45;B;Remada Cavalo Fechada;3;30;10;;;108;120;;;;;1;1;1
+17.07.2025;07:50:33;B;Remada Cavalo Fechada;4;30;10;;;127;128;;;;;1;1;1
+17.07.2025;07:53:53;B;Remada Serrote Unilateral (Máquina);1;36;10;;;120;127;;;;;1;1;1
+17.07.2025;07:55:42;B;Remada Serrote Unilateral (Máquina);2;36;10;;;106;112;;;;;1;1;1
+17.07.2025;07:57:28;B;Remada Serrote Unilateral (Máquina);3;36;10;;;96;103;;;;;1;1;1
+17.07.2025;08:02:05;B;Rosca Direta com Barra (em pé);1;20;12;;;116;133;;;;;1;1;1
+17.07.2025;08:05:00;B;Rosca Direta com Barra (em pé);2;20;10;;;120;128;;;;;1;1;1
+17.07.2025;08:08:11;B;Rosca Direta com Barra (em pé);3;20;8;;;102;105;;;;;1;1;1
+17.07.2025;08:11:00;B;Rosca na Máquina (sentado);1;23;8;;;102;104;;;;;1;1;1
+17.07.2025;08:12:42;B;Rosca na Máquina (sentado);2;23;8;;;108;112;;;;;1;1;1
+17.07.2025;08:14:34;B;Rosca na Máquina (sentado);3;23;8;;;114;118;;;;;1;1;1
+17.07.2025;08:16:36;B;Voador Invertido na Máquina (sentado);1;36;12;;;107;111;;;;;1;1;1
+17.07.2025;08:18:19;B;Voador Invertido na Máquina (sentado);2;36;12;;;109;118;;;;;1;1;1
+17.07.2025;08:20:05;B;Voador Invertido na Máquina (sentado);3;36;8;;;;;;;;;1;1;1
+18.07.2025;07:03:53;C;Máquina de Leg Press, Pés Abertos (inclinado);1;25;12;;;83;83;;;;;1;1;1
+18.07.2025;07:07:01;C;Máquina de Leg Press, Pés Abertos (inclinado);2;25;10;;;112;123;;;;;1;1;1
+18.07.2025;07:08:51;C;Máquina de Leg Press, Pés Abertos (inclinado);3;25;8;;;120;139;;;;;1;1;1
+18.07.2025;07:14:06;C;Extensão de Pernas na Máquina (sentado);1;23;10;;;78;104;;;;;1;1;1
+18.07.2025;07:16:28;C;Extensão de Pernas na Máquina (sentado);2;23;10;;;88;123;;;;;1;1;1
+18.07.2025;07:17:48;C;Extensão de Pernas na Máquina (sentado);3;23;10;;;52;52;;;;;1;1;1
+18.07.2025;07:20:24;C;Agachamento Sumô;1;20;12;;;;;;;;;1;1;1
+18.07.2025;07:22:31;C;Agachamento Sumô;2;20;12;;;143;143;;;;;1;1;1
+18.07.2025;07:23:38;C;Agachamento Sumô;3;20;10;;;143;143;;;;;1;1;1
+18.07.2025;07:25:51;C;Agachamento Sumô;4;20;8;;;52;52;;;;;1;1;1
+18.07.2025;07:29:00;C;Afundo 3x8 (cada lado);1;0;8;;;52;52;;;;;1;1;1
+18.07.2025;07:30:50;C;Afundo 3x8 (cada lado);2;0;8;;;100;147;;;;;1;1;1
+18.07.2025;07:32:41;C;Afundo 3x8 (cada lado);3;0;8;;;126;148;;;;;1;1;1
+18.07.2025;07:38:11;C;Panturrilhas em Pé Unilateral Livre;1;25;12;;;;;;;;;1;1;1
+18.07.2025;07:39:41;C;Panturrilhas em Pé Unilateral Livre;2;25;12;;;129;129;;;;;1;1;1
+18.07.2025;07:41:17;C;Panturrilhas em Pé Unilateral Livre;3;25;12;;;122;122;;;;;1;1;1
+18.07.2025;07:44:43;C;Elevação de Panturrilha na Máquina (sentado);1;30;15;;;122;124;;;;;1;1;1
+18.07.2025;07:46:45;C;Elevação de Panturrilha na Máquina (sentado);2;30;15;;;123;123;;;;;1;1;1
+18.07.2025;07:48:48;C;Elevação de Panturrilha na Máquina (sentado);3;30;15;;;;;;;;;1;1;1
+22.07.2025;20:57:53;E;Graviton Aberto;1;60;10;;;86;86;;;;;1;1;1
+22.07.2025;20:59:39;E;Graviton Aberto;2;60;10;;;;;;;;;1;1;1
+22.07.2025;21:02:02;E;Graviton Aberto;3;60;10;;;90;90;;;;;1;1;1
+22.07.2025;21:07:31;E;Elevação Frontal Cross;1;15;10;;;90;90;;;;;1;1;1
+22.07.2025;21:09:17;E;Elevação Frontal Cross;2;15;10;;;99;107;;;;;1;1;1
+22.07.2025;21:11:06;E;Elevação Frontal Cross;3;15;10;;;94;98;;;;;1;1;1
+22.07.2025;21:13:18;E;Elevação Lateral com Halteres (em pé);1;23;10;;;66;90;;;;;1;1;1
+22.07.2025;21:14:47;E;Elevação Lateral com Halteres (em pé);2;23;10;;;94;97;;;;;1;1;1
+22.07.2025;21:16:15;E;Elevação Lateral com Halteres (em pé);3;23;10;;;71;90;;;;;1;1;1
+22.07.2025;21:18:14;E;Voador Invertido na Máquina (sentado);1;32;10;;;90;90;;;;;1;1;1
+22.07.2025;21:19:27;E;Voador Invertido na Máquina (sentado);2;32;10;;;101;112;;;;;1;1;1
+22.07.2025;21:21:03;E;Voador Invertido na Máquina (sentado);3;32;10;;;101;101;;;;;1;1;1
+22.07.2025;21:26:37;E;Desenvolvimento de Ombros na Máquina (sentado);1;20;12;;;101;101;;;;;1;1;1
+22.07.2025;21:29:10;E;Desenvolvimento de Ombros na Máquina (sentado);2;20;12;;;52;52;;;;;1;1;1
+22.07.2025;21:31:29;E;Desenvolvimento de Ombros na Máquina (sentado);3;20;10;;;54;54;;;;;1;1;1
+22.07.2025;21:33:40;E;Meio-Abdominal na Máquina (sentado);1;30;10;;;103;103;;;;;1;1;1
+22.07.2025;21:35:26;E;Meio-Abdominal na Máquina (sentado);2;30;10;;;73;105;;;;;1;1;1
+22.07.2025;21:37:16;E;Meio-Abdominal na Máquina (sentado);3;30;10;;;105;108;;;;;1;1;1
+22.07.2025;21:39:00;E;Elevação de Panturrilha na Máquina (sentado);1;40;12;;;99;107;;;;;1;1;1
+22.07.2025;21:40:32;E;Elevação de Panturrilha na Máquina (sentado);2;40;12;;;96;101;;;;;1;1;1
+22.07.2025;21:42:17;E;Elevação de Panturrilha na Máquina (sentado);3;37.5;13;;;;;;;;;1;1;1
+23.07.2025;20:11:44;A;Leg Press na Máquina (inclinado);1;25;15;;;107;111;;;;;1;1;1
+23.07.2025;20:13:44;A;Leg Press na Máquina (inclinado);2;25;12;;;114;122;;;;;1;1;1
+23.07.2025;20:16:32;A;Leg Press na Máquina (inclinado);3;25;10;;;114;124;;;;;1;1;1
+23.07.2025;20:18:43;A;Leg Press na Máquina (inclinado);4;25;8;;;103;103;;;;;1;1;1
+23.07.2025;20:21:36;A;Agachamento Sumo;1;20;12;;;107;107;;;;;1;1;1
+23.07.2025;20:23:57;A;Agachamento Sumo;2;20;10;;;107;107;;;;;1;1;1
+23.07.2025;20:25:33;A;Agachamento Sumo;3;20;8;;;135;135;;;;;1;1;1
+23.07.2025;20:26:57;A;Agachamento Sumo;4;20;6;;;107;107;;;;;1;1;1
+23.07.2025;20:30:49;A;Mesa Flexora Unilateral;1;23;8;;;128;128;;;;;1;1;1
+23.07.2025;20:33:23;A;Mesa Flexora Unilateral;2;23;8;;;92;94;;;;;1;1;1
+23.07.2025;20:35:41;A;Mesa Flexora Unilateral;3;23;8;;;103;112;;;;;1;1;1
+23.07.2025;20:37:22;A;Abdução na Máquina (sentado);1;41;15;;;54;54;;;;;1;1;1
+23.07.2025;20:39:02;A;Abdução na Máquina (sentado);2;41;12;;;88;117;;;;;1;1;1
+23.07.2025;20:40:27;A;Abdução na Máquina (sentado);3;41;12;;;;;;;;;1;1;1
+23.07.2025;20:43:17;A;Abdução na Máquina (sentado);4;41;12;;;70;70;;;;;1;1;1
+23.07.2025;20:44:57;A;Agachamento Búlgaro;1;0;16;;;;;;;;;1;1;1
+23.07.2025;20:47:16;A;Agachamento Búlgaro;2;0;16;;;139;139;;;;;1;1;1
+23.07.2025;20:49:43;A;Agachamento Búlgaro;3;0;16;;;129;129;;;;;1;1;1
+23.07.2025;20:52:54;A;Lombar Banco Dorsal;1;0;12;;;69;69;;;;;1;1;1
+23.07.2025;20:54:42;A;Lombar Banco Dorsal;2;0;12;;;42;42;;;;;1;1;1
+23.07.2025;20:56:43;A;Lombar Banco Dorsal;3;0;12;;;;;;;;;1;1;1
+24.07.2025;18:32:54;B;Puxada Vertical na Máquina (sentado);1;50;15;;;;;;;;;1;1;1
+24.07.2025;18:34:50;B;Puxada Vertical na Máquina (sentado);2;50;15;;;77;81;;;;;1;1;1
+24.07.2025;18:36:47;B;Puxada Vertical na Máquina (sentado);3;50;15;;;;;;;;;1;1;1
+24.07.2025;18:38:52;B;Puxada Vertical na Máquina (sentado);4;50;9;;;47;47;;;;;1;1;1
+24.07.2025;18:42:33;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);1;50;10;;;75;75;;;;;1;1;1
+24.07.2025;18:44:31;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);2;50;10;;;;;;;;;1;1;1
+24.07.2025;18:46:33;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);3;50;10;;;;;;;;;1;1;1
+24.07.2025;18:48:20;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);4;50;10;;;;;;;;;1;1;1
+24.07.2025;18:53:56;B;Remada Cavalo Fechada;1;30;10;;;52;52;;;;;1;1;1
+24.07.2025;18:56:59;B;Remada Cavalo Fechada;2;30;8;;;145;145;;;;;1;1;1
+24.07.2025;19:01:47;B;Remada Cavalo Fechada;3;30;10;;;94;121;;;;;1;1;1
+24.07.2025;19:08:41;B;Remada Cavalo Fechada;4;30;8;;;111;121;;;;;1;1;1
+24.07.2025;19:09:51;B;Remada Serrote Unilateral (Máquina);1;36;10;;;94;121;;;;;1;1;1
+24.07.2025;19:11:39;B;Remada Serrote Unilateral (Máquina);2;36;10;;;119;119;;;;;1;1;1
+24.07.2025;19:14:00;B;Remada Serrote Unilateral (Máquina);3;36;10;;;118;118;;;;;1;1;1
+24.07.2025;19:17:14;B;Voador Invertido na Máquina (sentado);1;36;12;;;54;54;;;;;1;1;1
+24.07.2025;19:19:06;B;Voador Invertido na Máquina (sentado);2;36;6;;;97;136;;;;;1;1;1
+24.07.2025;19:20:35;B;Voador Invertido na Máquina (sentado);3;36;6;;;126;134;;;;;1;1;1
+24.07.2025;19:22:39;B;Rosca Direta com Barra (em pé);1;17.5;12;;;128;138;;;;;1;1;1
+24.07.2025;19:24:42;B;Rosca Direta com Barra (em pé);2;17.5;10;;;126;134;;;;;1;1;1
+24.07.2025;19:26:45;B;Rosca Direta com Barra (em pé);3;17.5;6;;;87;118;;;;;1;1;1
+24.07.2025;19:28:51;B;Rosca na Máquina (sentado);1;23;10;;;94;118;;;;;1;1;1
+24.07.2025;19:31:15;B;Rosca na Máquina (sentado);2;23;10;;;92;106;;;;;1;1;1
+24.07.2025;19:33:22;B;Rosca na Máquina (sentado);3;23;9;;;;;;;;;1;1;1
+30.07.2025;18:41:16;C;Agachamento Sumô;1;20;12;;;106;106;;;;;1;1;1
+30.07.2025;18:43:33;C;Agachamento Sumô;2;20;10;;;89;102;;;;;1;1;1
+30.07.2025;18:45:25;C;Extensão de Pernas na Máquina (sentado);1;23;10;;;;;;;;;1;1;1
+30.07.2025;18:45:37;C;Agachamento Sumô;3;20;10;;;;;;;;;1;1;1
+30.07.2025;18:50:00;C;Máquina de Leg Press, Pés Abertos (inclinado);1;25;12;;;105;118;;;;;1;1;1
+30.07.2025;18:51:50;C;Máquina de Leg Press, Pés Abertos (inclinado);2;25;10;;;102;102;;;;;1;1;1
+30.07.2025;18:53:54;C;Máquina de Leg Press, Pés Abertos (inclinado);3;25;8;;;;;;;;;1;1;1
+30.07.2025;18:56:44;C;Extensão de Pernas na Máquina (sentado);2;23;10;;;102;102;;;;;1;1;1
+30.07.2025;18:59:55;C;Extensão de Pernas na Máquina (sentado);3;23;10;;;102;102;;;;;1;1;1
+30.07.2025;20:13:06;C;Elevação de Panturrilha na Máquina (sentado);1;30;12;;;92;93;;;;;1;1;1
+30.07.2025;20:14:45;C;Elevação de Panturrilha na Máquina (sentado);2;30;12;;;91;94;;;;;1;1;1
+30.07.2025;20:16:35;C;Elevação de Panturrilha na Máquina (sentado);3;30;11;;;;;;;;;1;1;1
+31.07.2025;20:38:59;D;Supino Articulado Máquina (Pré-ativação);1;40;12;;;97;97;;;;;1;1;1
+31.07.2025;20:40:43;D;Supino Articulado Máquina (Pré-ativação);2;60;12;;;77;87;;;;;1;1;1
+31.07.2025;20:42:33;D;Supino Articulado Máquina (Pré-ativação);3;40;12;;;50;50;;;;;1;1;1
+31.07.2025;20:44:46;D;Supino Articulado Máquina (Pré-ativação);4;40;12;;;89;89;;;;;1;1;1
+31.07.2025;20:46:44;D;Supino Articulado Máquina (Pré-ativação);5;40;12;;;50;50;;;;;1;1;1
+31.07.2025;20:50:48;D;Crossover Polia Alta;1;10;10;;;80;110;;;;;1;1;1
+31.07.2025;20:52:36;D;Crossover Polia Alta;2;10;10;;;120;130;;;;;1;1;1
+31.07.2025;20:56:17;D;Crossover Polia Alta;3;10;10;;;122;124;;;;;1;1;1
+31.07.2025;20:57:55;D;Crossover Polia Alta;4;10;15;;;76;101;;;;;1;1;1
+31.07.2025;21:01:12;D;Supino na Máquina (inclinado);1;28;12;;;;;;;;;1;1;1
+31.07.2025;21:03:21;D;Supino na Máquina (inclinado);2;28;10;;;;;;;;;1;1;1
+31.07.2025;21:05:15;D;Supino na Máquina (inclinado);3;28;10;;;54;54;;;;;1;1;1
+31.07.2025;21:09:21;D;Tríceps Polia Barra Reta;1;30;15;;;;;;;;;1;1;1
+31.07.2025;21:11:04;D;Tríceps Polia Barra Reta;2;30;15;;;106;106;;;;;1;1;1
+31.07.2025;21:12:47;D;Tríceps Polia Barra Reta;3;30;12;;;106;106;;;;;1;1;1
+31.07.2025;21:14:34;D;Tríceps Polia Barra Reta;4;30;9;;;106;106;;;;;1;1;1
+31.07.2025;21:16:50;D;Tríceps Francês Crossover;1;10;10;;;106;106;;;;;1;1;1
+31.07.2025;21:19:45;D;Tríceps Francês Crossover;2;10;10;;;;;;;;;1;1;1
+31.07.2025;21:21:24;D;Tríceps Francês Crossover;3;10;10;;;70;91;;;;;1;1;1
+31.07.2025;21:25:44;D;Tríceps Máquina Paralelas;1;41;12;;;93;100;;;;;1;1;1
+31.07.2025;21:26:50;D;Tríceps Máquina Paralelas;2;41;12;;;99;106;;;;;1;1;1
+31.07.2025;21:28:27;D;Tríceps Máquina Paralelas;3;41;12;;;;;;;;;1;1;1
+01.08.2025;17:38:49;E;Graviton Aberto;1;60;10;;;78;78;;;;;1;1;1
+01.08.2025;17:40:34;E;Graviton Aberto;2;60;10;;;;;;;;;1;1;1
+01.08.2025;17:42:20;E;Graviton Aberto;3;60;10;;;;;;;;;1;1;1
+01.08.2025;17:44:54;E;Elevação Lateral com Halteres (em pé);1;23;10;;;53;53;;;;;1;1;1
+01.08.2025;17:46:58;E;Elevação Lateral com Halteres (em pé);2;23;10;;;126;126;;;;;1;1;1
+01.08.2025;17:48:27;E;Elevação Lateral com Halteres (em pé);3;23;10;;;84;84;;;;;1;1;1
+01.08.2025;17:51:04;E;Elevação Frontal Cross;1;15;10;;;;;;;;;1;1;1
+01.08.2025;17:53:12;E;Elevação Frontal Cross;2;20;10;;;;;;;;;1;1;1
+01.08.2025;17:55:27;E;Elevação Frontal Cross;3;20;10;;;;;;;;;1;1;1
+01.08.2025;17:58:23;E;Desenvolvimento de Ombros na Máquina (sentado);1;20;10;;;83;88;;;;;1;1;1
+01.08.2025;18:00:03;E;Desenvolvimento de Ombros na Máquina (sentado);2;20;11;;;;;;;;;1;1;1
+01.08.2025;18:01:49;E;Desenvolvimento de Ombros na Máquina (sentado);3;20;6;;;;;;;;;1;1;1
+01.08.2025;18:03:38;E;Voador Invertido na Máquina (sentado);1;32;10;;;75;78;;;;;1;1;1
+01.08.2025;18:05:21;E;Voador Invertido na Máquina (sentado);2;32;10;;;;;;;;;1;1;1
+01.08.2025;18:07:10;E;Voador Invertido na Máquina (sentado);3;32;10;;;;;;;;;1;1;1
+01.08.2025;18:09:14;E;Meio-Abdominal na Máquina (sentado);1;30;10;;;;;;;;;1;1;1
+01.08.2025;18:10:55;E;Meio-Abdominal na Máquina (sentado);2;30;10;;;;;;;;;1;1;1
+02.08.2025;18:06:07;A;Mobilidade de Inferiores;1;0;8;;;55;55;;;;;1;1;1
+02.08.2025;18:08:30;A;Mobilidade de Inferiores;2;0;9;;;;;;;;;1;1;1
+02.08.2025;18:11:11;A;Leg Press na Máquina (inclinado);1;25;15;;;89;121;;;;;1;1;1
+02.08.2025;18:14:14;A;Leg Press na Máquina (inclinado);2;25;12;;;57;57;;;;;1;1;1
+02.08.2025;18:16:16;A;Leg Press na Máquina (inclinado);3;25;10;;;88;118;;;;;1;1;1
+02.08.2025;18:17:57;A;Leg Press na Máquina (inclinado);4;25;8;;;79;100;;;;;1;1;1
+02.08.2025;18:21:19;A;Agachamento Sumo;1;20;12;;;119;134;;;;;1;1;1
+02.08.2025;18:23:06;A;Agachamento Sumo;2;20;10;;;93;129;;;;;1;1;1
+02.08.2025;18:24:45;A;Agachamento Sumo;3;20;8;;;113;134;;;;;1;1;1
+02.08.2025;18:26:11;A;Agachamento Sumo;4;20;6;;;57;57;;;;;1;1;1
+02.08.2025;18:29:31;A;Abdução na Máquina (sentado);1;41;15;;;;;;;;;1;1;1
+02.08.2025;18:32:05;A;Abdução na Máquina (sentado);2;41;15;;;55;55;;;;;1;1;1
+02.08.2025;18:35:15;A;Abdução na Máquina (sentado);3;41;15;;;79;79;;;;;1;1;1
+02.08.2025;18:36:50;A;Abdução na Máquina (sentado);4;41;15;;;;;;;;;1;1;1
+02.08.2025;18:39:42;A;Agachamento Búlgaro;1;0;16;;;;;;;;;1;1;1
+02.08.2025;18:41:43;A;Agachamento Búlgaro;2;0;16;;;131;134;;;;;1;1;1
+02.08.2025;18:44:23;A;Agachamento Búlgaro;3;0;14;;;146;151;;;;;1;1;1
+02.08.2025;18:48:59;A;Elevação Pélvica;1;10;10;;;128;132;;;;;1;1;1
+02.08.2025;18:50:55;A;Elevação Pélvica;2;10;10;;;137;145;;;;;1;1;1
+02.08.2025;18:52:59;A;Elevação Pélvica;3;10;10;;;133;141;;;;;1;1;1
+02.08.2025;18:55:41;A;Elevação Pélvica;4;10;10;;;101;125;;;;;1;1;1
+02.08.2025;18:59:15;A;Elevação Pélvica;5;10;10;;;125;125;;;;;1;1;1
+02.08.2025;19:01:47;A;Mesa Flexora Unilateral;1;23;8;;;52;52;;;;;1;1;1
+02.08.2025;19:03:55;A;Mesa Flexora Unilateral;2;23;8;;;87;122;;;;;1;1;1
+02.08.2025;19:07:09;A;Mesa Flexora Unilateral;3;23;8;;;126;126;;;;;1;1;1
+02.08.2025;19:08:45;A;Lombar Banco Dorsal;1;0;11;;;132;133;;;;;1;1;1
+02.08.2025;19:10:21;A;Lombar Banco Dorsal;2;0;11;;;72;91;;;;;1;1;1
+02.08.2025;19:12:02;A;Lombar Banco Dorsal;3;0;11;;;;;;;;;1;1;1
+04.08.2025;19:36:57;B;Puxada Vertical na Máquina (sentado);1;50;15;;;103;104;;;;;1;1;1
+04.08.2025;19:38:51;B;Puxada Vertical na Máquina (sentado);2;50;15;;;92;93;;;;;1;1;1
+04.08.2025;19:41:43;B;Puxada Vertical na Máquina (sentado);3;50;15;;;130;130;;;;;1;1;1
+04.08.2025;19:44:40;B;Puxada Vertical na Máquina (sentado);4;50;12;;;61;61;;;;;1;1;1
+04.08.2025;19:48:34;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);1;50;10;;;;;;;;;1;1;1
+04.08.2025;19:50:56;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);2;50;10;;;114;130;;;;;1;1;1
+04.08.2025;19:54:26;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);3;50;10;;;120;122;;;;;1;1;1
+04.08.2025;19:57:25;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);4;50;10;;;76;116;;;;;1;1;1
+04.08.2025;20:05:25;B;Remada Serrote Unilateral (Máquina);1;36;10;;;116;116;;;;;1;1;1
+04.08.2025;20:07:22;B;Remada Serrote Unilateral (Máquina);2;36;10;;;91;116;;;;;1;1;1
+04.08.2025;20:09:19;B;Remada Serrote Unilateral (Máquina);3;36;10;;;67;67;;;;;1;1;1
+04.08.2025;20:13:39;B;Remada Cavalo Fechada;1;25;10;;;114;116;;;;;1;1;1
+04.08.2025;20:16:27;B;Remada Cavalo Fechada;2;25;12;;;77;116;;;;;1;1;1
+04.08.2025;20:20:09;B;Remada Cavalo Fechada;3;25;12;;;103;116;;;;;1;1;1
+04.08.2025;20:23:50;B;Remada Cavalo Fechada;4;25;10;;;50;54;;;;;1;1;1
+04.08.2025;20:26:07;B;Rosca Direta com Barra (em pé);1;20;12;;;53;54;;;;;1;1;1
+04.08.2025;20:27:46;B;Rosca Direta com Barra (em pé);2;20;6;;;54;54;;;;;1;1;1
+04.08.2025;20:30:54;B;Rosca Direta com Barra (em pé);3;20;12;;;70;72;;;;;1;1;1
+04.08.2025;20:32:40;B;Rosca na Máquina (sentado);1;23;10;;;;;;;;;1;1;1
+04.08.2025;20:34:42;B;Rosca na Máquina (sentado);2;23;10;;;;;;;;;1;1;1
+04.08.2025;20:36:47;B;Rosca na Máquina (sentado);3;23;10;;;;;;;;;1;1;1
+08.08.2025;20:16:04;C;Máquina de Leg Press, Pés Abertos (inclinado);1;25;12;;;;;;;;;1;1;1
+08.08.2025;20:21:52;C;Máquina de Leg Press, Pés Abertos (inclinado);2;25;10;;;55;55;;;;;1;1;1
+08.08.2025;20:21:54;C;Máquina de Leg Press, Pés Abertos (inclinado);3;25;8;;;55;55;;;;;1;1;1
+08.08.2025;20:25:21;C;Extensão de Pernas na Máquina (sentado);1;27;10;;;97;97;;;;;1;1;1
+08.08.2025;20:27:26;C;Extensão de Pernas na Máquina (sentado);2;32;10;;;56;56;;;;;1;1;1
+08.08.2025;20:29:43;C;Extensão de Pernas na Máquina (sentado);3;32;10;;;104;104;;;;;1;1;1
+08.08.2025;20:33:08;C;Agachamento Sumô;1;20;12;;;105;130;;;;;1;1;1
+08.08.2025;20:37:58;C;Agachamento Sumô;2;20;10;;;56;56;;;;;1;1;1
+08.08.2025;20:40:06;C;Agachamento Sumô;3;20;8;;;56;56;;;;;1;1;1
+08.08.2025;20:41:36;C;Agachamento Sumô;4;20;6;;;129;129;;;;;1;1;1
+08.08.2025;20:44:07;C;Afundo 3x8 (cada lado);1;0;8;;;96;135;;;;;1;1;1
+08.08.2025;20:45:48;C;Afundo 3x8 (cada lado);2;0;8;;;56;56;;;;;1;1;1
+08.08.2025;20:47:30;C;Afundo 3x8 (cada lado);3;0;8;;;;;;;;;1;1;1
+09.08.2025;16:35:02;D;Supino Articulado Máquina (Pré-ativação);1;40;12;;;80;80;;;;;1;1;1
+09.08.2025;16:37:28;D;Supino Articulado Máquina (Pré-ativação);2;80;12;;;;;;;;;1;1;1
+09.08.2025;16:40:39;D;Supino Articulado Máquina (Pré-ativação);3;40;12;;;84;89;;;;;1;1;1
+09.08.2025;16:44:13;D;Supino Articulado Máquina (Pré-ativação);4;80;12;;;87;87;;;;;1;1;1
+09.08.2025;16:47:56;D;Supino Articulado Máquina (Pré-ativação);5;40;14;;;87;87;;;;;1;1;1
+09.08.2025;16:59:50;D;Crossover Polia Alta;1;15;15;;;95;100;;;;;1;1;1
+09.08.2025;17:01:31;D;Crossover Polia Alta;2;15;13;;;89;89;;;;;1;1;1
+09.08.2025;17:03:45;D;Crossover Polia Alta;3;15;9;;;89;89;;;;;1;1;1
+09.08.2025;17:05:46;D;Crossover Polia Alta;4;10;12;;;72;89;;;;;1;1;1
+09.08.2025;17:08:04;D;Crossover Polia Baixa;1;10;8;;;67;77;;;;;1;1;1
+09.08.2025;17:10:01;D;Crossover Polia Baixa;2;10;10;;;89;89;;;;;1;1;1
+09.08.2025;17:12:07;D;Crossover Polia Baixa;3;10;10;;;;;;;;;1;1;1
+09.08.2025;17:14:04;D;Crossover Polia Baixa;4;10;8;;;89;89;;;;;1;1;1
+09.08.2025;17:17:42;D;Supino na Máquina (inclinado);1;28;10;;;88;89;;;;;1;1;1
+09.08.2025;17:19:39;D;Supino na Máquina (inclinado);2;28;10;;;89;89;;;;;1;1;1
+09.08.2025;17:21:27;D;Supino na Máquina (inclinado);3;28;10;;;55;55;;;;;1;1;1
+09.08.2025;17:24:13;D;Tríceps Polia Barra Reta;1;30;15;;;78;99;;;;;1;1;1
+09.08.2025;17:26:15;D;Tríceps Polia Barra Reta;2;30;15;;;56;56;;;;;1;1;1
+09.08.2025;17:28:31;D;Tríceps Polia Barra Reta;3;30;15;;;54;56;;;;;1;1;1
+09.08.2025;17:30:13;D;Tríceps Polia Barra Reta;4;30;11;;;60;60;;;;;1;1;1
+09.08.2025;17:33:21;D;Tríceps Francês Crossover;1;15;10;;;65;90;;;;;1;1;1
+09.08.2025;17:35:55;D;Tríceps Francês Crossover;2;15;10;;;91;91;;;;;1;1;1
+09.08.2025;17:37:39;D;Tríceps Francês Crossover;3;15;10;;;97;101;;;;;1;1;1
+09.08.2025;17:39:20;D;Tríceps Máquina Paralelas;1;41;12;;;86;91;;;;;1;1;1
+09.08.2025;17:40:56;D;Tríceps Máquina Paralelas;2;41;12;;;;;;;;;1;1;1
+09.08.2025;17:42:47;D;Tríceps Máquina Paralelas;3;41;12;;;;;;;;;1;1;1
+11.08.2025;20:55:44;E;Graviton Aberto;1;60;10;;;94;94;;;;;1;1;1
+11.08.2025;20:57:27;E;Graviton Aberto;2;60;10;;;96;96;;;;;1;1;1
+11.08.2025;20:59:29;E;Graviton Aberto;3;60;10;;;;;;;;;1;1;1
+11.08.2025;21:07:43;E;Desenvolvimento de Ombros na Máquina (sentado);1;20;12;;;87;91;;;;;1;1;1
+11.08.2025;21:08:34;E;Desenvolvimento de Ombros na Máquina (sentado);2;20;12;;;89;91;;;;;1;1;1
+11.08.2025;21:10:38;E;Desenvolvimento de Ombros na Máquina (sentado);3;20;12;;;91;91;;;;;1;1;1
+11.08.2025;21:13:09;E;Elevação Lateral com Halteres (em pé);1;23;10;;;94;97;;;;;1;1;1
+11.08.2025;21:15:06;E;Elevação Lateral com Halteres (em pé);2;23;10;;;90;91;;;;;1;1;1
+11.08.2025;21:17:05;E;Elevação Lateral com Halteres (em pé);3;23;10;;;91;91;;;;;1;1;1
+11.08.2025;21:18:45;E;Voador Invertido na Máquina (sentado);1;41;10;;;91;91;;;;;1;1;1
+11.08.2025;21:20:21;E;Voador Invertido na Máquina (sentado);2;41;10;;;91;91;;;;;1;1;1
+11.08.2025;21:22:19;E;Voador Invertido na Máquina (sentado);3;41;7;;;99;99;;;;;1;1;1
+11.08.2025;21:24:36;E;Meio-Abdominal na Máquina (sentado);1;30;10;;;110;129;;;;;1;1;1
+11.08.2025;21:27:19;E;Meio-Abdominal na Máquina (sentado);2;30;10;;;91;91;;;;;1;1;1
+11.08.2025;21:29:18;E;Meio-Abdominal na Máquina (sentado);3;30;10;;;91;91;;;;;1;1;1
+11.08.2025;21:32:41;E;Elevação Frontal Cross;1;15;10;;;;;;;;;1;1;1
+11.08.2025;21:34:30;E;Elevação Frontal Cross;2;20;10;;;115;115;;;;;1;1;1
+11.08.2025;21:36:12;E;Elevação Frontal Cross;3;20;10;;;;;;;;;1;1;1
+12.08.2025;17:34:00;A;Mobilidade de Inferiores;1;0;15;;;56;58;;;;;1;1;1
+12.08.2025;17:36:01;A;Leg Press na Máquina (inclinado);1;25;15;;;118;118;;;;;1;1;1
+12.08.2025;17:38:14;A;Leg Press na Máquina (inclinado);2;25;12;;;123;123;;;;;1;1;1
+12.08.2025;17:40:25;A;Leg Press na Máquina (inclinado);3;25;12;;;112;112;;;;;1;1;1
+12.08.2025;17:42:41;A;Leg Press na Máquina (inclinado);4;25;10;;;115;115;;;;;1;1;1
+12.08.2025;17:46:42;A;Agachamento Sumo;1;20;12;;;;;;;;;1;1;1
+12.08.2025;17:48:29;A;Agachamento Sumo;2;20;10;;;108;130;;;;;1;1;1
+12.08.2025;17:51:14;A;Agachamento Sumo;3;20;8;;;85;85;;;;;1;1;1
+12.08.2025;17:52:41;A;Agachamento Sumo;4;20;8;;;107;112;;;;;1;1;1
+12.08.2025;17:55:16;A;Abdução na Máquina (sentado);1;45;15;;;112;112;;;;;1;1;1
+12.08.2025;17:57:36;A;Abdução na Máquina (sentado);2;45;15;;;112;112;;;;;1;1;1
+12.08.2025;18:00:17;A;Abdução na Máquina (sentado);3;45;15;;;78;78;;;;;1;1;1
+12.08.2025;18:02:32;A;Abdução na Máquina (sentado);4;45;15;;;81;83;;;;;1;1;1
+12.08.2025;18:06:53;A;Mesa Flexora Unilateral;1;23;8;;;98;109;;;;;1;1;1
+12.08.2025;18:08:48;A;Mesa Flexora Unilateral;2;23;8;;;99;119;;;;;1;1;1
+12.08.2025;18:10:43;A;Mesa Flexora Unilateral;3;23;8;;;117;117;;;;;1;1;1
+12.08.2025;18:13:15;A;Agachamento Búlgaro;1;0;16;;;118;118;;;;;1;1;1
+12.08.2025;18:16:53;A;Agachamento Búlgaro;2;0;16;;;134;138;;;;;1;1;1
+12.08.2025;18:17:01;A;Lombar Banco Dorsal;1;0;10;;;138;138;;;;;1;1;1
+12.08.2025;18:18:41;A;Lombar Banco Dorsal;2;0;10;;;120;128;;;;;1;1;1
+12.08.2025;18:20:13;A;Lombar Banco Dorsal;3;0;11;;;;;;;;;1;1;1
+13.08.2025;17:31:45;B;Puxada Vertical na Máquina (sentado);1;50;15;;;83;83;;;;;1;1;1
+13.08.2025;17:34:04;B;Puxada Vertical na Máquina (sentado);2;50;15;;;107;107;;;;;1;1;1
+13.08.2025;17:36:46;B;Puxada Vertical na Máquina (sentado);3;50;15;;;82;82;;;;;1;1;1
+13.08.2025;17:41:14;B;Puxada Vertical na Máquina (sentado);4;50;15;;;112;112;;;;;1;1;1
+13.08.2025;17:44:28;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);1;50;10;;;112;112;;;;;1;1;1
+13.08.2025;17:47:00;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);2;50;10;;;116;116;;;;;1;1;1
+13.08.2025;17:48:59;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);3;50;10;;;118;118;;;;;1;1;1
+13.08.2025;17:51:19;B;Puxada Vertical até o Peito, Pegada Supinada Fechada (sentado);4;50;10;;;88;90;;;;;1;1;1
+13.08.2025;17:54:14;B;Remada Serrote Unilateral (Máquina);1;36;10;;;;;;;;;1;1;1
+13.08.2025;17:56:55;B;Remada Serrote Unilateral (Máquina);2;36;10;;;;;;;;;1;1;1
+13.08.2025;17:59:18;B;Remada Serrote Unilateral (Máquina);3;36;10;;;53;53;;;;;1;1;1
+13.08.2025;18:04:14;B;Remada Cavalo Fechada;1;25;12;;;125;129;;;;;1;1;1
+13.08.2025;18:07:31;B;Remada Cavalo Fechada;2;25;12;;;49;49;;;;;1;1;1
+13.08.2025;18:12:06;B;Remada Cavalo Fechada;3;25;12;;;49;49;;;;;1;1;1
+13.08.2025;18:16:20;B;Remada Cavalo Fechada;4;25;10;;;89;89;;;;;1;1;1
+13.08.2025;18:20:03;B;Rosca Direta com Barra (em pé);1;20;8;;;;;;;;;1;1;1
+13.08.2025;18:21:47;B;Rosca Direta com Barra (em pé);2;20;6;;;105;105;;;;;1;1;1
+13.08.2025;18:23:28;B;Rosca Direta com Barra (em pé);3;20;5;;;105;105;;;;;1;1;1
+13.08.2025;18:26:11;B;Rosca na Máquina (sentado);1;23;10;;;110;112;;;;;1;1;1
+13.08.2025;18:28:07;B;Rosca na Máquina (sentado);2;23;10;;;111;117;;;;;1;1;1
+13.08.2025;18:29:50;B;Rosca na Máquina (sentado);3;23;10;;;105;105;;;;;1;1;1
+13.08.2025;18:36:04;B;Voador Invertido na Máquina (sentado);1;36;12;;;;;;;;;1;1;1
+13.08.2025;18:37:46;B;Voador Invertido na Máquina (sentado);2;36;11;;;;;;;;;1;1;1
+13.08.2025;18:39:18;B;Voador Invertido na Máquina (sentado);3;36;6;;;;;;;;;1;1;1
+14.08.2025;20:19:49;C;Extensão de Pernas na Máquina (sentado);1;32;10;;;84;85;;;;;1;1;1
+14.08.2025;20:22:03;C;Extensão de Pernas na Máquina (sentado);2;32;10;;;73;73;;;;;1;1;1
+14.08.2025;20:23:50;C;Extensão de Pernas na Máquina (sentado);3;32;10;;;96;96;;;;;1;1;1
+14.08.2025;20:26:36;C;Agachamento Sumô;1;20;12;;;107;107;;;;;1;1;1
+14.08.2025;20:31:30;C;Agachamento Sumô;2;20;12;;;73;73;;;;;1;1;1
+14.08.2025;20:33:46;C;Agachamento Sumô;3;20;12;;;120;120;;;;;1;1;1
+14.08.2025;20:36:42;C;Agachamento Sumô;4;20;8;;;103;117;;;;;1;1;1
+14.08.2025;20:39:21;C;Afundo 3x8 (cada lado);1;5;8;;;73;73;;;;;1;1;1
+14.08.2025;20:41:37;C;Afundo 3x8 (cada lado);2;5;8;;;73;73;;;;;1;1;1
+14.08.2025;20:45:03;C;Afundo 3x8 (cada lado);3;5;8;;;;;;;;;1;1;1
+14.08.2025;20:46:58;C;Panturrilhas em Pé Unilateral Livre;1;25;12;;;;;;;;;1;1;1
+14.08.2025;20:48:37;C;Panturrilhas em Pé Unilateral Livre;2;30;12;;;118;128;;;;;1;1;1
+14.08.2025;20:52:30;C;Máquina de Leg Press, Pés Abertos (inclinado);1;25;12;;;73;73;;;;;1;1;1
+14.08.2025;20:54:03;C;Máquina de Leg Press, Pés Abertos (inclinado);2;25;10;;;98;123;;;;;1;1;1
+14.08.2025;20:55:10;C;Panturrilhas em Pé Unilateral Livre;3;30;12;;;73;73;;;;;1;1;1
+14.08.2025;20:56:19;C;Máquina de Leg Press, Pés Abertos (inclinado);3;25;8;;;73;73;;;;;1;1;1
+14.08.2025;20:59:32;C;Elevação de Panturrilha na Máquina (sentado);1;30;12;;;94;108;;;;;1;1;1
+14.08.2025;21:01:05;C;Elevação de Panturrilha na Máquina (sentado);2;30;12;;;90;94;;;;;1;1;1
+14.08.2025;21:07:03;C;Elevação de Panturrilha na Máquina (sentado);3;30;15;;;;;;;;;1;1;1
+15.08.2025;18:18:42;D;Supino Articulado Máquina (Pré-ativação);1;40;12;;;72;72;;;;;1;1;1
+15.08.2025;18:21:42;D;Supino Articulado Máquina (Pré-ativação);2;80;12;;;;;;;;;1;1;1
+15.08.2025;18:24:03;D;Supino Articulado Máquina (Pré-ativação);3;40;12;;;85;85;;;;;1;1;1
+15.08.2025;18:28:35;D;Supino Articulado Máquina (Pré-ativação);4;80;12;;;87;87;;;;;1;1;1
+15.08.2025;18:30:31;D;Supino Articulado Máquina (Pré-ativação);5;40;12;;;;;;;;;1;1;1
+15.08.2025;18:36:37;D;Supino na Máquina (inclinado);1;32;10;;;;;;;;;1;1;1
+15.08.2025;18:38:37;D;Supino na Máquina (inclinado);2;32;9;;;;;;;;;1;1;1
+15.08.2025;18:41:10;D;Supino na Máquina (inclinado);3;32;5;;;93;99;;;;;1;1;1
+15.08.2025;18:45:29;D;Crossover Polia Alta;1;20;12;;;99;99;;;;;1;1;1
+15.08.2025;18:47:01;D;Crossover Polia Alta;2;20;10;;;85;99;;;;;1;1;1
+15.08.2025;18:48:45;D;Crossover Polia Alta;3;20;11;;;79;99;;;;;1;1;1
+15.08.2025;18:50:21;D;Crossover Polia Alta;4;20;11;;;99;99;;;;;1;1;1
+15.08.2025;18:53:51;D;Crossover Polia Baixa;1;10;10;;;55;55;;;;;1;1;1
+15.08.2025;18:55:38;D;Crossover Polia Baixa;2;10;10;;;99;99;;;;;1;1;1
+15.08.2025;18:57:33;D;Crossover Polia Baixa;3;10;10;;;99;99;;;;;1;1;1
+15.08.2025;18:59:51;D;Tríceps Polia Barra Reta;1;30;15;;;99;99;;;;;1;1;1
+15.08.2025;19:01:51;D;Tríceps Polia Barra Reta;2;40;14;;;78;106;;;;;1;1;1
+15.08.2025;19:03:29;D;Tríceps Polia Barra Reta;3;40;6;;;93;107;;;;;1;1;1
+15.08.2025;19:04:54;D;Tríceps Polia Barra Reta;4;40;7;;;;;;;;;1;1;1
+19.08.2025;20:46:29;E;Graviton Aberto;1;60;10;;;;;;;;;1;1;1
+19.08.2025;20:48:27;E;Graviton Aberto;2;55;10;;;106;124;;;;;1;1;1
+19.08.2025;20:50:41;E;Graviton Aberto;3;55;10;;;70;88;;;;;1;1;1
+19.08.2025;20:54:05;E;Desenvolvimento de Ombros na Máquina (sentado);1;18;12;;;76;100;;;;;1;1;1
+19.08.2025;20:56:31;E;Desenvolvimento de Ombros na Máquina (sentado);2;18;12;;;49;51;;;;;1;1;1
+19.08.2025;20:58:45;E;Desenvolvimento de Ombros na Máquina (sentado);3;18;12;;;90;129;;;;;1;1;1
+19.08.2025;21:00:42;E;Elevação Lateral com Halteres (em pé);1;23;10;;;71;90;;;;;1;1;1
+19.08.2025;21:02:20;E;Elevação Lateral com Halteres (em pé);2;23;10;;;105;105;;;;;1;1;1
+19.08.2025;21:03:57;E;Elevação Lateral com Halteres (em pé);3;23;10;;;105;105;;;;;1;1;1
+19.08.2025;21:08:27;E;Voador Invertido na Máquina (sentado);1;41;10;;;105;105;;;;;1;1;1
+19.08.2025;21:10:22;E;Voador Invertido na Máquina (sentado);2;36;10;;;112;118;;;;;1;1;1
+19.08.2025;21:12:16;E;Voador Invertido na Máquina (sentado);3;36;10;;;;;;;;;1;1;1
+19.08.2025;21:15:57;E;Elevação Frontal Cross;1;14;10;;;;;;;;;1;1;1
+19.08.2025;21:17:49;E;Elevação Frontal Cross;2;14;10;;;;;;;;;1;1;1
+19.08.2025;21:19:52;E;Elevação Frontal Cross;3;14;10;;;55;57;;;;;1;1;1
+19.08.2025;21:24:43;E;Elevação de Panturrilha na Máquina (sentado);1;30;10;;;81;81;;;;;1;1;1
+19.08.2025;21:26:28;E;Elevação de Panturrilha na Máquina (sentado);2;30;10;;;;;;;;;1;1;1
+20.08.2025;07:45:46;A;Mobilidade de Inferiores;1;0;15;;;;;;;;;1;1;1
+20.08.2025;07:46:50;A;Leg Press na Máquina (inclinado);1;25;15;;;125;134;;;;;1;1;1
+20.08.2025;07:50:00;A;Leg Press na Máquina (inclinado);2;25;14;;;106;135;;;;;1;1;1
+20.08.2025;07:52:21;A;Leg Press na Máquina (inclinado);3;25;14;;;115;115;;;;;1;1;1
+20.08.2025;07:55:13;A;Leg Press na Máquina (inclinado);4;25;12;;;126;126;;;;;1;1;1
+20.08.2025;08:00:26;A;Agachamento Sumo;1;20;12;;;114;114;;;;;1;1;1
+20.08.2025;08:04:04;A;Agachamento Sumo;2;20;12;;;122;128;;;;;1;1;1
+20.08.2025;08:06:08;A;Agachamento Sumo;3;20;8;;;;;;;;;1;1;1
+23.08.2025;08:06:27;C;Máquina de Leg Press, Pés Abertos (inclinado);1;25;12;;;;;;;;;1;1;1
+23.08.2025;08:08:46;C;Máquina de Leg Press, Pés Abertos (inclinado);2;25;10;;;;;;;;;1;1;1
+23.08.2025;08:12:15;C;Máquina de Leg Press, Pés Abertos (inclinado);3;25;8;;;119;119;;;;;1;1;1
+23.08.2025;08:14:07;C;Extensão de Pernas na Máquina (sentado);1;32;10;;;;;;;;;1;1;1
+23.08.2025;08:14:54;C;Extensão de Pernas na Máquina (sentado);2;32;10;;;;;;;;;1;1;1
+23.08.2025;08:16:30;C;Extensão de Pernas na Máquina (sentado);3;32;10;;;;;;;;;1;1;1
+23.08.2025;08:21:35;C;Agachamento Sumô;1;20;12;;;127;127;;;;;1;1;1
+23.08.2025;08:22:20;C;Agachamento Sumô;2;20;10;;;;;;;;;1;1;1
+23.08.2025;08:24:04;C;Agachamento Sumô;3;20;8;;;;;;;;;1;1;1
+23.08.2025;08:29:49;C;Agachamento Sumô;4;20;15;;;87;87;;;;;1;1;1
+23.08.2025;08:42:49;C;Panturrilhas em Pé Unilateral Livre;1;25;12;;;;;;;;;1;1;1
+23.08.2025;08:45:36;C;Panturrilhas em Pé Unilateral Livre;2;25;12;;;;;;;;;1;1;1
+23.08.2025;08:47:02;C;Panturrilhas em Pé Unilateral Livre;3;25;12;;;;;;;;;1;1;1
+23.08.2025;09:00:28;C;Prancha Isométrica (ou Abdominal Máquina) ;1;25;12;;;;;;;;;1;1;1
+23.08.2025;09:02:38;C;Prancha Isométrica (ou Abdominal Máquina) ;2;25;12;;;90;90;;;;;1;1;1
+23.08.2025;09:12:03;C;Elevação de Panturrilha na Máquina (sentado);1;25;15;;;95;96;;;;;1;1;1
+23.08.2025;09:12:06;C;Elevação de Panturrilha na Máquina (sentado);2;25;15;;;95;96;;;;;1;1;1
+23.08.2025;09:12:08;C;Elevação de Panturrilha na Máquina (sentado);3;25;15;;;95;96;;;;;1;1;1
+23.08.2025;09:12:17;C;Prancha Isométrica (ou Abdominal Máquina) ;3;25;12;;;95;96;;;;;1;1;1
+23.08.2025;09:12:23;C;Afundo 3x8 (cada lado);1;2.5;8;;;95;96;;;;;1;1;1
+23.08.2025;09:12:25;C;Afundo 3x8 (cada lado);2;2.5;8;;;95;96;;;;;1;1;1
+23.08.2025;09:12:27;C;Afundo 3x8 (cada lado);3;2.5;8;;;;;;;;;1;1;1
+25.08.2025;06:58:55;D;Supino Articulado Máquina (Pré-ativação);1;40;12;;;100;100;;;;;1;1;1
+25.08.2025;07:02:56;D;Supino Articulado Máquina (Pré-ativação);2;80;12;;;84;84;;;;;1;1;1
+25.08.2025;07:05:22;D;Supino Articulado Máquina (Pré-ativação);3;60;12;;;92;99;;;;;1;1;1
+25.08.2025;07:09:25;D;Supino Articulado Máquina (Pré-ativação);4;80;12;;;87;90;;;;;1;1;1
+25.08.2025;07:12:44;D;Supino Articulado Máquina (Pré-ativação);5;60;12;;;80;112;;;;;1;1;1
+25.08.2025;07:18:30;D;Supino na Máquina (inclinado);1;28;10;;;68;83;;;;;1;1;1
+25.08.2025;07:21:11;D;Supino na Máquina (inclinado);2;28;10;;;;;;;;;1;1;1
+25.08.2025;07:24:03;D;Supino na Máquina (inclinado);3;28;8;;;120;129;;;;;1;1;1
+25.08.2025;07:27:55;D;Crossover Polia Alta;1;15;15;;;97;110;;;;;1;1;1
+25.08.2025;07:30:32;D;Crossover Polia Alta;2;15;15;;;110;110;;;;;1;1;1
+25.08.2025;07:33:58;D;Crossover Polia Alta;3;15;15;;;137;139;;;;;1;1;1
+25.08.2025;07:36:41;D;Crossover Polia Alta;4;15;9;;;117;123;;;;;1;1;1
+25.08.2025;07:39:50;D;Crossover Polia Baixa;1;10;10;;;121;131;;;;;1;1;1
+25.08.2025;07:42:34;D;Crossover Polia Baixa;2;10;12;;;87;121;;;;;1;1;1
+25.08.2025;07:45:26;D;Crossover Polia Baixa;3;10;10;;;121;121;;;;;1;1;1
+25.08.2025;07:47:36;D;Crossover Polia Baixa;4;10;8;;;;;;;;;1;1;1
+25.08.2025;07:52:29;D;Tríceps Polia Barra Reta;1;30;10;;;118;121;;;;;1;1;1
+25.08.2025;07:55:02;D;Tríceps Polia Barra Reta;2;30;15;;;119;119;;;;;1;1;1
+25.08.2025;07:57:25;D;Tríceps Polia Barra Reta;3;30;15;;;121;121;;;;;1;1;1
+25.08.2025;07:59:14;D;Tríceps Polia Barra Reta;4;25;15;;;135;135;;;;;1;1;1
+25.08.2025;08:02:24;D;Tríceps Francês Crossover;1;15;10;;;121;121;;;;;1;1;1
+25.08.2025;08:04:07;D;Tríceps Francês Crossover;2;15;10;;;128;135;;;;;1;1;1
+25.08.2025;08:05:49;D;Tríceps Francês Crossover;3;15;10;;;137;137;;;;;1;1;1
+25.08.2025;08:07:54;D;Tríceps Máquina Paralelas;1;41;12;;;121;121;;;;;1;1;1
+25.08.2025;08:09:48;D;Tríceps Máquina Paralelas;2;41;12;;;;;;;;;1;1;1
+26.08.2025;06:38:17;E;Graviton Aberto;1;60;10;;;115;115;;;;;1;1;1
+26.08.2025;06:40:28;E;Graviton Aberto;2;60;10;;;86;123;;;;;1;1;1
+26.08.2025;06:44:19;E;Graviton Aberto;3;60;10;;;49;49;;;;;1;1;1
+26.08.2025;06:47:34;E;Desenvolvimento de Ombros na Máquina (sentado);1;20;12;;;55;55;;;;;1;1;1
+26.08.2025;06:49:27;E;Desenvolvimento de Ombros na Máquina (sentado);2;20;12;;;49;49;;;;;1;1;1
+26.08.2025;06:53:02;E;Desenvolvimento de Ombros na Máquina (sentado);3;20;12;;;90;99;;;;;1;1;1
+26.08.2025;06:55:54;E;Elevação Lateral com Halteres (em pé);1;23;10;;;107;114;;;;;1;1;1
+26.08.2025;06:57:42;E;Elevação Lateral com Halteres (em pé);2;23;10;;;99;99;;;;;1;1;1
+26.08.2025;06:59:18;E;Elevação Lateral com Halteres (em pé);3;23;10;;;;;;;;;1;1;1
+26.08.2025;07:03:30;E;Elevação Frontal Cross;1;15;10;;;91;99;;;;;1;1;1
+26.08.2025;07:05:47;E;Elevação Frontal Cross;2;20;10;;;99;99;;;;;1;1;1
+26.08.2025;07:08:21;E;Elevação Frontal Cross;3;20;10;;;99;99;;;;;1;1;1
+26.08.2025;07:11:16;E;Meio-Abdominal na Máquina (sentado);1;30;10;;;114;115;;;;;1;1;1
+26.08.2025;07:14:27;E;Meio-Abdominal na Máquina (sentado);2;30;10;;;117;119;;;;;1;1;1
+26.08.2025;07:17:09;E;Meio-Abdominal na Máquina (sentado);3;30;10;;;108;115;;;;;1;1;1
+26.08.2025;07:24:37;E;Voador Invertido na Máquina (sentado);1;41;10;;;118;118;;;;;1;1;1
+26.08.2025;07:26:27;E;Voador Invertido na Máquina (sentado);2;41;10;;;125;135;;;;;1;1;1
+26.08.2025;07:29:49;E;Voador Invertido na Máquina (sentado);3;41;10;;;129;129;;;;;1;1;1
+26.08.2025;07:34:24;E;Elevação de Panturrilha na Máquina (sentado);1;30;15;;;114;117;;;;;1;1;1
+26.08.2025;07:36:48;E;Elevação de Panturrilha na Máquina (sentado);2;30;15;;;113;119;;;;;1;1;1
+26.08.2025;07:38:33;E;Elevação de Panturrilha na Máquina (sentado);3;30;15;;;;;;;;;1;1;1
