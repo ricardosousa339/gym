@@ -2,10 +2,18 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
-from plotly.subplots import make_subplots
 import numpy as np
 from datetime import datetime, timedelta
-import os
+
+# Importar módulos locais
+from data import load_data, calculate_volume, calculate_1rm, calculate_trend
+from forecasting import forecast_1rm_series, detect_plateau
+from mappings import (
+    map_exercise_to_group, get_group_icon_path, alias_name, 
+    get_group_emoji, get_exercise_emoji, get_exercise_icon_path
+)
+from charts import create_comparison_chart
+from metrics import generate_alerts, calculate_basic_metrics, calculate_exercise_stats
 
 # Configuração da página
 st.set_page_config(
@@ -14,242 +22,6 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
-
-# Função para carregar dados
-@st.cache_data
-def load_data():
-    """Carrega os dados do arquivo CSV"""
-    file_path = "Exportação CSV.eml"
-    
-    if not os.path.exists(file_path):
-        st.error(f"Arquivo {file_path} não encontrado!")
-        return pd.DataFrame()
-    
-    try:
-        # Lendo o arquivo CSV com separador ponto e vírgula
-        df = pd.read_csv(file_path, sep=';', encoding='utf-8')
-        
-        # Convertendo a coluna Date para datetime
-        df['Date'] = pd.to_datetime(df['Date'], format='%d.%m.%Y')
-        
-        # Criando coluna de data e hora combinada
-        df['DateTime'] = pd.to_datetime(df['Date'].dt.strftime('%Y-%m-%d') + ' ' + df['Time'])
-        
-        # Convertendo colunas numéricas
-        numeric_columns = ['Weight', 'Reps', 'Duration', 'Distance']
-        for col in numeric_columns:
-            if col in df.columns:
-                df[col] = pd.to_numeric(df[col], errors='coerce')
-        
-        return df
-    
-    except Exception as e:
-        st.error(f"Erro ao carregar dados: {str(e)}")
-        return pd.DataFrame()
-
-# Função para calcular volume de treino
-def calculate_volume(df):
-    """Calcula o volume de treino (Weight x Reps)"""
-    df['Volume'] = df['Weight'] * df['Reps']
-    return df
-
-# Função para calcular 1RM estimado
-def calculate_1rm(weight, reps):
-    """Calcula 1RM usando a fórmula de Epley"""
-    if pd.isna(weight) or pd.isna(reps) or reps == 0:
-        return None
-    return weight * (1 + reps / 30.0)
-
-# Função para análise de tendência
-def calculate_trend(df, column, periods=5):
-    """Calcula a tendência usando média móvel"""
-    return df[column].rolling(window=periods, min_periods=1).mean()
-
-# Previsão de 1RM (ARIMA com fallback para Regressão Linear)
-def forecast_1rm_series(series: pd.Series, periods_weeks: int = 6):
-    """Recebe uma série temporal (index datetime, valores 1RM) e retorna DataFrame com previsões semanais."""
-    s = series.dropna().sort_index()
-    if s.empty or len(s) < 5:
-        return None
-    # Reamostrar para semanal (máximo 1RM na semana)
-    sw = s.resample('W').max().dropna()
-    if len(sw) < 5:
-        return None
-    try:
-        import importlib
-        pm = importlib.import_module('pmdarima')
-        model = pm.auto_arima(sw, seasonal=False, error_action='ignore', suppress_warnings=True)
-        fc, conf = model.predict(n_periods=periods_weeks, return_conf_int=True)
-        future_idx = pd.date_range(sw.index[-1] + pd.Timedelta(weeks=1), periods=periods_weeks, freq='W')
-        out = pd.DataFrame({'Date': future_idx, 'Forecast': fc, 'Lower': conf[:, 0], 'Upper': conf[:, 1]})
-        return out
-    except Exception:
-        # Fallback: Regressão linear no tempo
-        x = np.arange(len(sw))
-        y = sw.values
-        coef = np.polyfit(x, y, deg=1)  # y = a*x + b
-        a, b = coef[0], coef[1]
-        x_future = np.arange(len(sw), len(sw) + periods_weeks)
-        fc = a * x_future + b
-        future_idx = pd.date_range(sw.index[-1] + pd.Timedelta(weeks=1), periods=periods_weeks, freq='W')
-        out = pd.DataFrame({'Date': future_idx, 'Forecast': fc})
-        out['Lower'] = out['Forecast'] - np.std(y)
-        out['Upper'] = out['Forecast'] + np.std(y)
-        return out
-
-# Detecção simples de platô (inclinação ~0 nas últimas semanas)
-def detect_plateau(series: pd.Series, lookback_points: int = 8, slope_thresh: float = 0.01):
-    s = series.dropna().sort_index()
-    if len(s) < max(5, lookback_points):
-        return False
-    tail = s.iloc[-lookback_points:]
-    x = np.arange(len(tail))
-    y = tail.values
-    a, _b = np.polyfit(x, y, deg=1)
-    # Normalizar pelo nível médio para threshold relativo
-    if np.mean(y) > 0:
-        rel_slope = a / np.mean(y)
-    else:
-        rel_slope = a
-    return abs(rel_slope) < slope_thresh
-
-def create_comparison_chart(df, exercise1, exercise2):
-    """Cria gráfico de comparação entre dois exercícios"""
-    fig = make_subplots(
-        rows=2, cols=1,
-        subplot_titles=(f'{exercise1} - Evolução do Peso', f'{exercise2} - Evolução do Peso'),
-        vertical_spacing=0.1
-    )
-    
-    for i, exercise in enumerate([exercise1, exercise2], 1):
-        exercise_data = df[df['Exercise'] == exercise].copy()
-        if not exercise_data.empty:
-            daily_max = exercise_data.groupby('Date')['Weight'].max().reset_index()
-            
-            fig.add_trace(
-                go.Scatter(
-                    x=daily_max['Date'],
-                    y=daily_max['Weight'],
-                    mode='lines+markers',
-                    name=exercise,
-                    line=dict(width=2)
-                ),
-                row=i, col=1
-            )
-    
-    fig.update_layout(height=600, showlegend=True)
-    fig.update_xaxes(title_text="Data", row=2, col=1)
-    fig.update_yaxes(title_text="Peso Máximo (kg)", row=1, col=1)
-    fig.update_yaxes(title_text="Peso Máximo (kg)", row=2, col=1)
-    return fig
-
-# Novo: mapeia exercício para grupo muscular
-
-def map_exercise_to_group(name: str) -> str:
-    if not isinstance(name, str):
-        return 'Outros'
-    s = name.strip().lower()
-    groups = [
-        (['supino', 'bench', 'crucifixo', 'crossover', 'peck deck', 'fly'], 'Peito'),
-        (['remada', 'puxada', 'pulldown', 'barra fixa', 'serrote', 'pullover', 'row'], 'Costas'),
-        (['agachamento', 'squat', 'leg press', 'hack', 'afundo', 'lunge', 'extensora', 'flexora', 'adutora', 'abdutora'], 'Pernas'),
-        (['desenvolvimento', 'elevação lateral', 'elevação frontal', 'arnold', 'shoulder', 'militar'], 'Ombros'),
-        (['rosca', 'curl', 'bíceps', 'biceps'], 'Bíceps'),
-        (['tríceps', 'triceps', 'paralelas', 'mergulho', 'pulley', 'testa'], 'Tríceps'),
-        (['glúteo', 'gluteo', 'hip thrust', 'coice', 'abdução', 'elevação pélvica'], 'Glúteos'),
-        (['panturrilha', 'gemelar', 'calf'], 'Panturrilha'),
-        (['abdominal', 'abs', 'prancha', 'crunch', 'core'], 'Core'),
-        (['esteira', 'bike', 'spinning', 'corrida', 'remador', 'rower'], 'Cardio'),
-    ]
-    for keywords, grp in groups:
-        if any(k in s for k in keywords):
-            return grp
-    return 'Outros'
-
-def get_group_icon_path(group: str) -> str:
-    base = 'icons/grupo'
-    slug = {
-        'Peito': 'peito', 'Costas': 'costas', 'Pernas': 'pernas', 'Ombros': 'ombros',
-        'Bíceps': 'biceps', 'Tríceps': 'triceps', 'Glúteos': 'gluteos', 'Panturrilha': 'panturrilha',
-        'Core': 'core', 'Cardio': 'cardio'
-    }.get(group, 'core')
-    path = f"{base}/{slug}.svg"
-    return path if os.path.exists(path) else f"{base}/core.svg"
-
-
-def alias_name(name: str, max_len: int = 16) -> str:
-    if not isinstance(name, str) or not name:
-        return ''
-    s = name
-    # remove conteúdo entre parênteses e múltiplos espaços
-    import re
-    s = re.sub(r"\s*\([^)]*\)", "", s).strip()
-    parts = s.split()
-    # manter 1–2 palavras
-    s = " ".join(parts[:2]) if len(" ".join(parts[:2])) >= 6 else (" ".join(parts[:3]) if len(parts) >= 3 else s)
-    if len(s) > max_len:
-        s = s[: max_len - 1].rstrip() + '…'
-    return s
-
-# Novos: emojis para economizar espaço
-
-def get_group_emoji(group: str | None) -> str:
-    m = {
-        'Peito': '🏋️',
-        'Costas': '🧗',
-        'Pernas': '🦵',
-        'Ombros': '🧍',
-        'Bíceps': '💪',
-        'Tríceps': '🦾',
-        'Glúteos': '🟤',
-        'Panturrilha': '🦶',
-        'Core': '🧘',
-        'Cardio': '❤️',
-    }
-    return m.get(group or '', '')
-
-
-def get_exercise_emoji(exercise: str | None, group: str | None = None) -> str:
-    if isinstance(exercise, str):
-        s = exercise.lower()
-        # por palavras-chave do exercício
-        if any(k in s for k in ['supino']):
-            return '🏋️'
-        if any(k in s for k in ['agachamento', 'leg press', 'hack']):
-            return '🦵'
-        if any(k in s for k in ['terra']):
-            return '🏋️'
-        if any(k in s for k in ['remada', 'remador']):
-            return '🚣'
-        if any(k in s for k in ['barra fixa', 'pull-up', 'puxada', 'pulldown']):
-            return '🧗'
-        if any(k in s for k in ['rosca', 'bíceps', 'biceps', 'curl']):
-            return '💪'
-        if any(k in s for k in ['tríceps', 'triceps', 'testa', 'mergulho']):
-            return '🦾'
-        if any(k in s for k in ['panturrilha', 'calf']):
-            return '🦶'
-        if any(k in s for k in ['abdominal', 'abs', 'prancha', 'crunch', 'core']):
-            return '🧘'
-        if any(k in s for k in ['esteira', 'corrida']):
-            return '🏃'
-        if any(k in s for k in ['bike', 'spinning']):
-            return '🚴'
-    # fallback para o grupo
-    return get_group_emoji(group or '')
-
-def get_exercise_icon_path(exercise: str, group: str | None = None) -> str:
-    # tenta ícone específico do exercício e faz fallback para ícone do grupo
-    if isinstance(exercise, str) and exercise:
-        # slugify leve: remover acentos, deixar letras/números e '-'
-        import unicodedata, re
-        txt = unicodedata.normalize('NFKD', exercise)
-        txt = ''.join(c for c in txt if not unicodedata.combining(c))
-        slug = re.sub(r'[^a-zA-Z0-9]+', '-', txt).strip('-').lower()
-        path = f"icons/exercicio/{slug}.svg"
-        if os.path.exists(path):
-            return path
-    return get_group_icon_path(group or map_exercise_to_group(exercise))
 
 def main():
     st.title("💪 GymRun Dashboard - Análise de Progresso na Academia")
@@ -299,16 +71,18 @@ def main():
 
     # Página 1: Visão Geral
     if page == "Visão Geral":
+        # Calcular métricas básicas
+        basic_metrics = calculate_basic_metrics(filtered_df)
+        
         col1, col2, col3, col4 = st.columns(4)
         with col1:
-            st.metric("🗓️ Dias de Treino", int(filtered_df['Date'].nunique()))
+            st.metric("🗓️ Dias de Treino", basic_metrics['dias_treino'])
         with col2:
-            st.metric("💪 Exercícios Diferentes", int(filtered_df['Exercise'].nunique()))
+            st.metric("💪 Exercícios Diferentes", basic_metrics['exercicios_diferentes'])
         with col3:
-            st.metric("🔢 Séries", int(len(filtered_df)))
+            st.metric("🔢 Séries", basic_metrics['series_total'])
         with col4:
-            avg_volume = 0 if filtered_df.empty or filtered_df['Volume'].isna().all() else filtered_df['Volume'].mean()
-            st.metric("⚖️ Volume Médio/Série", f"{avg_volume:.0f} kg")
+            st.metric("⚖️ Volume Médio/Série", f"{basic_metrics['volume_medio']:.0f} kg")
 
         st.subheader("📈 Evolução do Volume")
         daily_volume = filtered_df.groupby('Date')['Volume'].sum().reset_index()
@@ -356,11 +130,7 @@ def main():
             if filtered_df.empty:
                 st.info("Sem dados no período para montar atalhos.")
             else:
-                stats = filtered_df.groupby(['Exercise', 'MuscleGroup']).agg(
-                    Sessoes=('Date', 'nunique'),
-                    Volume=('Volume', 'sum'),
-                    OneRM=('Estimated_1RM', 'max')
-                ).reset_index()
+                stats = calculate_exercise_stats(filtered_df)
                 sort_by = st.selectbox(
                     "Ordenar atalhos por",
                     options=['Frequência', 'Volume', '1RM máx.'],
@@ -536,20 +306,7 @@ def main():
 
                 # Alertas
                 with tabs[5]:
-                    alerts = []
-                    # Platô em 1RM semanal
-                    m1 = ex_df.groupby('Date')['Estimated_1RM'].max().sort_index()
-                    if not m1.empty:
-                        plateau = detect_plateau(m1.resample('W').max().dropna())
-                        if plateau:
-                            alerts.append("Possível platô em 1RM. Considere deload, trocar variação ou ajustar volume/intensidade.")
-                    # Queda de volume nas últimas semanas
-                    volw = ex_df.groupby('Date')['Volume'].sum().resample('W').sum()
-                    if len(volw.dropna()) >= 4:
-                        recent = volw.iloc[-2:].mean()
-                        prev = volw.iloc[-4:-2].mean()
-                        if prev > 0 and recent < 0.8 * prev:
-                            alerts.append("Volume recente caiu >20% vs. semanas anteriores. Verifique recuperação/sono/estresse.")
+                    alerts = generate_alerts(ex_df, filtered_df, selected_ex)
                     if alerts:
                         for a in alerts:
                             st.warning(a)
