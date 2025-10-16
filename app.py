@@ -2,15 +2,13 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
-import numpy as np
-from datetime import datetime, timedelta
+ 
 
 # Importar módulos locais
 from data import load_data, calculate_volume, calculate_1rm, calculate_trend
-from forecasting import forecast_1rm_series, detect_plateau
+from forecasting import forecast_1rm_series
 from mappings import (
-    map_exercise_to_group, get_group_icon_path, alias_name, 
-    get_group_emoji, get_exercise_emoji, get_exercise_icon_path
+    map_exercise_to_group, alias_name
 )
 from charts import create_comparison_chart
 from metrics import generate_alerts, calculate_basic_metrics, calculate_exercise_stats
@@ -43,7 +41,7 @@ def main():
     # Carrega dados
     df = load_data()
     if df.empty:
-        st.warning("Nenhum dado encontrado. Certifique-se de que o arquivo 'Exportação CSV.eml' está na mesma pasta.")
+        st.warning("Nenhum dado encontrado. Certifique-se de que um dos arquivos de dados está na pasta: 'GymRun16out25.csv' (preferido), 'GymRun_16out25.csv' ou o legado 'Exportação CSV.eml'.")
         return
 
     # Métricas básicas

@@ -71,24 +71,23 @@ else
     exit 1
 fi
 
-# Verificar se o arquivo de dados existe
-if [ ! -f "Exportação CSV.eml" ]; then
-    echo "⚠️  Arquivo 'Exportação CSV.eml' não encontrado!"
-    echo "Por favor, coloque seu arquivo de exportação do GymRun na pasta atual."
+# Verificar se o arquivo de dados existe (ordem de preferência)
+if [ -f "GymRun16out25.csv" ] || [ -f "GymRun_16out25.csv" ] || [ -f "Exportação CSV.eml" ]; then
+    echo "✅ Arquivo de dados encontrado"
+else
+    echo "⚠️ Nenhum arquivo de dados encontrado!"
+    echo "Coloque seu arquivo do GymRun: 'GymRun16out25.csv' (preferido), 'GymRun_16out25.csv' ou o legado 'Exportação CSV.eml'."
     echo ""
-    echo "Como alternativa, você pode testar com os dados de exemplo do arquivo 'GymRun Exportação CSV Modelo.eml'"
-    
+    echo "Como alternativa, você pode testar com o arquivo de exemplo 'GymRun Exportação CSV Modelo.eml'"
     if [ -f "GymRun Exportação CSV Modelo.eml" ]; then
         echo "🔄 Usando arquivo de exemplo para demonstração..."
-        cp "GymRun Exportação CSV Modelo.eml" "Exportação CSV.eml"
-        echo "✅ Arquivo de exemplo copiado"
+        cp "GymRun Exportação CSV Modelo.eml" "GymRun16out25.csv"
+        echo "✅ Arquivo de exemplo copiado para GymRun16out25.csv"
     else
         echo "❌ Nenhum arquivo de dados encontrado!"
         exit 1
     fi
 fi
-
-echo "✅ Arquivo de dados encontrado"
 
 # Executar a aplicação
 echo ""

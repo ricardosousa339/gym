@@ -62,7 +62,7 @@ gym/
 ├── charts.py           # Visualizações
 ├── metrics.py          # Métricas e alertas
 ├── requirements.txt    # Dependências
-└── Exportação CSV.eml  # Dados de entrada
+└── GymRun16out25.csv   # Dados de entrada (compatível com GymRun_16out25.csv e Exportação CSV.eml)
 ```
 
 Todas as funcionalidades originais foram preservadas:

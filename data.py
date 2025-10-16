@@ -1,19 +1,30 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
 import os
 
 @st.cache_data
 def load_data():
-    """Carrega os dados do arquivo CSV"""
-    file_path = "Exportação CSV.eml"
-    
-    if not os.path.exists(file_path):
-        st.error(f"Arquivo {file_path} não encontrado!")
+    """Carrega os dados do arquivo CSV.
+
+    Ordem de busca do arquivo (primeiro que existir):
+    - GymRun16out25.csv (novo padrão)
+    - GymRun_16out25.csv (variação comum)
+    - Exportação CSV.eml (legado)
+    """
+    candidates = [
+        "GymRun16out25.csv",
+        "GymRun_16out25.csv",
+        "Exportação CSV.eml",
+    ]
+    file_path = next((p for p in candidates if os.path.exists(p)), None)
+
+    if not file_path:
+        expected = ", ".join(candidates)
+        st.error(f"Nenhum arquivo de dados encontrado. Coloque um dos arquivos: {expected} na pasta do projeto.")
         return pd.DataFrame()
     
     try:
-        # Lendo o arquivo CSV com separador ponto e vírgula
+        # Lendo o arquivo CSV com separador ponto e vírgula (locale PT)
         df = pd.read_csv(file_path, sep=';', encoding='utf-8')
         
         # Convertendo a coluna Date para datetime

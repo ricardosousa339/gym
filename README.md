@@ -14,10 +14,11 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Ou use o script de conveniência:
+Ou use um dos scripts:
 ```bash
-chmod +x run_app.sh
-./run_app.sh
+./quick_run.sh         # execução direta
+./install_and_run.sh   # cria venv e instala
+./setup_and_run.sh     # alternativa com checagens
 ```
 
 ### 3. Acesse no navegador
@@ -34,7 +35,7 @@ Abra: http://localhost:8501
 
 ## 📁 Estrutura de Dados
 
-O dashboard espera um arquivo `Exportação CSV.eml` com as seguintes colunas:
+O dashboard espera um arquivo `GymRun16out25.csv` (separado por `;`) com as seguintes colunas:
 - Date (formato: DD.MM.YYYY)
 - Time (formato: HH:MM:SS)
 - Routine

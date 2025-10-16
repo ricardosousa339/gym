@@ -54,20 +54,20 @@ pip3 install streamlit
 
 echo "✅ Todas as dependências instaladas com sucesso!"
 
-# Verificar se o arquivo de dados existe
-if [ ! -f "Exportação CSV.eml" ]; then
+# Verificar se o arquivo de dados existe (ordem de preferência)
+if [ -f "GymRun16out25.csv" ] || [ -f "GymRun_16out25.csv" ] || [ -f "Exportação CSV.eml" ]; then
+    echo "✅ Arquivo de dados encontrado"
+else
     if [ -f "GymRun Exportação CSV Modelo.eml" ]; then
         echo "📄 Copiando arquivo de exemplo..."
-        cp "GymRun Exportação CSV Modelo.eml" "Exportação CSV.eml"
-        echo "✅ Arquivo de exemplo copiado"
+        cp "GymRun Exportação CSV Modelo.eml" "GymRun16out25.csv"
+        echo "✅ Arquivo de exemplo copiado para GymRun16out25.csv"
     else
         echo "⚠️ Nenhum arquivo de dados encontrado!"
-        echo "Coloque o arquivo 'Exportação CSV.eml' na pasta atual"
+        echo "Coloque um dos arquivos 'GymRun16out25.csv', 'GymRun_16out25.csv' ou 'Exportação CSV.eml' na pasta atual"
         exit 1
     fi
 fi
-
-echo "✅ Arquivo de dados encontrado"
 
 echo ""
 echo "🎉 Configuração completa!"

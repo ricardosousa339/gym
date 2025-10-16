@@ -41,7 +41,7 @@ pip install streamlit
 
 4. **Copiar dados de exemplo (se necessário):**
 ```bash
-cp "GymRun Exportação CSV Modelo.eml" "Exportação CSV.eml"
+cp "GymRun Exportação CSV Modelo.eml" "GymRun16out25.csv"
 ```
 
 5. **Executar dashboard:**

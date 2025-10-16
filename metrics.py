@@ -1,5 +1,3 @@
-import pandas as pd
-import numpy as np
 
 def generate_alerts(exercise_df, filtered_df, exercise_name):
     """Gera alertas para um exercício específico"""

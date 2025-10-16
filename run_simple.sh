@@ -38,11 +38,13 @@ pip3 install plotly
 echo "📦 Instalando streamlit..."
 pip3 install streamlit
 
-# Verificar se o arquivo de dados existe
-if [ ! -f "Exportação CSV.eml" ]; then
+# Verificar se o arquivo de dados existe (ordem de preferência)
+if [ -f "GymRun16out25.csv" ] || [ -f "GymRun_16out25.csv" ] || [ -f "Exportação CSV.eml" ]; then
+    :
+else
     if [ -f "GymRun Exportação CSV Modelo.eml" ]; then
         echo "📄 Usando dados de exemplo..."
-        cp "GymRun Exportação CSV Modelo.eml" "Exportação CSV.eml"
+        cp "GymRun Exportação CSV Modelo.eml" "GymRun16out25.csv"
     else
         echo "❌ Nenhum arquivo de dados encontrado!"
         exit 1
