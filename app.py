@@ -5,7 +5,7 @@ import plotly.graph_objects as go
  
 
 # Importar módulos locais
-from data import load_data, calculate_volume, calculate_1rm, calculate_trend
+from data import load_data, read_uploaded_file, merge_datasets, save_dataset, calculate_volume, calculate_1rm, calculate_trend
 from forecasting import forecast_1rm_series
 from mappings import (
     map_exercise_to_group, alias_name
@@ -37,6 +37,9 @@ def main():
             - Rosca: 15kg × 10 repetições = 150kg de volume
             """
         )
+    # Carrega dados locais (base consolidada)
+    df_local = load_data()
+
     # Upload de dados pela Sidebar logo no início
     st.sidebar.header("📂 Importação de Dados")
     uploaded_file = st.sidebar.file_uploader(
@@ -47,25 +50,60 @@ def main():
     
     if uploaded_file is not None and uploaded_file.name != st.session_state.get('last_uploaded_file'):
         try:
-            # Salva o arquivo localmente para persistir entre as sessões
-            with open("GymRun_16out25.csv", "wb") as f:
-                f.write(uploaded_file.getbuffer())
-            # Marca o arquivo como processado para não travar loop
-            st.session_state['last_uploaded_file'] = uploaded_file.name
-            # Limpa o cache para forçar a releitura do arquivo salvo
-            st.cache_data.clear()
-            st.sidebar.success("✅ Arquivo atualizado com sucesso!")
-            # Recarrega a página para puxar os dados frescos
-            st.rerun()
+            new_df = read_uploaded_file(uploaded_file)
+            if not new_df.empty:
+                old_exercises = set(df_local['Exercise'].dropna().unique()) if not df_local.empty else set()
+                new_exercises = set(new_df['Exercise'].dropna().unique())
+                
+                # Apenas exercícios que surgiram no novo dataset que não existiam no local
+                diff_exercises = sorted(list(new_exercises - old_exercises)) if old_exercises else []
+                
+                if diff_exercises:
+                    st.sidebar.warning("Novos exercícios detectados. Veja a área principal.")
+                    st.warning("⚠️ **Novos exercícios encontrados!** A sua base importada tem exercícios que não existem no histórico atual.")
+                    with st.expander("📝 Mapear Novos Nomes (Resolver para Continuar)", expanded=True):
+                        st.markdown("Se você renomeou algum exercício no GymRun, escolha o nome antigo abaixo para não dividir seu histórico em dois gráficos separados. Se for um exercício totalmente novo, basta deixar na opção padrão.")
+                        
+                        user_mappings = {}
+                        opts = ['(Manter como Novo)'] + sorted(list(old_exercises))
+                        
+                        for new_ex in diff_exercises:
+                            ans = st.selectbox(f"Mesclar '{new_ex}' com:", options=opts, key=f"map_{new_ex}")
+                            if ans != '(Manter como Novo)':
+                                user_mappings[new_ex] = ans
+                                
+                        if st.button("Confirmar e Mesclar 🚀"):
+                            if user_mappings:
+                                new_df['Exercise'] = new_df['Exercise'].replace(user_mappings)
+                                
+                            combined_df = merge_datasets(df_local, new_df)
+                            save_dataset(combined_df, "GymRun_16out25.csv")
+                            
+                            st.session_state['last_uploaded_file'] = uploaded_file.name
+                            st.cache_data.clear()
+                            st.rerun()
+                            
+                    # Interrompe o fluxo normal enquanto o usuário não resolver o mapeamento
+                    return
+                else:
+                    # Fluxo normal, mescla direto se não há exercícios desconhecidos
+                    combined_df = merge_datasets(df_local, new_df)
+                    save_dataset(combined_df, "GymRun_16out25.csv")
+                    
+                    st.session_state['last_uploaded_file'] = uploaded_file.name
+                    st.cache_data.clear()
+                    st.sidebar.success("✅ Histórico mesclado com sucesso!")
+                    st.rerun()
         except Exception as e:
-            st.sidebar.error(f"Erro ao salvar arquivo: {e}")
+            st.sidebar.error(f"Erro ao processar arquivo: {e}")
             
     st.sidebar.divider()
 
-    # Carrega dados (agora sempre busca do armazenamento local que foi atualizado pelo upload)
-    df = load_data()
+    # Define o df geral a ser usado se não fomos interrompidos pelo mapeamento
+    df = df_local
+    
     if df.empty:
-        st.warning("Nenhum dado encontrado. Faça o upload do arquivo de exportação (CSV ou EML) do GymRun no menu lateral.")
+        st.warning("Nenhum dado encontrado. Faça o upload do arquivo de exportação (CSV ou EML) do GymRun no menu lateral ou certifique-se de que há um arquivo padrão na pasta.")
         return
 
     # Métricas básicas
