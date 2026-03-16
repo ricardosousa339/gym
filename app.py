@@ -36,12 +36,25 @@ def main():
             - Leg Press: 100kg × 15 repetições = 1.500kg de volume\n
             - Rosca: 15kg × 10 repetições = 150kg de volume
             """
-        )
+    # Upload de dados pela Sidebar logo no início
+    st.sidebar.header("📂 Importação de Dados")
+    uploaded_file = st.sidebar.file_uploader("Upload da Exportação (.csv, .eml)", type=['csv', 'eml'], help="Faça o upload do backup exportado do GymRun para atualizar os dados permanentemente.")
+    
+    if uploaded_file is not None:
+        try:
+            # Salva o arquivo localmente para persistir entre as sessões
+            with open("GymRun_16out25.csv", "wb") as f:
+                f.write(uploaded_file.getbuffer())
+            st.sidebar.success("✅ Arquivo atualizado com sucesso!")
+        except Exception as e:
+            st.sidebar.error(f"Erro ao salvar arquivo: {e}")
+            
+    st.sidebar.divider()
 
-    # Carrega dados
+    # Carrega dados (agora sempre busca do armazenamento local que foi atualizado pelo upload)
     df = load_data()
     if df.empty:
-        st.warning("Nenhum dado encontrado. Certifique-se de que um dos arquivos de dados está na pasta: 'GymRun16out25.csv' (preferido), 'GymRun_16out25.csv' ou o legado 'Exportação CSV.eml'.")
+        st.warning("Nenhum dado encontrado. Faça o upload do arquivo de exportação (CSV ou EML) do GymRun no menu lateral.")
         return
 
     # Métricas básicas
@@ -121,103 +134,30 @@ def main():
         left, right = st.columns([1, 2])
 
         with left:
-            # Atalhos (Top Exercícios) – opção 3, agora sem emojis e sem ícones, apenas alias
-            st.markdown("#### Atalhos (Top Exercícios)")
-            density = st.toggle("Modo compacto", value=True, help="Altera a densidade da grade de atalhos")
-            n_cols = 4 if density else 3
-            if filtered_df.empty:
-                st.info("Sem dados no período para montar atalhos.")
-            else:
-                stats = calculate_exercise_stats(filtered_df)
-                sort_by = st.selectbox(
-                    "Ordenar atalhos por",
-                    options=['Frequência', 'Volume', '1RM máx.'],
-                    index=0,
-                    key='quick_sort_by'
-                )
-                if sort_by == 'Frequência':
-                    stats = stats.sort_values('Sessoes', ascending=False)
-                elif sort_by == 'Volume':
-                    stats = stats.sort_values('Volume', ascending=False)
-                else:
-                    stats = stats.sort_values('OneRM', ascending=False)
-                top = stats.head(12)
-                cols = st.columns(n_cols)
-                for i, row in top.iterrows():
-                    with cols[i % n_cols]:
-                        # Sem st.image e sem emojis; usar apenas alias curto
-                        label = alias_name(row['Exercise'])
-                        help_txt = row['Exercise']
-                        small = f"{int(row['Sessoes'])} sess · {int(row['Volume']):,} kg".replace(",", ".")
-                        clicked = st.button(label, key=f"top_{abs(hash(row['Exercise']))}", help=help_txt, use_container_width=True)
-                        st.caption(small)
-                        if clicked:
-                            st.session_state['exercise_primary'] = row['Exercise']
-            st.divider()
-
-            # Explorar por Grupo (painéis colapsáveis) – sem emojis e sem ícones; somente títulos e alias
-            st.markdown("#### Explorar por Grupo")
-            groups = [g for g in sorted(filtered_df['MuscleGroup'].dropna().unique().tolist()) if g]
-            for grp in groups:
-                grp_df = filtered_df[filtered_df['MuscleGroup'] == grp]
-                if grp_df.empty:
-                    continue
-                title = f"{grp} — {grp_df['Exercise'].nunique()} exercícios"
-                with st.expander(title):
-                    ex_counts = grp_df['Exercise'].value_counts()
-                    top_ex = ex_counts.head(12).index.tolist()
-                    if not top_ex:
-                        st.caption("Sem exercícios neste grupo no período.")
-                    else:
-                        gcols = st.columns(n_cols)
-                        for i, ex in enumerate(top_ex):
-                            with gcols[i % n_cols]:
-                                label = alias_name(ex)
-                                clicked = st.button(label, key=f"grp_{grp}_{abs(hash(ex))}", help=ex, use_container_width=True)
-                                if clicked:
-                                    st.session_state['exercise_primary'] = ex
-            st.divider()
-
-            # Filtros rápidos (lista completa com busca)
-            st.markdown("#### Filtros Rápidos")
+            st.markdown("#### Selecione o Exercício")
+            
+            # Filtro opcional de grupo muscular para facilitar a busca
             group_options = ['Todos'] + sorted(filtered_df['MuscleGroup'].dropna().unique().tolist())
-            sel_grp = st.selectbox("Grupo muscular", options=group_options, index=0)
-
-            letters = ['Todos'] + list('ABCDEFGHIJKLMNOPQRSTUVWXYZ') + ['#']
-            starter = st.selectbox("Começa com", options=letters, index=0)
-
-            q = st.text_input("Buscar exercício", "")
+            sel_grp = st.selectbox("Filtrar por Grupo (opcional)", options=group_options, index=0)
 
             base = filtered_df if sel_grp == 'Todos' else filtered_df[filtered_df['MuscleGroup'] == sel_grp]
             ex_opts = sorted(base['Exercise'].dropna().unique().tolist())
 
-            if q.strip():
-                ex_opts = [e for e in ex_opts if q.lower() in e.lower()]
-
-            if starter != 'Todos':
-                if starter == '#':
-                    ex_opts = [e for e in ex_opts if e and not str(e)[0].isalpha()]
-                else:
-                    ex_opts = [e for e in ex_opts if e and str(e)[0].upper() == starter]
-
             if not ex_opts:
-                st.info("Nenhum exercício encontrado com os filtros.")
+                st.info("Nenhum exercício encontrado.")
                 return
 
-            # Garante que o valor salvo não quebre o radio quando sair dos filtros
-            if 'exercise_primary' in st.session_state and st.session_state['exercise_primary'] not in ex_opts:
-                del st.session_state['exercise_primary']
-
-            # Se algum atalho definiu o exercício, o radio assumará do session_state
-            selected_ex = st.radio("Exercícios", options=ex_opts, index=0, key="exercise_primary")
+            # Selectbox já possui busca embutida no Streamlit, simplificando imensamente a UX
+            selected_ex = st.selectbox("Exercício Principal", options=ex_opts, index=0)
+            
             compare = st.checkbox("Comparar com outro exercício")
             selected_ex2 = None
             if compare:
                 other_list = [e for e in ex_opts if e != selected_ex]
                 if other_list:
-                    selected_ex2 = st.radio("Segundo exercício", options=other_list, index=0, key="exercise_secondary")
+                    selected_ex2 = st.selectbox("Segundo exercício", options=other_list, index=0)
                 else:
-                    st.info("Selecione outro filtro para habilitar comparação.")
+                    st.info("Não há outro exercício aplicável para comparar.")
         with right:
             # Análise do exercício principal
             ex_df = filtered_df[filtered_df['Exercise'] == selected_ex]

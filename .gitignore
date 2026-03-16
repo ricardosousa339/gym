@@ -3,4 +3,4 @@ venv/
 venv/*
 __pycache__/
 ./.qr-venv/*
-.qr-venv/
+.qr-venv/ 

@@ -4,11 +4,11 @@ import os
 
 @st.cache_data
 def load_data():
-    """Carrega os dados do arquivo CSV.
+    """Carrega os dados do arquivo CSV local.
 
-    Ordem de busca do arquivo (primeiro que existir):
+    Busca por (nesta ordem):
     - GymRun16out25.csv (novo padrão)
-    - GymRun_16out25.csv (variação comum)
+    - GymRun_16out25.csv (este é onde os uploads são salvos)
     - Exportação CSV.eml (legado)
     """
     candidates = [
@@ -19,14 +19,16 @@ def load_data():
     file_path = next((p for p in candidates if os.path.exists(p)), None)
 
     if not file_path:
-        expected = ", ".join(candidates)
-        st.error(f"Nenhum arquivo de dados encontrado. Coloque um dos arquivos: {expected} na pasta do projeto.")
         return pd.DataFrame()
     
     try:
         # Lendo o arquivo CSV com separador ponto e vírgula (locale PT)
         df = pd.read_csv(file_path, sep=';', encoding='utf-8')
-        
+    except Exception as e:
+        st.error(f"Erro ao carregar arquivo local: {str(e)}")
+        return pd.DataFrame()
+    
+    try:
         # Convertendo a coluna Date para datetime
         df['Date'] = pd.to_datetime(df['Date'], format='%d.%m.%Y')
         
@@ -42,7 +44,7 @@ def load_data():
         return df
     
     except Exception as e:
-        st.error(f"Erro ao carregar dados: {str(e)}")
+        st.error(f"Erro ao formatar ou processar dados: {str(e)}")
         return pd.DataFrame()
 
 def calculate_volume(df):
