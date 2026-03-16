@@ -204,8 +204,19 @@ def main():
             group_options = ['Todos'] + sorted(filtered_df['MuscleGroup'].dropna().unique().tolist())
             sel_grp = st.selectbox("Filtrar por Grupo (opcional)", options=group_options, index=0)
 
-            base = filtered_df if sel_grp == 'Todos' else filtered_df[filtered_df['MuscleGroup'] == sel_grp]
-            ex_opts = sorted(base['Exercise'].dropna().unique().tolist())
+            # Filtro opcional por rotina
+            routine_options = ['Todas'] + sorted(filtered_df['Routine'].dropna().unique().tolist())
+            sel_rtn = st.selectbox("Filtrar por Rotina (opcional)", options=routine_options, index=0)
+
+            base = filtered_df
+            if sel_grp != 'Todos':
+                base = base[base['MuscleGroup'] == sel_grp]
+            if sel_rtn != 'Todas':
+                base = base[base['Routine'] == sel_rtn]
+            
+            # Ordena os exercícios do mais recentemente treinado para o menos
+            latest_dates = base.groupby('Exercise')['Date'].max()
+            ex_opts = latest_dates.sort_values(ascending=False).index.tolist()
 
             if not ex_opts:
                 st.info("Nenhum exercício encontrado.")
