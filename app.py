@@ -77,7 +77,7 @@ def main():
                                 new_df['Exercise'] = new_df['Exercise'].replace(user_mappings)
                                 
                             combined_df = merge_datasets(df_local, new_df)
-                            save_dataset(combined_df, "GymRun_16out25.csv")
+                            save_dataset(combined_df, "gymrun_database.csv")
                             
                             st.session_state['last_uploaded_file'] = uploaded_file.name
                             st.cache_data.clear()
@@ -88,7 +88,7 @@ def main():
                 else:
                     # Fluxo normal, mescla direto se não há exercícios desconhecidos
                     combined_df = merge_datasets(df_local, new_df)
-                    save_dataset(combined_df, "GymRun_16out25.csv")
+                    save_dataset(combined_df, "gymrun_database.csv")
                     
                     st.session_state['last_uploaded_file'] = uploaded_file.name
                     st.cache_data.clear()
@@ -97,6 +97,21 @@ def main():
         except Exception as e:
             st.sidebar.error(f"Erro ao processar arquivo: {e}")
             
+    st.sidebar.divider()
+    
+    # Reset de Dados
+    st.sidebar.header("⚠️ Reset de Dados")
+    with st.sidebar.expander("Apagar Histórico"):
+        st.warning("Esta ação apagará todos os treinos registrados no sistema atualmente.")
+        if st.button("🗑️ Zerar Base de Dados", use_container_width=True, type="primary"):
+            empty_df = pd.DataFrame(columns=['Date', 'Time', 'Exercise', 'Set', 'Weight', 'Reps', 'Duration', 'Distance'])
+            # Usar o save_dataset para garantir o mesmo padrão UTF-8 e separador de sempre
+            save_dataset(empty_df, "gymrun_database.csv")
+            
+            st.session_state['last_uploaded_file'] = None
+            st.cache_data.clear()
+            st.rerun()
+
     st.sidebar.divider()
 
     # Define o df geral a ser usado se não fomos interrompidos pelo mapeamento
@@ -216,9 +231,13 @@ def main():
                 # Resumo no topo
                 c1, c2, c3 = st.columns(3)
                 with c1:
-                    st.metric("Peso Máx.", f"{ex_df['Weight'].max():.1f} kg")
+                    max_weight = ex_df['Weight'].max()
+                    max_w_str = f"{max_weight:.1f} kg" if not pd.isna(max_weight) else "0.0 kg"
+                    st.metric("Peso Máx.", max_w_str)
                 with c2:
-                    st.metric("1RM Est. Máx.", f"{ex_df['Estimated_1RM'].max():.1f} kg")
+                    max_1rm = ex_df['Estimated_1RM'].max()
+                    max_1rm_str = f"{max_1rm:.1f} kg" if not pd.isna(max_1rm) else "0.0 kg"
+                    st.metric("1RM Est. Máx.", max_1rm_str)
                 with c3:
                     st.metric("Volume Total", f"{ex_df['Volume'].sum():.0f} kg")
 

@@ -21,11 +21,13 @@ def load_data():
     """Carrega os dados do arquivo CSV local.
 
     Busca por (nesta ordem):
+    - gymrun_database.csv (novo padrão representativo)
     - GymRun16out25.csv (novo padrão)
-    - GymRun_16out25.csv (este é onde os uploads são salvos)
+    - GymRun_16out25.csv (legado)
     - Exportação CSV.eml (legado)
     """
     candidates = [
+        "gymrun_database.csv",
         "GymRun16out25.csv",
         "GymRun_16out25.csv",
         "Exportação CSV.eml",
@@ -78,7 +80,7 @@ def merge_datasets(old_df, new_df):
     
     return combined
 
-def save_dataset(df, file_path="GymRun_16out25.csv"):
+def save_dataset(df, file_path="gymrun_database.csv"):
     """
     Salva o DataFrame formatado de volta ao formato CSV original que a tela aceita
     """
@@ -98,8 +100,8 @@ def calculate_volume(df):
 
 def calculate_1rm(weight, reps):
     """Calcula 1RM usando a fórmula de Epley"""
-    if pd.isna(weight) or pd.isna(reps) or reps == 0:
-        return None
+    if pd.isna(weight) or pd.isna(reps) or reps == 0 or weight == 0:
+        return 0.0
     return weight * (1 + reps / 30.0)
 
 def calculate_trend(df, column, periods=5):
