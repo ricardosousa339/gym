@@ -36,16 +36,27 @@ def main():
             - Leg Press: 100kg × 15 repetições = 1.500kg de volume\n
             - Rosca: 15kg × 10 repetições = 150kg de volume
             """
+        )
     # Upload de dados pela Sidebar logo no início
     st.sidebar.header("📂 Importação de Dados")
-    uploaded_file = st.sidebar.file_uploader("Upload da Exportação (.csv, .eml)", type=['csv', 'eml'], help="Faça o upload do backup exportado do GymRun para atualizar os dados permanentemente.")
+    uploaded_file = st.sidebar.file_uploader(
+        "Upload da Exportação (.csv, .eml)", 
+        type=['csv', 'eml'], 
+        help="Faça o upload do backup exportado do GymRun para atualizar os dados permanentemente."
+    )
     
-    if uploaded_file is not None:
+    if uploaded_file is not None and uploaded_file.name != st.session_state.get('last_uploaded_file'):
         try:
             # Salva o arquivo localmente para persistir entre as sessões
             with open("GymRun_16out25.csv", "wb") as f:
                 f.write(uploaded_file.getbuffer())
+            # Marca o arquivo como processado para não travar loop
+            st.session_state['last_uploaded_file'] = uploaded_file.name
+            # Limpa o cache para forçar a releitura do arquivo salvo
+            st.cache_data.clear()
             st.sidebar.success("✅ Arquivo atualizado com sucesso!")
+            # Recarrega a página para puxar os dados frescos
+            st.rerun()
         except Exception as e:
             st.sidebar.error(f"Erro ao salvar arquivo: {e}")
             
