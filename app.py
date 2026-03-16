@@ -103,14 +103,20 @@ def main():
     st.sidebar.header("⚠️ Reset de Dados")
     with st.sidebar.expander("Apagar Histórico"):
         st.warning("Esta ação apagará todos os treinos registrados no sistema atualmente.")
+        reset_password = st.text_input("Digite a senha para confirmar:", type="password")
         if st.button("🗑️ Zerar Base de Dados", use_container_width=True, type="primary"):
-            empty_df = pd.DataFrame(columns=['Date', 'Time', 'Exercise', 'Set', 'Weight', 'Reps', 'Duration', 'Distance'])
-            # Usar o save_dataset para garantir o mesmo padrão UTF-8 e separador de sempre
-            save_dataset(empty_df, "gymrun_database.csv")
-            
-            st.session_state['last_uploaded_file'] = None
-            st.cache_data.clear()
-            st.rerun()
+            if reset_password == "admin321":
+                empty_df = pd.DataFrame(columns=['Date', 'Time', 'Exercise', 'Set', 'Weight', 'Reps', 'Duration', 'Distance'])
+                # Usar o save_dataset para garantir o mesmo padrão UTF-8 e separador de sempre
+                save_dataset(empty_df, "gymrun_database.csv")
+                
+                st.session_state['last_uploaded_file'] = None
+                st.cache_data.clear()
+                st.rerun()
+            elif reset_password == "":
+                st.error("Por favor, insira a senha.")
+            else:
+                st.error("Senha incorreta!")
 
     st.sidebar.divider()
 
